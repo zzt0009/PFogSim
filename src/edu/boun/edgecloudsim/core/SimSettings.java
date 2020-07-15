@@ -721,11 +721,16 @@ public class SimSettings {
 	 */
 	private void parseEdgeDevicesXML(String filePath)
 	{
+		String streamPath = '/' + filePath;
+		
 		try {	
-			File devicesFile = new File(filePath);
+			//File devicesFile = new File(filePath);
+			InputStream devicesStream = SimSettings.class.getResourceAsStream(streamPath); 
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			edgeDevicesDoc = dBuilder.parse(devicesFile);
+			
+			//edgeDevicesDoc = dBuilder.parse(devicesFile);
+			edgeDevicesDoc = dBuilder.parse(devicesStream);
 			edgeDevicesDoc.getDocumentElement().normalize();
 
 			NodeList datacenterList = edgeDevicesDoc.getElementsByTagName("datacenter");
