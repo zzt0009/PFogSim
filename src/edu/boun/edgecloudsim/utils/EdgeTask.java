@@ -10,7 +10,9 @@
 
 package edu.boun.edgecloudsim.utils;
 
+import org.apache.commons.math3.distribution.AbstractRealDistribution;
 import org.apache.commons.math3.distribution.ExponentialDistribution;
+import org.apache.commons.math3.distribution.UniformRealDistribution;
 
 import edu.boun.edgecloudsim.core.SimSettings;
 import edu.boun.edgecloudsim.core.SimSettings.APP_TYPES;
@@ -29,8 +31,8 @@ public class EdgeTask {
     public int mobileDeviceId;
     public int desMobileDeviceId; // added by Qian for sperating data sources and consumers.
     public boolean wifi; //added by pFogSim for asking whether a task requires a wifi access point
-    public boolean sens; //added by pFogSim to say whether a device is a sensor
-    public boolean act;  //added by pFogSim to say whether a device is an actuator
+    public boolean sensor; //added by pFogSim to say whether a device is a sensor
+    public boolean actuator;  //added by pFogSim to say whether a device is an actuator
     
     
     /**
@@ -43,21 +45,59 @@ public class EdgeTask {
      * @param _sens
      * @param _act
      */
-    public EdgeTask(int _mobileDeviceId, APP_TYPES _taskType, double _startTime, ExponentialDistribution[][] expRngList, 
-    				boolean _wifi, boolean _sens, boolean _act) {
-    	mobileDeviceId=_mobileDeviceId;
-    	startTime=_startTime;
-    	taskType=_taskType;
-    	
-    	inputFileSize = (long)expRngList[_taskType.ordinal()][0].sample();
-    	outputFileSize =(long)expRngList[_taskType.ordinal()][1].sample();
-    	length = (long)expRngList[_taskType.ordinal()][2].sample();
-    	
-    	pesNumber = (int)SimSettings.getInstance().getTaskLookUpTable()[_taskType.ordinal()][8];
-    	
-    	wifi = _wifi;
-    	sens =  _sens;
-    	act = _act;
+//    public EdgeTask(int _mobileDeviceId, APP_TYPES _taskType, double _startTime, ExponentialDistribution[][] expRngList,
+//    				boolean _wifi, boolean _sensor, boolean _actuator) {
+//    	mobileDeviceId=_mobileDeviceId;
+//    	startTime=_startTime;
+//    	taskType=_taskType;
+//
+//    	inputFileSize = (long)expRngList[_taskType.ordinal()][0].sample();
+//    	outputFileSize =(long)expRngList[_taskType.ordinal()][1].sample();
+//    	length = (long)expRngList[_taskType.ordinal()][2].sample();
+//
+//    	pesNumber = (int)SimSettings.getInstance().getTaskLookUpTable()[_taskType.ordinal()][8];
+//
+//    	wifi = _wifi;
+//    	sensor =  _sensor;
+//    	actuator = _actuator;
+//	}
+
+	/**
+	 * Constructor modified to allow for different distributions. Changes made by RVS.
+	 *
+	 *
+	 * @param _mobileDeviceId
+	 * @param _taskType
+	 * @param _startTime
+	 * @param rngList
+	 * @param _wifi
+	 * @param _sensor
+	 * @param _actuator
+	 */
+	public EdgeTask(int _mobileDeviceId, APP_TYPES _taskType, double _startTime, AbstractRealDistribution[][] rngList,
+					boolean _wifi, boolean _sensor, boolean _actuator) {
+		mobileDeviceId=_mobileDeviceId;
+		startTime=_startTime;
+		taskType=_taskType;
+
+		if (rngList instanceof UniformRealDistribution[][]) {
+			// CHANGE THESE
+			inputFileSize = (long) rngList[_taskType.ordinal()][0].sample(); //// added by RVS, subject to change
+			outputFileSize = (long) rngList[_taskType.ordinal()][1].sample(); //// added by RVS, subject to change
+			length = (long) rngList[_taskType.ordinal()][2].sample();		//// added by RVS, subject to change
+		}
+
+		else {
+			inputFileSize = (long) rngList[_taskType.ordinal()][0].sample();
+			outputFileSize = (long) rngList[_taskType.ordinal()][1].sample();
+			length = (long) rngList[_taskType.ordinal()][2].sample();
+		}
+
+		pesNumber = (int)SimSettings.getInstance().getTaskLookUpTable()[_taskType.ordinal()][8];
+
+		wifi = _wifi;
+		sensor =  _sensor;
+		actuator = _actuator;
 	}
     
     
@@ -132,7 +172,7 @@ public class EdgeTask {
 	public void setInputFileSize(long inputFileSize) {
 		this.inputFileSize = inputFileSize;
 	}
-
+	
 	
 	/**
 	 * @return the outputFileSize
@@ -202,7 +242,7 @@ public class EdgeTask {
 	 * @return the sens
 	 */
 	public boolean isSens() {
-		return sens;
+		return sensor;
 	}
 
 	
@@ -210,7 +250,7 @@ public class EdgeTask {
 	 * @param sens the sens to set
 	 */
 	public void setSens(boolean sens) {
-		this.sens = sens;
+		this.sensor = sens;
 	}
 
 	
@@ -218,7 +258,7 @@ public class EdgeTask {
 	 * @return the act
 	 */
 	public boolean isAct() {
-		return act;
+		return actuator;
 	}
 
 	
@@ -226,7 +266,7 @@ public class EdgeTask {
 	 * @param act the act to set
 	 */
 	public void setAct(boolean act) {
-		this.act = act;
+		this.actuator = act;
 	}
 
 	

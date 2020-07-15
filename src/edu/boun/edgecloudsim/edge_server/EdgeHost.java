@@ -45,7 +45,7 @@ public class EdgeHost extends Host {
 	private double costPerSec;// Qian added for centralOrchestrator
 	private int puddleId;// Qian added for puddle
 	private EdgeHost parent;//Qian: added for puddle
-	private ArrayList<EdgeHost> childern = null;//Qian: added for puddle
+	private ArrayList<EdgeHost> children = null;//Qian: added for puddle
 	private double reserveBW;//Qian: added for service replacement
 	private long reserveMips;//Qian: added for service replacement
 	private ArrayList<MobileDevice> customers;//Qian: added for service replacement 
@@ -195,10 +195,10 @@ public class EdgeHost extends Host {
 	 * @param _child child node
 	 */
 	public void setChild(EdgeHost _child) {
-		if (childern == null) {
-			childern = new ArrayList<EdgeHost>();
+		if (children == null) {
+			children = new ArrayList<EdgeHost>();
 		}
-		childern.add(_child);
+		children.add(_child);
 	}
 	
 	
@@ -206,8 +206,8 @@ public class EdgeHost extends Host {
 	 * @author Qian
 	 * @return children get children list.
 	 */
-	public ArrayList<EdgeHost> getChildern() {
-		return this.childern;
+	public ArrayList<EdgeHost> getChildren() {
+		return this.children;
 	}
 	
 	
@@ -249,7 +249,7 @@ public class EdgeHost extends Host {
 	 */
 	public boolean isMIPSCapacitySufficient(MobileDevice mb) {
 		double reqMips = (double)mb.getTaskLengthRequirement();
-		double hostMipsCapacity = this.getPeList().get(0).getMips() * (double)1 / 100.0;
+		double hostMipsCapacity = this.getPeList().get(0).getMips(); //  * (double)1 / 100.0
 		
 		if (reqMips < hostMipsCapacity) {
 			return true;
@@ -268,7 +268,7 @@ public class EdgeHost extends Host {
 		long maxMips = this.getTotalMips();
 		Log.printLine("isMIPSAvailable:maxMips: "+maxMips); 
 		long tempLength = reserveMips + mb.getTaskLengthRequirement();
-		if (tempLength < (maxMips * SimSettings.MAX_NODE_MIPS_UTIL_ALLOWED / (double)100) ) {
+		if (tempLength < (maxMips * SimSettings.MAX_NODE_MIPS_UTIL_ALLOWED) ) { //  / (double)100
 			// Due to large node Mips configurations, allowing only a maximum of 1% utilization, before the requests spill-over to find other node. --Shaik updated 
 			//Note: This limitation is specific to our current test environment
 			return true;
@@ -335,7 +335,7 @@ public class EdgeHost extends Host {
 		reserveCPUResource(mb);
 		Log.print(" After Reservation: Host Id: "+this.getId()+" Current Reserved Mips: "+this.getReserveMips()+" Current Reserved BW: "+this.getReserveBW());
 		customers.add(mb);
-		System.out.println("  Mobile device: "+mb.getId()+"  WAP: "+mb.getLocation().getServingWlanId()+"  Assigned host: "+this.getId());
+		SimLogger.printLine("  Mobile device: "+mb.getId()+"  WAP: "+mb.getLocation().getServingWlanId()+"  Assigned host: "+this.getId());
 		Log.printLine();
 	}
 	
@@ -436,10 +436,10 @@ public class EdgeHost extends Host {
 	
 	
 	/**
-	 * @param childern the childern to set
+	 * @param children the children to set
 	 */
-	public void setChildern(ArrayList<EdgeHost> childern) {
-		this.childern = childern;
+	public void setChildren(ArrayList<EdgeHost> children) {
+		this.children = children;
 	}
 		
 	
