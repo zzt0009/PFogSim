@@ -213,8 +213,12 @@ public class SimSettings {
 		boolean result = false;
 		InputStream input = null;
 		try {
-			input = new FileInputStream(propertiesFile);
-
+			
+			// For running on Hopper - Ziyan Tian
+			//input = new FileInputStream(propertiesFile);
+			propertiesFile = '/' + propertiesFile;
+			input = SimSettings.class.getResourceAsStream(propertiesFile); 
+			
 			// load a properties file
 			Properties prop = new Properties();
 			prop.load(input);
@@ -632,17 +636,24 @@ public class SimSettings {
 	private void parseApplicationsXML(String filePath)
 	{
 		Document doc = null;
+		String streamPath = '/' + filePath;
+		
 		try {	
-			File devicesFile = new File(filePath);
+
+			InputStream devicesStream = SimSettings.class.getResourceAsStream(streamPath); 
+			//File devicesFile = new File(filePath);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			doc = dBuilder.parse(devicesFile);
+			
+			doc = dBuilder.parse(devicesStream);
 			doc.getDocumentElement().normalize();
 
+			
+			//NodeList appList = doc.getElementsByTagName("application");
 			NodeList appList = doc.getElementsByTagName("application");
 			for (int i = 0; i < appList.getLength(); i++) {
 				Node appNode = appList.item(i);
-	
+				//Node appNode1 = appList1.item(i);
 				Element appElement = (Element) appNode;
 				isAttribtuePresent(appElement, "name");
 				isElementPresent(appElement, "usage_percentage");
@@ -697,7 +708,7 @@ public class SimSettings {
 			}
 	
 		} catch (Exception e) {
-			SimLogger.printLine("Edge Devices XML cannot be parsed! Terminating simulation...");
+			SimLogger.printLine("Applicatoin XML cannot be parsed! Terminating simulation...");
 			e.printStackTrace();
 			System.exit(0);
 		}
