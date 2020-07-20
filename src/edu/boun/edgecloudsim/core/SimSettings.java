@@ -215,6 +215,7 @@ public class SimSettings {
 		try {
 			
 			// For running on Hopper - Ziyan Tian
+			// using FileInputStream instead of File
 			//input = new FileInputStream(propertiesFile);
 			propertiesFile = '/' + propertiesFile;
 			input = SimSettings.class.getResourceAsStream(propertiesFile); 
@@ -636,24 +637,23 @@ public class SimSettings {
 	private void parseApplicationsXML(String filePath)
 	{
 		Document doc = null;
-		String streamPath = '/' + filePath;
-		
 		try {	
-
-			InputStream devicesStream = SimSettings.class.getResourceAsStream(streamPath); 
+			// For running on Hopper - Ziyan Tian
 			//File devicesFile = new File(filePath);
+			
+			String streamPath = '/' + filePath;
+			InputStream devicesStream = SimSettings.class.getResourceAsStream(streamPath); 
+			
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			
+			//doc = dBuilder.parse(devicesFile);
 			doc = dBuilder.parse(devicesStream);
 			doc.getDocumentElement().normalize();
 
-			
-			//NodeList appList = doc.getElementsByTagName("application");
 			NodeList appList = doc.getElementsByTagName("application");
 			for (int i = 0; i < appList.getLength(); i++) {
 				Node appNode = appList.item(i);
-				//Node appNode1 = appList1.item(i);
+	
 				Element appElement = (Element) appNode;
 				isAttribtuePresent(appElement, "name");
 				isElementPresent(appElement, "usage_percentage");
@@ -708,7 +708,7 @@ public class SimSettings {
 			}
 	
 		} catch (Exception e) {
-			SimLogger.printLine("Applicatoin XML cannot be parsed! Terminating simulation...");
+			SimLogger.printLine("Edge Devices XML cannot be parsed! Terminating simulation...");
 			e.printStackTrace();
 			System.exit(0);
 		}
@@ -721,11 +721,12 @@ public class SimSettings {
 	 */
 	private void parseEdgeDevicesXML(String filePath)
 	{
-		String streamPath = '/' + filePath;
-		
 		try {	
+			// For running on Hopper - Ziyan Tian
 			//File devicesFile = new File(filePath);
+			String streamPath = '/' + filePath;
 			InputStream devicesStream = SimSettings.class.getResourceAsStream(streamPath); 
+
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			
@@ -798,13 +799,18 @@ public class SimSettings {
 	public void parseLinksXML(String filePath) 
 	{
 		try {
-		File linksFile = new File(filePath);
-		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-		linksDoc = dBuilder.parse(linksFile);
-		linksDoc.getDocumentElement().normalize();
-		
-		NodeList linksList = linksDoc.getElementsByTagName("link");
+			// For running on Hopper - Ziyan Tian
+			//File linksFile = new File(filePath);
+			String streamPath = '/' + filePath;
+			InputStream linksStream = SimSettings.class.getResourceAsStream(streamPath); 
+
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+			//linksDoc = dBuilder.parse(linksFile);
+			linksDoc = dBuilder.parse(linksStream);
+			linksDoc.getDocumentElement().normalize();
+			
+			NodeList linksList = linksDoc.getElementsByTagName("link");
 		
 		}
 		catch (Exception e) {

@@ -16,7 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-//import org.cloudbus.cloudsim.Log;
+import org.cloudbus.cloudsim.Log;
 import org.cloudbus.cloudsim.core.CloudSim;
 
 //import com.sun.xml.internal.bind.v2.runtime.output.SAXOutput;
@@ -48,6 +48,7 @@ public class mainApp {
 
 		//enable console output and file output of this application
 		SimLogger.enablePrintLog();
+		
 		int iterationNumber = 0; // index for the list of n scenarios in properties file is from 0..n-1
 		String configFile = "";
 		String outputFolder = "";
