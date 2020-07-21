@@ -1,0 +1,6 @@
+Simulation setting file, output folder and iteration number are not provided! Using default ones...
+Simulation started at 21/07/2020 15:32:24
+----------------------------------------------------------------------
+Scenario started at 21/07/2020 15:32:24
+Scenario: HAFA_ORCHESTRATOR - Policy: NEXT_FIT - #iteration: 0
+Duration: 0.5 hour(s) - Poisson: 5.0 - #devices: 50

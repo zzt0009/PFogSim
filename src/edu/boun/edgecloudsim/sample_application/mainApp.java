@@ -55,9 +55,9 @@ public class mainApp {
 		String outFolder2 = "";
 		String edgeDevicesFile = "";
 		String applicationsFile = "";
-		//String linksFile = "scripts/sample_application/config/links_test.xml";
+		String linksFile = "scripts/sample_application/config/links_test.xml";
 		//String linksFile = "small_link_test.xml";
-		String linksFile = "links_test.xml";
+		//String linksFile = "links_test.xml";
 
 		if (args.length == 6){
 			configFile = args[0];
