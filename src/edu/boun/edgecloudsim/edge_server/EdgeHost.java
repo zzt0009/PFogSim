@@ -322,6 +322,24 @@ public class EdgeHost extends Host {
 		}
 	}
 	
+	/**
+	 * Added to allow for cost to be measured in terms of time rather than $
+	 * 
+	 * @author Bobby 
+	 * @param mb
+	 * @return
+	 */
+	public double getLatency(MobileDevice mb) {
+		double hostProcessingDelay = (double)(mb.getTaskLengthRequirement()) / this.getVmScheduler().getPeCapacity(); 
+		double hostNetworkDelay = ((ESBModel)SimManager.getInstance().getNetworkModel()).getDleay(mb.getLocation(), this.location);
+		
+		//Consider round trip latency - assuming user is co-located with device, in current test environment.
+		hostNetworkDelay = hostNetworkDelay * 2;
+		
+		double totalDelay = hostProcessingDelay + hostNetworkDelay;
+		return totalDelay;
+	}
+	
 	
 	/**
 	 * make a reservation for a certain mobile device 

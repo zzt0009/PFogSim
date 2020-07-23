@@ -175,7 +175,7 @@ public class SelectedLevelsOrchestrator extends EdgeOrchestrator {
 				EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(mobile.getLocation().getXPos(), mobile.getLocation().getYPos(), mobile.getLocation().getAltitude());
 				//des = ((ESBModel)(SimManager.getInstance().getNetworkModel())).getNetworkTopology().findNode(task.getSubmittedLocation(), false);
 				//cost = (mobile.getTaskLengthRequirement() / k.getTotalMips() * k.getCostPerSec() + mobile.getBWRequirement() * k.getCostPerBW());
-				double bwCost = (mobile.getBWRequirement()*8 / (double)1024) * k.getCostPerBW(); //mobile.getBWRequirement() in KB * 8b/B ==>Kb / 1024 = Mb; k.getCostPerBW() in $/Mb -- Shaik modified
+				/**double bwCost = (mobile.getBWRequirement()*8 / (double)1024) * k.getCostPerBW(); //mobile.getBWRequirement() in KB * 8b/B ==>Kb / 1024 = Mb; k.getCostPerBW() in $/Mb -- Shaik modified
 				//double exCost = (double)mobile.getTaskLengthRequirement() / k.getTotalMips() * k.getCostPerSec(); 
 				double exCost = (double)mobile.getTaskLengthRequirement() / (k.getPeList().get(0).getMips()) * k.getCostPerSec(); // Shaik modified - May 07, 2019.
 				
@@ -185,10 +185,12 @@ public class SelectedLevelsOrchestrator extends EdgeOrchestrator {
 				cost = cost + exCost;
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Destination:\t"+ des.getWlanId() + "\tExecuteCost:\t" + exCost + "\tTotalCost:\t" + cost);
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Service CPu Time:\t" + ((double)mobile.getTaskLengthRequirement() / k.getTotalMips()) + "\tMipsCostPerSec:\t" + k.getCostPerSec());
+				**/
+				cost = k.getLatency(mobile);
 			}
 			else {
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("**********Path From " + src.getWlanId() + " To " + des.getWlanId() + "**********");
-				for (NodeSim node: path) {
+				/**for (NodeSim node: path) {
 					EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(node.getLocation().getXPos(), node.getLocation().getYPos(), node.getLocation().getAltitude());
 					//double bwCost = mobile.getBWRequirement() * k.getCostPerBW();
 					double bwCost = (mobile.getBWRequirement()*8 / (double)1024) * k.getCostPerBW(); //mobile.getBWRequirement() in KB * 8b/B ==>Kb / 1024 = Mb; k.getCostPerBW() in $/Mb -- Shaik modified
@@ -203,6 +205,9 @@ public class SelectedLevelsOrchestrator extends EdgeOrchestrator {
 
 				cost = cost + exCost;
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Destination:\t"+ des.getWlanId() + "\tExecuteCost:\t" + exCost + "\tTotalCost:\t" + cost);
+				**/
+				EdgeHost desHost = SimManager.getInstance().getLocalServerManager().findHostByLoc(des.getLocation().getXPos(), des.getLocation().getYPos(), des.getLocation().getAltitude());
+				cost = desHost.getLatency(mobile);
 			}
 			
 			if (costMap.containsKey(cost)) {

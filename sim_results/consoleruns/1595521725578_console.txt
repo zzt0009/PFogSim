@@ -1,0 +1,1545 @@
+Simulation setting file, output folder and iteration number are not provided! Using default ones...
+Simulation started at 23/07/2020 11:29:25
+----------------------------------------------------------------------
+Scenario started at 23/07/2020 11:29:43
+Scenario: HAFA_ORCHESTRATOR - Policy: NEXT_FIT - #iteration: 0
+Duration: 0.5 hour(s) - Poisson: 5.0 - #devices: 50
+CloudSim.init reached
+ScenarioFactory reached
+Creating tasks...Done, 
+SimManager reached
+SimManager is starting...
+	 Creating clusters of fog nodes...i membership[i] clusterSize: 0   259   1
+i membership[i] clusterSize: 1   153   1
+i membership[i] clusterSize: 2   131   1
+i membership[i] clusterSize: 3   240   1
+i membership[i] clusterSize: 4   100   1
+i membership[i] clusterSize: 5   248   1
+i membership[i] clusterSize: 6   127   1
+i membership[i] clusterSize: 7   269   1
+i membership[i] clusterSize: 8   172   1
+i membership[i] clusterSize: 9   239   1
+i membership[i] clusterSize: 10   304   1
+i membership[i] clusterSize: 11   143   1
+i membership[i] clusterSize: 12   298   1
+i membership[i] clusterSize: 13   303   1
+i membership[i] clusterSize: 14   165   1
+i membership[i] clusterSize: 15   136   1
+i membership[i] clusterSize: 16   142   1
+i membership[i] clusterSize: 17   297   1
+i membership[i] clusterSize: 18   178   1
+i membership[i] clusterSize: 19   293   1
+i membership[i] clusterSize: 20   193   1
+i membership[i] clusterSize: 21   308   1
+i membership[i] clusterSize: 22   109   1
+i membership[i] clusterSize: 23   0   1
+i membership[i] clusterSize: 24   1   1
+i membership[i] clusterSize: 25   2   1
+i membership[i] clusterSize: 26   287   1
+i membership[i] clusterSize: 27   143   2
+i membership[i] clusterSize: 28   176   1
+i membership[i] clusterSize: 29   158   1
+i membership[i] clusterSize: 30   286   1
+i membership[i] clusterSize: 31   224   1
+i membership[i] clusterSize: 32   3   1
+i membership[i] clusterSize: 33   258   1
+i membership[i] clusterSize: 34   286   2
+i membership[i] clusterSize: 35   251   1
+i membership[i] clusterSize: 36   305   1
+i membership[i] clusterSize: 37   291   1
+i membership[i] clusterSize: 38   252   1
+i membership[i] clusterSize: 39   261   1
+i membership[i] clusterSize: 40   242   1
+i membership[i] clusterSize: 41   290   1
+i membership[i] clusterSize: 42   108   1
+i membership[i] clusterSize: 43   129   1
+i membership[i] clusterSize: 44   164   1
+i membership[i] clusterSize: 45   160   1
+i membership[i] clusterSize: 46   132   1
+i membership[i] clusterSize: 47   168   1
+i membership[i] clusterSize: 48   279   1
+i membership[i] clusterSize: 49   200   1
+i membership[i] clusterSize: 50   117   1
+i membership[i] clusterSize: 51   159   1
+i membership[i] clusterSize: 52   179   1
+i membership[i] clusterSize: 53   269   2
+i membership[i] clusterSize: 54   239   2
+i membership[i] clusterSize: 55   261   2
+i membership[i] clusterSize: 56   4   1
+i membership[i] clusterSize: 57   111   1
+i membership[i] clusterSize: 58   153   2
+i membership[i] clusterSize: 59   190   1
+i membership[i] clusterSize: 60   119   1
+i membership[i] clusterSize: 61   116   1
+i membership[i] clusterSize: 62   270   1
+i membership[i] clusterSize: 63   119   2
+i membership[i] clusterSize: 64   101   1
+i membership[i] clusterSize: 65   101   2
+i membership[i] clusterSize: 66   272   1
+i membership[i] clusterSize: 67   194   1
+i membership[i] clusterSize: 68   273   1
+i membership[i] clusterSize: 69   247   1
+i membership[i] clusterSize: 70   101   3
+i membership[i] clusterSize: 71   114   1
+i membership[i] clusterSize: 72   188   1
+i membership[i] clusterSize: 73   250   1
+i membership[i] clusterSize: 74   257   1
+i membership[i] clusterSize: 75   255   1
+i membership[i] clusterSize: 76   288   1
+i membership[i] clusterSize: 77   261   3
+i membership[i] clusterSize: 78   207   1
+i membership[i] clusterSize: 79   243   1
+i membership[i] clusterSize: 80   247   2
+i membership[i] clusterSize: 81   257   2
+i membership[i] clusterSize: 82   305   2
+i membership[i] clusterSize: 83   5   1
+i membership[i] clusterSize: 84   240   2
+i membership[i] clusterSize: 85   217   1
+i membership[i] clusterSize: 86   6   1
+i membership[i] clusterSize: 87   7   1
+i membership[i] clusterSize: 88   152   1
+i membership[i] clusterSize: 89   237   1
+i membership[i] clusterSize: 90   215   1
+i membership[i] clusterSize: 91   166   1
+i membership[i] clusterSize: 92   193   2
+i membership[i] clusterSize: 93   214   1
+i membership[i] clusterSize: 94   117   2
+i membership[i] clusterSize: 95   227   1
+i membership[i] clusterSize: 96   113   1
+i membership[i] clusterSize: 97   8   1
+i membership[i] clusterSize: 98   157   1
+i membership[i] clusterSize: 99   9   1
+i membership[i] clusterSize: 100   179   2
+i membership[i] clusterSize: 101   100   2
+i membership[i] clusterSize: 102   302   1
+i membership[i] clusterSize: 103   138   1
+i membership[i] clusterSize: 104   218   1
+i membership[i] clusterSize: 105   276   1
+i membership[i] clusterSize: 106   10   1
+i membership[i] clusterSize: 107   248   2
+i membership[i] clusterSize: 108   243   2
+i membership[i] clusterSize: 109   11   1
+i membership[i] clusterSize: 110   192   1
+i membership[i] clusterSize: 111   12   1
+i membership[i] clusterSize: 112   116   2
+i membership[i] clusterSize: 113   13   1
+i membership[i] clusterSize: 114   241   1
+i membership[i] clusterSize: 115   289   1
+i membership[i] clusterSize: 116   220   1
+i membership[i] clusterSize: 117   300   1
+i membership[i] clusterSize: 118   204   1
+i membership[i] clusterSize: 119   172   2
+i membership[i] clusterSize: 120   105   1
+i membership[i] clusterSize: 121   130   1
+i membership[i] clusterSize: 122   262   1
+i membership[i] clusterSize: 123   254   1
+i membership[i] clusterSize: 124   264   1
+i membership[i] clusterSize: 125   220   2
+i membership[i] clusterSize: 126   247   3
+i membership[i] clusterSize: 127   236   1
+i membership[i] clusterSize: 128   267   1
+i membership[i] clusterSize: 129   222   1
+i membership[i] clusterSize: 130   297   2
+i membership[i] clusterSize: 131   14   1
+i membership[i] clusterSize: 132   309   1
+i membership[i] clusterSize: 133   305   3
+i membership[i] clusterSize: 134   220   3
+i membership[i] clusterSize: 135   118   1
+i membership[i] clusterSize: 136   201   1
+i membership[i] clusterSize: 137   243   3
+i membership[i] clusterSize: 138   130   2
+i membership[i] clusterSize: 139   15   1
+i membership[i] clusterSize: 140   267   2
+i membership[i] clusterSize: 141   268   1
+i membership[i] clusterSize: 142   132   2
+i membership[i] clusterSize: 143   245   1
+i membership[i] clusterSize: 144   188   2
+i membership[i] clusterSize: 145   243   4
+i membership[i] clusterSize: 146   256   1
+i membership[i] clusterSize: 147   104   1
+i membership[i] clusterSize: 148   189   1
+i membership[i] clusterSize: 149   249   1
+i membership[i] clusterSize: 150   240   3
+i membership[i] clusterSize: 151   239   3
+i membership[i] clusterSize: 152   16   1
+i membership[i] clusterSize: 153   17   1
+i membership[i] clusterSize: 154   18   1
+i membership[i] clusterSize: 155   151   1
+i membership[i] clusterSize: 156   132   3
+i membership[i] clusterSize: 157   299   1
+i membership[i] clusterSize: 158   102   1
+i membership[i] clusterSize: 159   233   1
+i membership[i] clusterSize: 160   148   1
+i membership[i] clusterSize: 161   308   2
+i membership[i] clusterSize: 162   242   2
+i membership[i] clusterSize: 163   115   1
+i membership[i] clusterSize: 164   247   4
+i membership[i] clusterSize: 165   249   2
+i membership[i] clusterSize: 166   235   1
+i membership[i] clusterSize: 167   202   1
+i membership[i] clusterSize: 168   186   1
+i membership[i] clusterSize: 169   168   2
+i membership[i] clusterSize: 170   239   4
+i membership[i] clusterSize: 171   19   1
+i membership[i] clusterSize: 172   20   1
+i membership[i] clusterSize: 173   297   3
+i membership[i] clusterSize: 174   120   1
+i membership[i] clusterSize: 175   144   1
+i membership[i] clusterSize: 176   249   3
+i membership[i] clusterSize: 177   232   1
+i membership[i] clusterSize: 178   209   1
+i membership[i] clusterSize: 179   307   1
+i membership[i] clusterSize: 180   284   1
+i membership[i] clusterSize: 181   171   1
+i membership[i] clusterSize: 182   213   1
+i membership[i] clusterSize: 183   145   1
+i membership[i] clusterSize: 184   215   2
+i membership[i] clusterSize: 185   21   1
+i membership[i] clusterSize: 186   224   2
+i membership[i] clusterSize: 187   278   1
+i membership[i] clusterSize: 188   182   1
+i membership[i] clusterSize: 189   214   2
+i membership[i] clusterSize: 190   156   1
+i membership[i] clusterSize: 191   192   2
+i membership[i] clusterSize: 192   124   1
+i membership[i] clusterSize: 193   185   1
+i membership[i] clusterSize: 194   191   1
+i membership[i] clusterSize: 195   22   1
+i membership[i] clusterSize: 196   120   2
+i membership[i] clusterSize: 197   290   2
+i membership[i] clusterSize: 198   23   1
+i membership[i] clusterSize: 199   294   1
+i membership[i] clusterSize: 200   24   1
+i membership[i] clusterSize: 201   236   2
+i membership[i] clusterSize: 202   130   3
+i membership[i] clusterSize: 203   275   1
+i membership[i] clusterSize: 204   283   1
+i membership[i] clusterSize: 205   309   2
+i membership[i] clusterSize: 206   179   3
+i membership[i] clusterSize: 207   126   1
+i membership[i] clusterSize: 208   271   1
+i membership[i] clusterSize: 209   25   1
+i membership[i] clusterSize: 210   157   2
+i membership[i] clusterSize: 211   158   2
+i membership[i] clusterSize: 212   153   3
+i membership[i] clusterSize: 213   165   2
+i membership[i] clusterSize: 214   112   1
+i membership[i] clusterSize: 215   266   1
+i membership[i] clusterSize: 216   136   2
+i membership[i] clusterSize: 217   285   1
+i membership[i] clusterSize: 218   303   2
+i membership[i] clusterSize: 219   219   1
+i membership[i] clusterSize: 220   146   1
+i membership[i] clusterSize: 221   231   1
+i membership[i] clusterSize: 222   124   2
+i membership[i] clusterSize: 223   26   1
+i membership[i] clusterSize: 224   175   1
+i membership[i] clusterSize: 225   131   2
+i membership[i] clusterSize: 226   27   1
+i membership[i] clusterSize: 227   28   1
+i membership[i] clusterSize: 228   297   4
+i membership[i] clusterSize: 229   205   1
+i membership[i] clusterSize: 230   263   1
+i membership[i] clusterSize: 231   308   3
+i membership[i] clusterSize: 232   267   3
+i membership[i] clusterSize: 233   170   1
+i membership[i] clusterSize: 234   169   1
+i membership[i] clusterSize: 235   248   3
+i membership[i] clusterSize: 236   229   1
+i membership[i] clusterSize: 237   29   1
+i membership[i] clusterSize: 238   30   1
+i membership[i] clusterSize: 239   178   2
+i membership[i] clusterSize: 240   253   1
+i membership[i] clusterSize: 241   31   1
+i membership[i] clusterSize: 242   209   2
+i membership[i] clusterSize: 243   276   2
+i membership[i] clusterSize: 244   202   2
+i membership[i] clusterSize: 245   238   1
+i membership[i] clusterSize: 246   295   1
+i membership[i] clusterSize: 247   264   2
+i membership[i] clusterSize: 248   224   3
+i membership[i] clusterSize: 249   273   2
+i membership[i] clusterSize: 250   304   2
+i membership[i] clusterSize: 251   199   1
+i membership[i] clusterSize: 252   277   1
+i membership[i] clusterSize: 253   176   2
+i membership[i] clusterSize: 254   164   2
+i membership[i] clusterSize: 255   32   1
+i membership[i] clusterSize: 256   156   2
+i membership[i] clusterSize: 257   33   1
+i membership[i] clusterSize: 258   233   2
+i membership[i] clusterSize: 259   178   3
+i membership[i] clusterSize: 260   34   1
+i membership[i] clusterSize: 261   255   2
+i membership[i] clusterSize: 262   35   1
+i membership[i] clusterSize: 263   280   1
+i membership[i] clusterSize: 264   192   3
+i membership[i] clusterSize: 265   163   1
+i membership[i] clusterSize: 266   143   3
+i membership[i] clusterSize: 267   166   2
+i membership[i] clusterSize: 268   36   1
+i membership[i] clusterSize: 269   37   1
+i membership[i] clusterSize: 270   137   1
+i membership[i] clusterSize: 271   263   2
+i membership[i] clusterSize: 272   38   1
+i membership[i] clusterSize: 273   39   1
+i membership[i] clusterSize: 274   151   2
+i membership[i] clusterSize: 275   40   1
+i membership[i] clusterSize: 276   41   1
+i membership[i] clusterSize: 277   163   2
+i membership[i] clusterSize: 278   272   2
+i membership[i] clusterSize: 279   221   1
+i membership[i] clusterSize: 280   291   2
+i membership[i] clusterSize: 281   42   1
+i membership[i] clusterSize: 282   43   1
+i membership[i] clusterSize: 283   227   2
+i membership[i] clusterSize: 284   44   1
+i membership[i] clusterSize: 285   121   1
+i membership[i] clusterSize: 286   150   1
+i membership[i] clusterSize: 287   278   2
+i membership[i] clusterSize: 288   225   1
+i membership[i] clusterSize: 289   281   1
+i membership[i] clusterSize: 290   45   1
+i membership[i] clusterSize: 291   171   2
+i membership[i] clusterSize: 292   46   1
+i membership[i] clusterSize: 293   47   1
+i membership[i] clusterSize: 294   213   2
+i membership[i] clusterSize: 295   48   1
+i membership[i] clusterSize: 296   159   2
+i membership[i] clusterSize: 297   258   2
+i membership[i] clusterSize: 298   289   2
+i membership[i] clusterSize: 299   214   3
+i membership[i] clusterSize: 300   237   2
+i membership[i] clusterSize: 301   226   1
+i membership[i] clusterSize: 302   184   1
+i membership[i] clusterSize: 303   49   1
+i membership[i] clusterSize: 304   169   2
+i membership[i] clusterSize: 305   244   1
+i membership[i] clusterSize: 306   304   3
+i membership[i] clusterSize: 307   295   2
+i membership[i] clusterSize: 308   50   1
+i membership[i] clusterSize: 309   147   1
+i membership[i] clusterSize: 310   51   1
+i membership[i] clusterSize: 311   283   2
+i membership[i] clusterSize: 312   128   1
+i membership[i] clusterSize: 313   307   2
+i membership[i] clusterSize: 314   141   1
+i membership[i] clusterSize: 315   107   1
+i membership[i] clusterSize: 316   192   4
+i membership[i] clusterSize: 317   222   2
+i membership[i] clusterSize: 318   109   2
+i membership[i] clusterSize: 319   187   1
+i membership[i] clusterSize: 320   104   2
+i membership[i] clusterSize: 321   308   4
+i membership[i] clusterSize: 322   213   3
+i membership[i] clusterSize: 323   252   2
+i membership[i] clusterSize: 324   216   1
+i membership[i] clusterSize: 325   230   1
+i membership[i] clusterSize: 326   197   1
+i membership[i] clusterSize: 327   52   1
+i membership[i] clusterSize: 328   228   1
+i membership[i] clusterSize: 329   281   2
+i membership[i] clusterSize: 330   214   4
+i membership[i] clusterSize: 331   53   1
+i membership[i] clusterSize: 332   184   2
+i membership[i] clusterSize: 333   54   1
+i membership[i] clusterSize: 334   241   2
+i membership[i] clusterSize: 335   171   3
+i membership[i] clusterSize: 336   175   2
+i membership[i] clusterSize: 337   176   3
+i membership[i] clusterSize: 338   270   2
+i membership[i] clusterSize: 339   55   1
+i membership[i] clusterSize: 340   228   2
+i membership[i] clusterSize: 341   135   1
+i membership[i] clusterSize: 342   154   1
+i membership[i] clusterSize: 343   150   2
+i membership[i] clusterSize: 344   246   1
+i membership[i] clusterSize: 345   56   1
+i membership[i] clusterSize: 346   288   2
+i membership[i] clusterSize: 347   279   2
+i membership[i] clusterSize: 348   189   2
+i membership[i] clusterSize: 349   192   5
+i membership[i] clusterSize: 350   305   4
+i membership[i] clusterSize: 351   223   1
+i membership[i] clusterSize: 352   115   2
+i membership[i] clusterSize: 353   260   1
+i membership[i] clusterSize: 354   182   2
+i membership[i] clusterSize: 355   177   1
+i membership[i] clusterSize: 356   271   2
+i membership[i] clusterSize: 357   57   1
+i membership[i] clusterSize: 358   307   3
+i membership[i] clusterSize: 359   265   1
+i membership[i] clusterSize: 360   306   1
+i membership[i] clusterSize: 361   174   1
+i membership[i] clusterSize: 362   58   1
+i membership[i] clusterSize: 363   195   1
+i membership[i] clusterSize: 364   59   1
+i membership[i] clusterSize: 365   303   3
+i membership[i] clusterSize: 366   246   2
+i membership[i] clusterSize: 367   144   2
+i membership[i] clusterSize: 368   159   3
+i membership[i] clusterSize: 369   228   3
+i membership[i] clusterSize: 370   195   2
+i membership[i] clusterSize: 371   142   2
+i membership[i] clusterSize: 372   203   1
+i membership[i] clusterSize: 373   296   1
+i membership[i] clusterSize: 374   110   1
+i membership[i] clusterSize: 375   138   2
+i membership[i] clusterSize: 376   238   2
+i membership[i] clusterSize: 377   219   2
+i membership[i] clusterSize: 378   60   1
+i membership[i] clusterSize: 379   291   3
+i membership[i] clusterSize: 380   149   1
+i membership[i] clusterSize: 381   296   2
+i membership[i] clusterSize: 382   211   1
+i membership[i] clusterSize: 383   61   1
+i membership[i] clusterSize: 384   212   1
+i membership[i] clusterSize: 385   275   2
+i membership[i] clusterSize: 386   296   3
+i membership[i] clusterSize: 387   122   1
+i membership[i] clusterSize: 388   62   1
+i membership[i] clusterSize: 389   309   3
+i membership[i] clusterSize: 390   162   1
+i membership[i] clusterSize: 391   307   4
+i membership[i] clusterSize: 392   295   3
+i membership[i] clusterSize: 393   235   2
+i membership[i] clusterSize: 394   155   1
+i membership[i] clusterSize: 395   290   3
+i membership[i] clusterSize: 396   63   1
+i membership[i] clusterSize: 397   200   2
+i membership[i] clusterSize: 398   64   1
+i membership[i] clusterSize: 399   227   3
+i membership[i] clusterSize: 400   300   2
+i membership[i] clusterSize: 401   65   1
+i membership[i] clusterSize: 402   123   1
+i membership[i] clusterSize: 403   146   2
+i membership[i] clusterSize: 404   204   2
+i membership[i] clusterSize: 405   66   1
+i membership[i] clusterSize: 406   209   3
+i membership[i] clusterSize: 407   286   3
+i membership[i] clusterSize: 408   293   2
+i membership[i] clusterSize: 409   266   2
+i membership[i] clusterSize: 410   212   2
+i membership[i] clusterSize: 411   222   3
+i membership[i] clusterSize: 412   181   1
+i membership[i] clusterSize: 413   250   2
+i membership[i] clusterSize: 414   125   1
+i membership[i] clusterSize: 415   239   5
+i membership[i] clusterSize: 416   291   4
+i membership[i] clusterSize: 417   268   2
+i membership[i] clusterSize: 418   271   3
+i membership[i] clusterSize: 419   129   2
+i membership[i] clusterSize: 420   174   2
+i membership[i] clusterSize: 421   173   1
+i membership[i] clusterSize: 422   141   2
+i membership[i] clusterSize: 423   234   1
+i membership[i] clusterSize: 424   268   3
+i membership[i] clusterSize: 425   256   2
+i membership[i] clusterSize: 426   211   2
+i membership[i] clusterSize: 427   208   1
+i membership[i] clusterSize: 428   198   1
+i membership[i] clusterSize: 429   272   3
+i membership[i] clusterSize: 430   248   4
+i membership[i] clusterSize: 431   233   3
+i membership[i] clusterSize: 432   280   2
+i membership[i] clusterSize: 433   174   3
+i membership[i] clusterSize: 434   67   1
+i membership[i] clusterSize: 435   68   1
+i membership[i] clusterSize: 436   69   1
+i membership[i] clusterSize: 437   282   1
+i membership[i] clusterSize: 438   199   2
+i membership[i] clusterSize: 439   158   3
+i membership[i] clusterSize: 440   216   2
+i membership[i] clusterSize: 441   265   2
+i membership[i] clusterSize: 442   299   2
+i membership[i] clusterSize: 443   204   3
+i membership[i] clusterSize: 444   148   2
+i membership[i] clusterSize: 445   123   2
+i membership[i] clusterSize: 446   215   3
+i membership[i] clusterSize: 447   233   4
+i membership[i] clusterSize: 448   206   1
+i membership[i] clusterSize: 449   108   2
+i membership[i] clusterSize: 450   70   1
+i membership[i] clusterSize: 451   206   2
+i membership[i] clusterSize: 452   135   2
+i membership[i] clusterSize: 453   245   2
+i membership[i] clusterSize: 454   284   2
+i membership[i] clusterSize: 455   226   2
+i membership[i] clusterSize: 456   206   3
+i membership[i] clusterSize: 457   290   4
+i membership[i] clusterSize: 458   214   5
+i membership[i] clusterSize: 459   292   1
+i membership[i] clusterSize: 460   120   3
+i membership[i] clusterSize: 461   285   2
+i membership[i] clusterSize: 462   114   2
+i membership[i] clusterSize: 463   71   1
+i membership[i] clusterSize: 464   72   1
+i membership[i] clusterSize: 465   73   1
+i membership[i] clusterSize: 466   149   2
+i membership[i] clusterSize: 467   262   2
+i membership[i] clusterSize: 468   232   2
+i membership[i] clusterSize: 469   218   2
+i membership[i] clusterSize: 470   140   1
+i membership[i] clusterSize: 471   147   2
+i membership[i] clusterSize: 472   188   3
+i membership[i] clusterSize: 473   145   2
+i membership[i] clusterSize: 474   282   2
+i membership[i] clusterSize: 475   262   3
+i membership[i] clusterSize: 476   264   3
+i membership[i] clusterSize: 477   273   3
+i membership[i] clusterSize: 478   306   2
+i membership[i] clusterSize: 479   164   3
+i membership[i] clusterSize: 480   256   3
+i membership[i] clusterSize: 481   202   3
+i membership[i] clusterSize: 482   74   1
+i membership[i] clusterSize: 483   208   2
+i membership[i] clusterSize: 484   75   1
+i membership[i] clusterSize: 485   279   3
+i membership[i] clusterSize: 486   265   3
+i membership[i] clusterSize: 487   191   2
+i membership[i] clusterSize: 488   198   2
+i membership[i] clusterSize: 489   201   2
+i membership[i] clusterSize: 490   111   2
+i membership[i] clusterSize: 491   263   3
+i membership[i] clusterSize: 492   76   1
+i membership[i] clusterSize: 493   234   2
+i membership[i] clusterSize: 494   155   2
+i membership[i] clusterSize: 495   77   1
+i membership[i] clusterSize: 496   167   1
+i membership[i] clusterSize: 497   229   2
+i membership[i] clusterSize: 498   274   1
+i membership[i] clusterSize: 499   161   1
+i membership[i] clusterSize: 500   256   4
+i membership[i] clusterSize: 501   252   3
+i membership[i] clusterSize: 502   167   2
+i membership[i] clusterSize: 503   125   2
+i membership[i] clusterSize: 504   110   2
+i membership[i] clusterSize: 505   260   2
+i membership[i] clusterSize: 506   183   1
+i membership[i] clusterSize: 507   265   4
+i membership[i] clusterSize: 508   133   1
+i membership[i] clusterSize: 509   257   3
+i membership[i] clusterSize: 510   140   2
+i membership[i] clusterSize: 511   78   1
+i membership[i] clusterSize: 512   296   4
+i membership[i] clusterSize: 513   180   1
+i membership[i] clusterSize: 514   210   1
+i membership[i] clusterSize: 515   301   1
+i membership[i] clusterSize: 516   128   2
+i membership[i] clusterSize: 517   157   3
+i membership[i] clusterSize: 518   162   2
+i membership[i] clusterSize: 519   79   1
+i membership[i] clusterSize: 520   113   2
+i membership[i] clusterSize: 521   122   2
+i membership[i] clusterSize: 522   241   3
+i membership[i] clusterSize: 523   289   3
+i membership[i] clusterSize: 524   126   2
+i membership[i] clusterSize: 525   133   2
+i membership[i] clusterSize: 526   217   2
+i membership[i] clusterSize: 527   293   3
+i membership[i] clusterSize: 528   291   5
+i membership[i] clusterSize: 529   237   3
+i membership[i] clusterSize: 530   154   2
+i membership[i] clusterSize: 531   152   2
+i membership[i] clusterSize: 532   80   1
+i membership[i] clusterSize: 533   180   2
+i membership[i] clusterSize: 534   142   3
+i membership[i] clusterSize: 535   242   3
+i membership[i] clusterSize: 536   107   2
+i membership[i] clusterSize: 537   81   1
+i membership[i] clusterSize: 538   82   1
+i membership[i] clusterSize: 539   181   2
+i membership[i] clusterSize: 540   197   2
+i membership[i] clusterSize: 541   186   2
+i membership[i] clusterSize: 542   106   1
+i membership[i] clusterSize: 543   221   2
+i membership[i] clusterSize: 544   83   1
+i membership[i] clusterSize: 545   254   2
+i membership[i] clusterSize: 546   244   2
+i membership[i] clusterSize: 547   207   2
+i membership[i] clusterSize: 548   203   2
+i membership[i] clusterSize: 549   159   4
+i membership[i] clusterSize: 550   194   2
+i membership[i] clusterSize: 551   139   1
+i membership[i] clusterSize: 552   172   3
+i membership[i] clusterSize: 553   219   3
+i membership[i] clusterSize: 554   195   3
+i membership[i] clusterSize: 555   84   1
+i membership[i] clusterSize: 556   85   1
+i membership[i] clusterSize: 557   139   2
+i membership[i] clusterSize: 558   153   4
+i membership[i] clusterSize: 559   293   4
+i membership[i] clusterSize: 560   183   2
+i membership[i] clusterSize: 561   86   1
+i membership[i] clusterSize: 562   251   2
+i membership[i] clusterSize: 563   112   2
+i membership[i] clusterSize: 564   295   4
+i membership[i] clusterSize: 565   116   3
+i membership[i] clusterSize: 566   131   3
+i membership[i] clusterSize: 567   276   3
+i membership[i] clusterSize: 568   242   4
+i membership[i] clusterSize: 569   87   1
+i membership[i] clusterSize: 570   187   2
+i membership[i] clusterSize: 571   187   3
+i membership[i] clusterSize: 572   276   4
+i membership[i] clusterSize: 573   264   4
+i membership[i] clusterSize: 574   267   4
+i membership[i] clusterSize: 575   105   2
+i membership[i] clusterSize: 576   230   2
+i membership[i] clusterSize: 577   170   2
+i membership[i] clusterSize: 578   102   2
+i membership[i] clusterSize: 579   88   1
+i membership[i] clusterSize: 580   287   2
+i membership[i] clusterSize: 581   89   1
+i membership[i] clusterSize: 582   90   1
+i membership[i] clusterSize: 583   309   4
+i membership[i] clusterSize: 584   240   4
+i membership[i] clusterSize: 585   305   5
+i membership[i] clusterSize: 586   210   2
+i membership[i] clusterSize: 587   185   2
+i membership[i] clusterSize: 588   298   2
+i membership[i] clusterSize: 589   91   1
+i membership[i] clusterSize: 590   92   1
+i membership[i] clusterSize: 591   277   2
+i membership[i] clusterSize: 592   273   4
+i membership[i] clusterSize: 593   252   4
+i membership[i] clusterSize: 594   198   3
+i membership[i] clusterSize: 595   267   5
+i membership[i] clusterSize: 596   302   2
+i membership[i] clusterSize: 597   160   2
+i membership[i] clusterSize: 598   295   5
+i membership[i] clusterSize: 599   103   1
+i membership[i] clusterSize: 600   293   5
+i membership[i] clusterSize: 601   208   3
+i membership[i] clusterSize: 602   119   3
+i membership[i] clusterSize: 603   93   1
+i membership[i] clusterSize: 604   253   2
+i membership[i] clusterSize: 605   301   2
+i membership[i] clusterSize: 606   254   3
+i membership[i] clusterSize: 607   137   2
+i membership[i] clusterSize: 608   205   2
+i membership[i] clusterSize: 609   251   3
+i membership[i] clusterSize: 610   155   3
+i membership[i] clusterSize: 611   196   1
+i membership[i] clusterSize: 612   94   1
+i membership[i] clusterSize: 613   282   3
+i membership[i] clusterSize: 614   304   4
+i membership[i] clusterSize: 615   258   3
+i membership[i] clusterSize: 616   282   4
+i membership[i] clusterSize: 617   153   5
+i membership[i] clusterSize: 618   153   6
+i membership[i] clusterSize: 619   177   2
+i membership[i] clusterSize: 620   177   3
+i membership[i] clusterSize: 621   177   4
+i membership[i] clusterSize: 622   252   5
+i membership[i] clusterSize: 623   287   3
+i membership[i] clusterSize: 624   232   3
+i membership[i] clusterSize: 625   303   4
+i membership[i] clusterSize: 626   177   5
+i membership[i] clusterSize: 627   280   3
+i membership[i] clusterSize: 628   292   2
+i membership[i] clusterSize: 629   186   3
+i membership[i] clusterSize: 630   207   3
+i membership[i] clusterSize: 631   187   4
+i membership[i] clusterSize: 632   269   3
+i membership[i] clusterSize: 633   294   2
+i membership[i] clusterSize: 634   106   2
+i membership[i] clusterSize: 635   134   1
+i membership[i] clusterSize: 636   260   3
+i membership[i] clusterSize: 637   246   3
+i membership[i] clusterSize: 638   269   4
+i membership[i] clusterSize: 639   289   4
+i membership[i] clusterSize: 640   190   2
+i membership[i] clusterSize: 641   161   2
+i membership[i] clusterSize: 642   165   3
+i membership[i] clusterSize: 643   257   4
+i membership[i] clusterSize: 644   266   3
+i membership[i] clusterSize: 645   254   4
+i membership[i] clusterSize: 646   304   5
+i membership[i] clusterSize: 647   215   4
+i membership[i] clusterSize: 648   201   3
+i membership[i] clusterSize: 649   223   2
+i membership[i] clusterSize: 650   225   2
+i membership[i] clusterSize: 651   254   5
+i membership[i] clusterSize: 652   259   2
+i membership[i] clusterSize: 653   253   3
+i membership[i] clusterSize: 654   290   5
+i membership[i] clusterSize: 655   300   3
+i membership[i] clusterSize: 656   95   1
+i membership[i] clusterSize: 657   292   3
+i membership[i] clusterSize: 658   183   3
+i membership[i] clusterSize: 659   262   4
+i membership[i] clusterSize: 660   134   2
+i membership[i] clusterSize: 661   127   2
+i membership[i] clusterSize: 662   103   2
+i membership[i] clusterSize: 663   173   2
+i membership[i] clusterSize: 664   96   1
+i membership[i] clusterSize: 665   121   2
+i membership[i] clusterSize: 666   97   1
+i membership[i] clusterSize: 667   118   2
+i membership[i] clusterSize: 668   294   3
+i membership[i] clusterSize: 669   253   4
+i membership[i] clusterSize: 670   231   2
+i membership[i] clusterSize: 671   294   4
+i membership[i] clusterSize: 672   98   1
+i membership[i] clusterSize: 673   288   3
+i membership[i] clusterSize: 674   196   2
+i membership[i] clusterSize: 675   168   3
+i membership[i] clusterSize: 676   99   1
+i membership[i] clusterSize: 677   274   2
+i membership[i] clusterSize: 678   288   4
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 1
+Cluster id: 2 ClusterSize: 1
+Cluster id: 3 ClusterSize: 1
+Cluster id: 4 ClusterSize: 1
+Cluster id: 5 ClusterSize: 1
+Cluster id: 6 ClusterSize: 1
+Cluster id: 7 ClusterSize: 1
+Cluster id: 8 ClusterSize: 1
+Cluster id: 9 ClusterSize: 1
+Cluster id: 10 ClusterSize: 1
+Cluster id: 11 ClusterSize: 1
+Cluster id: 12 ClusterSize: 1
+Cluster id: 13 ClusterSize: 1
+Cluster id: 14 ClusterSize: 1
+Cluster id: 15 ClusterSize: 1
+Cluster id: 16 ClusterSize: 1
+Cluster id: 17 ClusterSize: 1
+Cluster id: 18 ClusterSize: 1
+Cluster id: 19 ClusterSize: 1
+Cluster id: 20 ClusterSize: 1
+Cluster id: 21 ClusterSize: 1
+Cluster id: 22 ClusterSize: 1
+Cluster id: 23 ClusterSize: 1
+Cluster id: 24 ClusterSize: 1
+Cluster id: 25 ClusterSize: 1
+Cluster id: 26 ClusterSize: 1
+Cluster id: 27 ClusterSize: 1
+Cluster id: 28 ClusterSize: 1
+Cluster id: 29 ClusterSize: 1
+Cluster id: 30 ClusterSize: 1
+Cluster id: 31 ClusterSize: 1
+Cluster id: 32 ClusterSize: 1
+Cluster id: 33 ClusterSize: 1
+Cluster id: 34 ClusterSize: 1
+Cluster id: 35 ClusterSize: 1
+Cluster id: 36 ClusterSize: 1
+Cluster id: 37 ClusterSize: 1
+Cluster id: 38 ClusterSize: 1
+Cluster id: 39 ClusterSize: 1
+Cluster id: 40 ClusterSize: 1
+Cluster id: 41 ClusterSize: 1
+Cluster id: 42 ClusterSize: 1
+Cluster id: 43 ClusterSize: 1
+Cluster id: 44 ClusterSize: 1
+Cluster id: 45 ClusterSize: 1
+Cluster id: 46 ClusterSize: 1
+Cluster id: 47 ClusterSize: 1
+Cluster id: 48 ClusterSize: 1
+Cluster id: 49 ClusterSize: 1
+Cluster id: 50 ClusterSize: 1
+Cluster id: 51 ClusterSize: 1
+Cluster id: 52 ClusterSize: 1
+Cluster id: 53 ClusterSize: 1
+Cluster id: 54 ClusterSize: 1
+Cluster id: 55 ClusterSize: 1
+Cluster id: 56 ClusterSize: 1
+Cluster id: 57 ClusterSize: 1
+Cluster id: 58 ClusterSize: 1
+Cluster id: 59 ClusterSize: 1
+Cluster id: 60 ClusterSize: 1
+Cluster id: 61 ClusterSize: 1
+Cluster id: 62 ClusterSize: 1
+Cluster id: 63 ClusterSize: 1
+Cluster id: 64 ClusterSize: 1
+Cluster id: 65 ClusterSize: 1
+Cluster id: 66 ClusterSize: 1
+Cluster id: 67 ClusterSize: 1
+Cluster id: 68 ClusterSize: 1
+Cluster id: 69 ClusterSize: 1
+Cluster id: 70 ClusterSize: 1
+Cluster id: 71 ClusterSize: 1
+Cluster id: 72 ClusterSize: 1
+Cluster id: 73 ClusterSize: 1
+Cluster id: 74 ClusterSize: 1
+Cluster id: 75 ClusterSize: 1
+Cluster id: 76 ClusterSize: 1
+Cluster id: 77 ClusterSize: 1
+Cluster id: 78 ClusterSize: 1
+Cluster id: 79 ClusterSize: 1
+Cluster id: 80 ClusterSize: 1
+Cluster id: 81 ClusterSize: 1
+Cluster id: 82 ClusterSize: 1
+Cluster id: 83 ClusterSize: 1
+Cluster id: 84 ClusterSize: 1
+Cluster id: 85 ClusterSize: 1
+Cluster id: 86 ClusterSize: 1
+Cluster id: 87 ClusterSize: 1
+Cluster id: 88 ClusterSize: 1
+Cluster id: 89 ClusterSize: 1
+Cluster id: 90 ClusterSize: 1
+Cluster id: 91 ClusterSize: 1
+Cluster id: 92 ClusterSize: 1
+Cluster id: 93 ClusterSize: 1
+Cluster id: 94 ClusterSize: 1
+Cluster id: 95 ClusterSize: 1
+Cluster id: 96 ClusterSize: 1
+Cluster id: 97 ClusterSize: 1
+Cluster id: 98 ClusterSize: 1
+Cluster id: 99 ClusterSize: 1
+Cluster id: 100 ClusterSize: 2
+Cluster id: 101 ClusterSize: 3
+Cluster id: 102 ClusterSize: 2
+Cluster id: 103 ClusterSize: 2
+Cluster id: 104 ClusterSize: 2
+Cluster id: 105 ClusterSize: 2
+Cluster id: 106 ClusterSize: 2
+Cluster id: 107 ClusterSize: 2
+Cluster id: 108 ClusterSize: 2
+Cluster id: 109 ClusterSize: 2
+Cluster id: 110 ClusterSize: 2
+Cluster id: 111 ClusterSize: 2
+Cluster id: 112 ClusterSize: 2
+Cluster id: 113 ClusterSize: 2
+Cluster id: 114 ClusterSize: 2
+Cluster id: 115 ClusterSize: 2
+Cluster id: 116 ClusterSize: 3
+Cluster id: 117 ClusterSize: 2
+Cluster id: 118 ClusterSize: 2
+Cluster id: 119 ClusterSize: 3
+Cluster id: 120 ClusterSize: 3
+Cluster id: 121 ClusterSize: 2
+Cluster id: 122 ClusterSize: 2
+Cluster id: 123 ClusterSize: 2
+Cluster id: 124 ClusterSize: 2
+Cluster id: 125 ClusterSize: 2
+Cluster id: 126 ClusterSize: 2
+Cluster id: 127 ClusterSize: 2
+Cluster id: 128 ClusterSize: 2
+Cluster id: 129 ClusterSize: 2
+Cluster id: 130 ClusterSize: 3
+Cluster id: 131 ClusterSize: 3
+Cluster id: 132 ClusterSize: 3
+Cluster id: 133 ClusterSize: 2
+Cluster id: 134 ClusterSize: 2
+Cluster id: 135 ClusterSize: 2
+Cluster id: 136 ClusterSize: 2
+Cluster id: 137 ClusterSize: 2
+Cluster id: 138 ClusterSize: 2
+Cluster id: 139 ClusterSize: 2
+Cluster id: 140 ClusterSize: 2
+Cluster id: 141 ClusterSize: 2
+Cluster id: 142 ClusterSize: 3
+Cluster id: 143 ClusterSize: 3
+Cluster id: 144 ClusterSize: 2
+Cluster id: 145 ClusterSize: 2
+Cluster id: 146 ClusterSize: 2
+Cluster id: 147 ClusterSize: 2
+Cluster id: 148 ClusterSize: 2
+Cluster id: 149 ClusterSize: 2
+Cluster id: 150 ClusterSize: 2
+Cluster id: 151 ClusterSize: 2
+Cluster id: 152 ClusterSize: 2
+Cluster id: 153 ClusterSize: 6
+Cluster id: 154 ClusterSize: 2
+Cluster id: 155 ClusterSize: 3
+Cluster id: 156 ClusterSize: 2
+Cluster id: 157 ClusterSize: 3
+Cluster id: 158 ClusterSize: 3
+Cluster id: 159 ClusterSize: 4
+Cluster id: 160 ClusterSize: 2
+Cluster id: 161 ClusterSize: 2
+Cluster id: 162 ClusterSize: 2
+Cluster id: 163 ClusterSize: 2
+Cluster id: 164 ClusterSize: 3
+Cluster id: 165 ClusterSize: 3
+Cluster id: 166 ClusterSize: 2
+Cluster id: 167 ClusterSize: 2
+Cluster id: 168 ClusterSize: 3
+Cluster id: 169 ClusterSize: 2
+Cluster id: 170 ClusterSize: 2
+Cluster id: 171 ClusterSize: 3
+Cluster id: 172 ClusterSize: 3
+Cluster id: 173 ClusterSize: 2
+Cluster id: 174 ClusterSize: 3
+Cluster id: 175 ClusterSize: 2
+Cluster id: 176 ClusterSize: 3
+Cluster id: 177 ClusterSize: 5
+Cluster id: 178 ClusterSize: 3
+Cluster id: 179 ClusterSize: 3
+Cluster id: 180 ClusterSize: 2
+Cluster id: 181 ClusterSize: 2
+Cluster id: 182 ClusterSize: 2
+Cluster id: 183 ClusterSize: 3
+Cluster id: 184 ClusterSize: 2
+Cluster id: 185 ClusterSize: 2
+Cluster id: 186 ClusterSize: 3
+Cluster id: 187 ClusterSize: 4
+Cluster id: 188 ClusterSize: 3
+Cluster id: 189 ClusterSize: 2
+Cluster id: 190 ClusterSize: 2
+Cluster id: 191 ClusterSize: 2
+Cluster id: 192 ClusterSize: 5
+Cluster id: 193 ClusterSize: 2
+Cluster id: 194 ClusterSize: 2
+Cluster id: 195 ClusterSize: 3
+Cluster id: 196 ClusterSize: 2
+Cluster id: 197 ClusterSize: 2
+Cluster id: 198 ClusterSize: 3
+Cluster id: 199 ClusterSize: 2
+Cluster id: 200 ClusterSize: 2
+Cluster id: 201 ClusterSize: 3
+Cluster id: 202 ClusterSize: 3
+Cluster id: 203 ClusterSize: 2
+Cluster id: 204 ClusterSize: 3
+Cluster id: 205 ClusterSize: 2
+Cluster id: 206 ClusterSize: 3
+Cluster id: 207 ClusterSize: 3
+Cluster id: 208 ClusterSize: 3
+Cluster id: 209 ClusterSize: 3
+Cluster id: 210 ClusterSize: 2
+Cluster id: 211 ClusterSize: 2
+Cluster id: 212 ClusterSize: 2
+Cluster id: 213 ClusterSize: 3
+Cluster id: 214 ClusterSize: 5
+Cluster id: 215 ClusterSize: 4
+Cluster id: 216 ClusterSize: 2
+Cluster id: 217 ClusterSize: 2
+Cluster id: 218 ClusterSize: 2
+Cluster id: 219 ClusterSize: 3
+Cluster id: 220 ClusterSize: 3
+Cluster id: 221 ClusterSize: 2
+Cluster id: 222 ClusterSize: 3
+Cluster id: 223 ClusterSize: 2
+Cluster id: 224 ClusterSize: 3
+Cluster id: 225 ClusterSize: 2
+Cluster id: 226 ClusterSize: 2
+Cluster id: 227 ClusterSize: 3
+Cluster id: 228 ClusterSize: 3
+Cluster id: 229 ClusterSize: 2
+Cluster id: 230 ClusterSize: 2
+Cluster id: 231 ClusterSize: 2
+Cluster id: 232 ClusterSize: 3
+Cluster id: 233 ClusterSize: 4
+Cluster id: 234 ClusterSize: 2
+Cluster id: 235 ClusterSize: 2
+Cluster id: 236 ClusterSize: 2
+Cluster id: 237 ClusterSize: 3
+Cluster id: 238 ClusterSize: 2
+Cluster id: 239 ClusterSize: 5
+Cluster id: 240 ClusterSize: 4
+Cluster id: 241 ClusterSize: 3
+Cluster id: 242 ClusterSize: 4
+Cluster id: 243 ClusterSize: 4
+Cluster id: 244 ClusterSize: 2
+Cluster id: 245 ClusterSize: 2
+Cluster id: 246 ClusterSize: 3
+Cluster id: 247 ClusterSize: 4
+Cluster id: 248 ClusterSize: 4
+Cluster id: 249 ClusterSize: 3
+Cluster id: 250 ClusterSize: 2
+Cluster id: 251 ClusterSize: 3
+Cluster id: 252 ClusterSize: 5
+Cluster id: 253 ClusterSize: 4
+Cluster id: 254 ClusterSize: 5
+Cluster id: 255 ClusterSize: 2
+Cluster id: 256 ClusterSize: 4
+Cluster id: 257 ClusterSize: 4
+Cluster id: 258 ClusterSize: 3
+Cluster id: 259 ClusterSize: 2
+Cluster id: 260 ClusterSize: 3
+Cluster id: 261 ClusterSize: 3
+Cluster id: 262 ClusterSize: 4
+Cluster id: 263 ClusterSize: 3
+Cluster id: 264 ClusterSize: 4
+Cluster id: 265 ClusterSize: 4
+Cluster id: 266 ClusterSize: 3
+Cluster id: 267 ClusterSize: 5
+Cluster id: 268 ClusterSize: 3
+Cluster id: 269 ClusterSize: 4
+Cluster id: 270 ClusterSize: 2
+Cluster id: 271 ClusterSize: 3
+Cluster id: 272 ClusterSize: 3
+Cluster id: 273 ClusterSize: 4
+Cluster id: 274 ClusterSize: 2
+Cluster id: 275 ClusterSize: 2
+Cluster id: 276 ClusterSize: 4
+Cluster id: 277 ClusterSize: 2
+Cluster id: 278 ClusterSize: 2
+Cluster id: 279 ClusterSize: 3
+Cluster id: 280 ClusterSize: 3
+Cluster id: 281 ClusterSize: 2
+Cluster id: 282 ClusterSize: 4
+Cluster id: 283 ClusterSize: 2
+Cluster id: 284 ClusterSize: 2
+Cluster id: 285 ClusterSize: 2
+Cluster id: 286 ClusterSize: 3
+Cluster id: 287 ClusterSize: 3
+Cluster id: 288 ClusterSize: 4
+Cluster id: 289 ClusterSize: 4
+Cluster id: 290 ClusterSize: 5
+Cluster id: 291 ClusterSize: 5
+Cluster id: 292 ClusterSize: 3
+Cluster id: 293 ClusterSize: 5
+Cluster id: 294 ClusterSize: 4
+Cluster id: 295 ClusterSize: 5
+Cluster id: 296 ClusterSize: 4
+Cluster id: 297 ClusterSize: 4
+Cluster id: 298 ClusterSize: 2
+Cluster id: 299 ClusterSize: 2
+Cluster id: 300 ClusterSize: 3
+Cluster id: 301 ClusterSize: 2
+Cluster id: 302 ClusterSize: 2
+Cluster id: 303 ClusterSize: 4
+Cluster id: 304 ClusterSize: 5
+Cluster id: 305 ClusterSize: 5
+Cluster id: 306 ClusterSize: 2
+Cluster id: 307 ClusterSize: 4
+Cluster id: 308 ClusterSize: 4
+Cluster id: 309 ClusterSize: 4
+Cluster id: 310 ClusterSize: 0
+Identified number of clusters formed: 310
+i membership[i] clusterSize: 0   47   1
+i membership[i] clusterSize: 1   36   1
+i membership[i] clusterSize: 2   52   1
+i membership[i] clusterSize: 3   52   2
+i membership[i] clusterSize: 4   75   1
+i membership[i] clusterSize: 5   0   1
+i membership[i] clusterSize: 6   1   1
+i membership[i] clusterSize: 7   30   1
+i membership[i] clusterSize: 8   72   1
+i membership[i] clusterSize: 9   64   1
+i membership[i] clusterSize: 10   49   1
+i membership[i] clusterSize: 11   68   1
+i membership[i] clusterSize: 12   39   1
+i membership[i] clusterSize: 13   50   1
+i membership[i] clusterSize: 14   32   1
+i membership[i] clusterSize: 15   61   1
+i membership[i] clusterSize: 16   57   1
+i membership[i] clusterSize: 17   2   1
+i membership[i] clusterSize: 18   3   1
+i membership[i] clusterSize: 19   53   1
+i membership[i] clusterSize: 20   25   1
+i membership[i] clusterSize: 21   68   2
+i membership[i] clusterSize: 22   62   1
+i membership[i] clusterSize: 23   31   1
+i membership[i] clusterSize: 24   17   1
+i membership[i] clusterSize: 25   20   1
+i membership[i] clusterSize: 26   65   1
+i membership[i] clusterSize: 27   45   1
+i membership[i] clusterSize: 28   21   1
+i membership[i] clusterSize: 29   26   1
+i membership[i] clusterSize: 30   26   2
+i membership[i] clusterSize: 31   39   2
+i membership[i] clusterSize: 32   65   2
+i membership[i] clusterSize: 33   58   1
+i membership[i] clusterSize: 34   63   1
+i membership[i] clusterSize: 35   63   2
+i membership[i] clusterSize: 36   54   1
+i membership[i] clusterSize: 37   41   1
+i membership[i] clusterSize: 38   71   1
+i membership[i] clusterSize: 39   20   2
+i membership[i] clusterSize: 40   71   2
+i membership[i] clusterSize: 41   30   2
+i membership[i] clusterSize: 42   75   2
+i membership[i] clusterSize: 43   74   1
+i membership[i] clusterSize: 44   54   2
+i membership[i] clusterSize: 45   65   3
+i membership[i] clusterSize: 46   73   1
+i membership[i] clusterSize: 47   17   2
+i membership[i] clusterSize: 48   61   2
+i membership[i] clusterSize: 49   76   1
+i membership[i] clusterSize: 50   41   2
+i membership[i] clusterSize: 51   71   3
+i membership[i] clusterSize: 52   59   1
+i membership[i] clusterSize: 53   18   1
+i membership[i] clusterSize: 54   70   1
+i membership[i] clusterSize: 55   24   1
+i membership[i] clusterSize: 56   60   1
+i membership[i] clusterSize: 57   68   3
+i membership[i] clusterSize: 58   68   4
+i membership[i] clusterSize: 59   38   1
+i membership[i] clusterSize: 60   21   2
+i membership[i] clusterSize: 61   43   1
+i membership[i] clusterSize: 62   42   1
+i membership[i] clusterSize: 63   51   1
+i membership[i] clusterSize: 64   74   2
+i membership[i] clusterSize: 65   14   1
+i membership[i] clusterSize: 66   49   2
+i membership[i] clusterSize: 67   49   3
+i membership[i] clusterSize: 68   41   3
+i membership[i] clusterSize: 69   38   2
+i membership[i] clusterSize: 70   48   1
+i membership[i] clusterSize: 71   4   1
+i membership[i] clusterSize: 72   41   4
+i membership[i] clusterSize: 73   63   3
+i membership[i] clusterSize: 74   75   3
+i membership[i] clusterSize: 75   71   4
+i membership[i] clusterSize: 76   68   5
+i membership[i] clusterSize: 77   69   1
+i membership[i] clusterSize: 78   55   1
+i membership[i] clusterSize: 79   45   2
+i membership[i] clusterSize: 80   51   2
+i membership[i] clusterSize: 81   33   1
+i membership[i] clusterSize: 82   65   4
+i membership[i] clusterSize: 83   68   6
+i membership[i] clusterSize: 84   53   2
+i membership[i] clusterSize: 85   49   4
+i membership[i] clusterSize: 86   49   5
+i membership[i] clusterSize: 87   68   7
+i membership[i] clusterSize: 88   39   3
+i membership[i] clusterSize: 89   60   2
+i membership[i] clusterSize: 90   44   1
+i membership[i] clusterSize: 91   39   4
+i membership[i] clusterSize: 92   40   1
+i membership[i] clusterSize: 93   61   3
+i membership[i] clusterSize: 94   47   2
+i membership[i] clusterSize: 95   19   1
+i membership[i] clusterSize: 96   5   1
+i membership[i] clusterSize: 97   39   5
+i membership[i] clusterSize: 98   33   2
+i membership[i] clusterSize: 99   56   1
+i membership[i] clusterSize: 100   51   3
+i membership[i] clusterSize: 101   68   8
+i membership[i] clusterSize: 102   23   1
+i membership[i] clusterSize: 103   58   2
+i membership[i] clusterSize: 104   68   9
+i membership[i] clusterSize: 105   55   2
+i membership[i] clusterSize: 106   55   3
+i membership[i] clusterSize: 107   6   1
+i membership[i] clusterSize: 108   31   2
+i membership[i] clusterSize: 109   71   5
+i membership[i] clusterSize: 110   35   1
+i membership[i] clusterSize: 111   65   5
+i membership[i] clusterSize: 112   36   2
+i membership[i] clusterSize: 113   70   2
+i membership[i] clusterSize: 114   32   2
+i membership[i] clusterSize: 115   78   1
+i membership[i] clusterSize: 116   35   2
+i membership[i] clusterSize: 117   76   2
+i membership[i] clusterSize: 118   67   1
+i membership[i] clusterSize: 119   27   1
+i membership[i] clusterSize: 120   53   3
+i membership[i] clusterSize: 121   30   3
+i membership[i] clusterSize: 122   32   3
+i membership[i] clusterSize: 123   73   2
+i membership[i] clusterSize: 124   78   2
+i membership[i] clusterSize: 125   65   6
+i membership[i] clusterSize: 126   39   6
+i membership[i] clusterSize: 127   56   2
+i membership[i] clusterSize: 128   66   1
+i membership[i] clusterSize: 129   41   5
+i membership[i] clusterSize: 130   67   2
+i membership[i] clusterSize: 131   60   3
+i membership[i] clusterSize: 132   18   2
+i membership[i] clusterSize: 133   50   2
+i membership[i] clusterSize: 134   77   1
+i membership[i] clusterSize: 135   22   1
+i membership[i] clusterSize: 136   74   3
+i membership[i] clusterSize: 137   60   4
+i membership[i] clusterSize: 138   29   1
+i membership[i] clusterSize: 139   71   6
+i membership[i] clusterSize: 140   42   2
+i membership[i] clusterSize: 141   64   2
+i membership[i] clusterSize: 142   7   1
+i membership[i] clusterSize: 143   66   2
+i membership[i] clusterSize: 144   58   3
+i membership[i] clusterSize: 145   75   4
+i membership[i] clusterSize: 146   36   3
+i membership[i] clusterSize: 147   51   4
+i membership[i] clusterSize: 148   37   1
+i membership[i] clusterSize: 149   72   2
+i membership[i] clusterSize: 150   38   3
+i membership[i] clusterSize: 151   24   2
+i membership[i] clusterSize: 152   69   2
+i membership[i] clusterSize: 153   69   3
+i membership[i] clusterSize: 154   69   4
+i membership[i] clusterSize: 155   14   2
+i membership[i] clusterSize: 156   41   6
+i membership[i] clusterSize: 157   44   2
+i membership[i] clusterSize: 158   8   1
+i membership[i] clusterSize: 159   72   3
+i membership[i] clusterSize: 160   20   3
+i membership[i] clusterSize: 161   72   4
+i membership[i] clusterSize: 162   55   4
+i membership[i] clusterSize: 163   64   3
+i membership[i] clusterSize: 164   73   3
+i membership[i] clusterSize: 165   34   1
+i membership[i] clusterSize: 166   37   2
+i membership[i] clusterSize: 167   38   4
+i membership[i] clusterSize: 168   72   5
+i membership[i] clusterSize: 169   75   5
+i membership[i] clusterSize: 170   43   2
+i membership[i] clusterSize: 171   9   1
+i membership[i] clusterSize: 172   25   2
+i membership[i] clusterSize: 173   71   7
+i membership[i] clusterSize: 174   46   1
+i membership[i] clusterSize: 175   61   4
+i membership[i] clusterSize: 176   53   4
+i membership[i] clusterSize: 177   59   2
+i membership[i] clusterSize: 178   33   3
+i membership[i] clusterSize: 179   72   6
+i membership[i] clusterSize: 180   28   1
+i membership[i] clusterSize: 181   64   4
+i membership[i] clusterSize: 182   16   1
+i membership[i] clusterSize: 183   43   3
+i membership[i] clusterSize: 184   61   5
+i membership[i] clusterSize: 185   34   2
+i membership[i] clusterSize: 186   46   2
+i membership[i] clusterSize: 187   28   2
+i membership[i] clusterSize: 188   27   2
+i membership[i] clusterSize: 189   54   3
+i membership[i] clusterSize: 190   59   3
+i membership[i] clusterSize: 191   61   6
+i membership[i] clusterSize: 192   49   6
+i membership[i] clusterSize: 193   52   3
+i membership[i] clusterSize: 194   15   1
+i membership[i] clusterSize: 195   60   5
+i membership[i] clusterSize: 196   59   4
+i membership[i] clusterSize: 197   28   3
+i membership[i] clusterSize: 198   54   4
+i membership[i] clusterSize: 199   75   6
+i membership[i] clusterSize: 200   57   2
+i membership[i] clusterSize: 201   41   7
+i membership[i] clusterSize: 202   75   7
+i membership[i] clusterSize: 203   38   5
+i membership[i] clusterSize: 204   24   3
+i membership[i] clusterSize: 205   62   2
+i membership[i] clusterSize: 206   58   4
+i membership[i] clusterSize: 207   64   5
+i membership[i] clusterSize: 208   72   7
+i membership[i] clusterSize: 209   35   3
+i membership[i] clusterSize: 210   54   5
+i membership[i] clusterSize: 211   60   6
+i membership[i] clusterSize: 212   47   3
+i membership[i] clusterSize: 213   48   2
+i membership[i] clusterSize: 214   76   3
+i membership[i] clusterSize: 215   63   4
+i membership[i] clusterSize: 216   10   1
+i membership[i] clusterSize: 217   22   2
+i membership[i] clusterSize: 218   29   2
+i membership[i] clusterSize: 219   11   1
+i membership[i] clusterSize: 220   40   2
+i membership[i] clusterSize: 221   68   10
+i membership[i] clusterSize: 222   16   2
+i membership[i] clusterSize: 223   15   2
+i membership[i] clusterSize: 224   40   3
+i membership[i] clusterSize: 225   48   3
+i membership[i] clusterSize: 226   77   2
+i membership[i] clusterSize: 227   47   4
+i membership[i] clusterSize: 228   75   8
+i membership[i] clusterSize: 229   12   1
+i membership[i] clusterSize: 230   28   4
+i membership[i] clusterSize: 231   59   5
+i membership[i] clusterSize: 232   65   7
+i membership[i] clusterSize: 233   26   3
+i membership[i] clusterSize: 234   48   4
+i membership[i] clusterSize: 235   45   3
+i membership[i] clusterSize: 236   63   5
+i membership[i] clusterSize: 237   77   3
+i membership[i] clusterSize: 238   13   1
+i membership[i] clusterSize: 239   64   6
+i membership[i] clusterSize: 240   39   7
+i membership[i] clusterSize: 241   63   6
+i membership[i] clusterSize: 242   63   7
+i membership[i] clusterSize: 243   19   2
+i membership[i] clusterSize: 244   63   8
+i membership[i] clusterSize: 245   23   2
+i membership[i] clusterSize: 246   31   3
+i membership[i] clusterSize: 247   69   5
+i membership[i] clusterSize: 248   38   6
+i membership[i] clusterSize: 249   56   3
+i membership[i] clusterSize: 250   57   3
+i membership[i] clusterSize: 251   55   5
+i membership[i] clusterSize: 252   19   3
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 1
+Cluster id: 2 ClusterSize: 1
+Cluster id: 3 ClusterSize: 1
+Cluster id: 4 ClusterSize: 1
+Cluster id: 5 ClusterSize: 1
+Cluster id: 6 ClusterSize: 1
+Cluster id: 7 ClusterSize: 1
+Cluster id: 8 ClusterSize: 1
+Cluster id: 9 ClusterSize: 1
+Cluster id: 10 ClusterSize: 1
+Cluster id: 11 ClusterSize: 1
+Cluster id: 12 ClusterSize: 1
+Cluster id: 13 ClusterSize: 1
+Cluster id: 14 ClusterSize: 2
+Cluster id: 15 ClusterSize: 2
+Cluster id: 16 ClusterSize: 2
+Cluster id: 17 ClusterSize: 2
+Cluster id: 18 ClusterSize: 2
+Cluster id: 19 ClusterSize: 3
+Cluster id: 20 ClusterSize: 3
+Cluster id: 21 ClusterSize: 2
+Cluster id: 22 ClusterSize: 2
+Cluster id: 23 ClusterSize: 2
+Cluster id: 24 ClusterSize: 3
+Cluster id: 25 ClusterSize: 2
+Cluster id: 26 ClusterSize: 3
+Cluster id: 27 ClusterSize: 2
+Cluster id: 28 ClusterSize: 4
+Cluster id: 29 ClusterSize: 2
+Cluster id: 30 ClusterSize: 3
+Cluster id: 31 ClusterSize: 3
+Cluster id: 32 ClusterSize: 3
+Cluster id: 33 ClusterSize: 3
+Cluster id: 34 ClusterSize: 2
+Cluster id: 35 ClusterSize: 3
+Cluster id: 36 ClusterSize: 3
+Cluster id: 37 ClusterSize: 2
+Cluster id: 38 ClusterSize: 6
+Cluster id: 39 ClusterSize: 7
+Cluster id: 40 ClusterSize: 3
+Cluster id: 41 ClusterSize: 7
+Cluster id: 42 ClusterSize: 2
+Cluster id: 43 ClusterSize: 3
+Cluster id: 44 ClusterSize: 2
+Cluster id: 45 ClusterSize: 3
+Cluster id: 46 ClusterSize: 2
+Cluster id: 47 ClusterSize: 4
+Cluster id: 48 ClusterSize: 4
+Cluster id: 49 ClusterSize: 6
+Cluster id: 50 ClusterSize: 2
+Cluster id: 51 ClusterSize: 4
+Cluster id: 52 ClusterSize: 3
+Cluster id: 53 ClusterSize: 4
+Cluster id: 54 ClusterSize: 5
+Cluster id: 55 ClusterSize: 5
+Cluster id: 56 ClusterSize: 3
+Cluster id: 57 ClusterSize: 3
+Cluster id: 58 ClusterSize: 4
+Cluster id: 59 ClusterSize: 5
+Cluster id: 60 ClusterSize: 6
+Cluster id: 61 ClusterSize: 6
+Cluster id: 62 ClusterSize: 2
+Cluster id: 63 ClusterSize: 8
+Cluster id: 64 ClusterSize: 6
+Cluster id: 65 ClusterSize: 7
+Cluster id: 66 ClusterSize: 2
+Cluster id: 67 ClusterSize: 2
+Cluster id: 68 ClusterSize: 10
+Cluster id: 69 ClusterSize: 5
+Cluster id: 70 ClusterSize: 2
+Cluster id: 71 ClusterSize: 7
+Cluster id: 72 ClusterSize: 7
+Cluster id: 73 ClusterSize: 3
+Cluster id: 74 ClusterSize: 3
+Cluster id: 75 ClusterSize: 8
+Cluster id: 76 ClusterSize: 3
+Cluster id: 77 ClusterSize: 3
+Cluster id: 78 ClusterSize: 2
+Cluster id: 79 ClusterSize: 0
+Identified number of clusters formed: 79
+i membership[i] clusterSize: 0   13   1
+i membership[i] clusterSize: 1   24   1
+i membership[i] clusterSize: 2   26   1
+i membership[i] clusterSize: 3   15   1
+i membership[i] clusterSize: 4   33   1
+i membership[i] clusterSize: 5   22   1
+i membership[i] clusterSize: 6   34   1
+i membership[i] clusterSize: 7   34   2
+i membership[i] clusterSize: 8   27   1
+i membership[i] clusterSize: 9   22   2
+i membership[i] clusterSize: 10   17   1
+i membership[i] clusterSize: 11   25   1
+i membership[i] clusterSize: 12   31   1
+i membership[i] clusterSize: 13   11   1
+i membership[i] clusterSize: 14   32   1
+i membership[i] clusterSize: 15   29   1
+i membership[i] clusterSize: 16   25   2
+i membership[i] clusterSize: 17   30   1
+i membership[i] clusterSize: 18   10   1
+i membership[i] clusterSize: 19   0   1
+i membership[i] clusterSize: 20   32   2
+i membership[i] clusterSize: 21   18   1
+i membership[i] clusterSize: 22   1   1
+i membership[i] clusterSize: 23   21   1
+i membership[i] clusterSize: 24   8   1
+i membership[i] clusterSize: 25   27   2
+i membership[i] clusterSize: 26   2   1
+i membership[i] clusterSize: 27   12   1
+i membership[i] clusterSize: 28   10   2
+i membership[i] clusterSize: 29   24   2
+i membership[i] clusterSize: 30   29   2
+i membership[i] clusterSize: 31   29   3
+i membership[i] clusterSize: 32   16   1
+i membership[i] clusterSize: 33   18   2
+i membership[i] clusterSize: 34   13   2
+i membership[i] clusterSize: 35   8   2
+i membership[i] clusterSize: 36   20   1
+i membership[i] clusterSize: 37   30   2
+i membership[i] clusterSize: 38   28   1
+i membership[i] clusterSize: 39   26   2
+i membership[i] clusterSize: 40   14   1
+i membership[i] clusterSize: 41   27   3
+i membership[i] clusterSize: 42   18   3
+i membership[i] clusterSize: 43   18   4
+i membership[i] clusterSize: 44   27   4
+i membership[i] clusterSize: 45   31   2
+i membership[i] clusterSize: 46   23   1
+i membership[i] clusterSize: 47   34   3
+i membership[i] clusterSize: 48   32   3
+i membership[i] clusterSize: 49   25   3
+i membership[i] clusterSize: 50   30   3
+i membership[i] clusterSize: 51   15   2
+i membership[i] clusterSize: 52   23   2
+i membership[i] clusterSize: 53   11   2
+i membership[i] clusterSize: 54   21   2
+i membership[i] clusterSize: 55   3   1
+i membership[i] clusterSize: 56   28   2
+i membership[i] clusterSize: 57   12   2
+i membership[i] clusterSize: 58   4   1
+i membership[i] clusterSize: 59   19   1
+i membership[i] clusterSize: 60   26   3
+i membership[i] clusterSize: 61   17   2
+i membership[i] clusterSize: 62   16   2
+i membership[i] clusterSize: 63   20   2
+i membership[i] clusterSize: 64   31   3
+i membership[i] clusterSize: 65   17   3
+i membership[i] clusterSize: 66   26   4
+i membership[i] clusterSize: 67   19   2
+i membership[i] clusterSize: 68   5   1
+i membership[i] clusterSize: 69   34   4
+i membership[i] clusterSize: 70   29   4
+i membership[i] clusterSize: 71   33   2
+i membership[i] clusterSize: 72   6   1
+i membership[i] clusterSize: 73   7   1
+i membership[i] clusterSize: 74   26   5
+i membership[i] clusterSize: 75   9   1
+i membership[i] clusterSize: 76   14   2
+i membership[i] clusterSize: 77   28   3
+i membership[i] clusterSize: 78   9   2
+i membership[i] clusterSize: 79   25   4
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 1
+Cluster id: 2 ClusterSize: 1
+Cluster id: 3 ClusterSize: 1
+Cluster id: 4 ClusterSize: 1
+Cluster id: 5 ClusterSize: 1
+Cluster id: 6 ClusterSize: 1
+Cluster id: 7 ClusterSize: 1
+Cluster id: 8 ClusterSize: 2
+Cluster id: 9 ClusterSize: 2
+Cluster id: 10 ClusterSize: 2
+Cluster id: 11 ClusterSize: 2
+Cluster id: 12 ClusterSize: 2
+Cluster id: 13 ClusterSize: 2
+Cluster id: 14 ClusterSize: 2
+Cluster id: 15 ClusterSize: 2
+Cluster id: 16 ClusterSize: 2
+Cluster id: 17 ClusterSize: 3
+Cluster id: 18 ClusterSize: 4
+Cluster id: 19 ClusterSize: 2
+Cluster id: 20 ClusterSize: 2
+Cluster id: 21 ClusterSize: 2
+Cluster id: 22 ClusterSize: 2
+Cluster id: 23 ClusterSize: 2
+Cluster id: 24 ClusterSize: 2
+Cluster id: 25 ClusterSize: 4
+Cluster id: 26 ClusterSize: 5
+Cluster id: 27 ClusterSize: 4
+Cluster id: 28 ClusterSize: 3
+Cluster id: 29 ClusterSize: 4
+Cluster id: 30 ClusterSize: 3
+Cluster id: 31 ClusterSize: 3
+Cluster id: 32 ClusterSize: 3
+Cluster id: 33 ClusterSize: 2
+Cluster id: 34 ClusterSize: 4
+Cluster id: 35 ClusterSize: 0
+Identified number of clusters formed: 35
+i membership[i] clusterSize: 0   18   1
+i membership[i] clusterSize: 1   6   1
+i membership[i] clusterSize: 2   12   1
+i membership[i] clusterSize: 3   3   1
+i membership[i] clusterSize: 4   2   1
+i membership[i] clusterSize: 5   3   2
+i membership[i] clusterSize: 6   2   2
+i membership[i] clusterSize: 7   1   1
+i membership[i] clusterSize: 8   12   2
+i membership[i] clusterSize: 9   0   1
+i membership[i] clusterSize: 10   9   1
+i membership[i] clusterSize: 11   7   1
+i membership[i] clusterSize: 12   17   1
+i membership[i] clusterSize: 13   5   1
+i membership[i] clusterSize: 14   10   1
+i membership[i] clusterSize: 15   16   1
+i membership[i] clusterSize: 16   10   2
+i membership[i] clusterSize: 17   17   2
+i membership[i] clusterSize: 18   18   2
+i membership[i] clusterSize: 19   1   2
+i membership[i] clusterSize: 20   10   3
+i membership[i] clusterSize: 21   8   1
+i membership[i] clusterSize: 22   14   1
+i membership[i] clusterSize: 23   17   3
+i membership[i] clusterSize: 24   10   4
+i membership[i] clusterSize: 25   5   2
+i membership[i] clusterSize: 26   18   3
+i membership[i] clusterSize: 27   5   3
+i membership[i] clusterSize: 28   14   2
+i membership[i] clusterSize: 29   4   1
+i membership[i] clusterSize: 30   17   4
+i membership[i] clusterSize: 31   7   2
+i membership[i] clusterSize: 32   16   2
+i membership[i] clusterSize: 33   15   1
+i membership[i] clusterSize: 34   8   2
+i membership[i] clusterSize: 35   13   1
+i membership[i] clusterSize: 36   19   1
+i membership[i] clusterSize: 37   13   2
+i membership[i] clusterSize: 38   4   2
+i membership[i] clusterSize: 39   16   3
+i membership[i] clusterSize: 40   13   3
+i membership[i] clusterSize: 41   15   2
+i membership[i] clusterSize: 42   9   2
+i membership[i] clusterSize: 43   11   1
+i membership[i] clusterSize: 44   19   2
+i membership[i] clusterSize: 45   11   2
+i membership[i] clusterSize: 46   18   4
+i membership[i] clusterSize: 47   11   3
+i membership[i] clusterSize: 48   6   2
+i membership[i] clusterSize: 49   16   4
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 2
+Cluster id: 2 ClusterSize: 2
+Cluster id: 3 ClusterSize: 2
+Cluster id: 4 ClusterSize: 2
+Cluster id: 5 ClusterSize: 3
+Cluster id: 6 ClusterSize: 2
+Cluster id: 7 ClusterSize: 2
+Cluster id: 8 ClusterSize: 2
+Cluster id: 9 ClusterSize: 2
+Cluster id: 10 ClusterSize: 4
+Cluster id: 11 ClusterSize: 3
+Cluster id: 12 ClusterSize: 2
+Cluster id: 13 ClusterSize: 3
+Cluster id: 14 ClusterSize: 2
+Cluster id: 15 ClusterSize: 2
+Cluster id: 16 ClusterSize: 4
+Cluster id: 17 ClusterSize: 4
+Cluster id: 18 ClusterSize: 4
+Cluster id: 19 ClusterSize: 2
+Cluster id: 20 ClusterSize: 0
+Identified number of clusters formed: 20
+i membership[i] clusterSize: 0   7   1
+i membership[i] clusterSize: 1   6   1
+i membership[i] clusterSize: 2   0   1
+i membership[i] clusterSize: 3   7   2
+i membership[i] clusterSize: 4   1   1
+i membership[i] clusterSize: 5   6   2
+i membership[i] clusterSize: 6   2   1
+i membership[i] clusterSize: 7   3   1
+i membership[i] clusterSize: 8   4   1
+i membership[i] clusterSize: 9   5   1
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 1
+Cluster id: 2 ClusterSize: 1
+Cluster id: 3 ClusterSize: 1
+Cluster id: 4 ClusterSize: 1
+Cluster id: 5 ClusterSize: 1
+Cluster id: 6 ClusterSize: 2
+Cluster id: 7 ClusterSize: 2
+Cluster id: 8 ClusterSize: 0
+Identified number of clusters formed: 8

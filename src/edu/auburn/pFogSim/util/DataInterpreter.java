@@ -31,6 +31,12 @@ public class DataInterpreter {
 			"Chicago_Libraries.csv", 
 			"Chicago_Connect.csv", 
 			"Chicago_Schools.csv"};
+	
+	// Cost of routers in cents. Change these values for different routers. Numerator is monthly cost in dollars, denominator is link capacity for 30 days
+	private static double tenGbRouterCost = 151.67/207360000 * 100; // $/Mb numbers taken from cisco ASR 901 10G router at $151.67 per month
+	private static double oneGbRouterCost = 88.23/2073600000 * 100; // $/Mb numbers taken from cisco ASR 901 1G router at $88.23 per month
+	private static double hundredGbRouterCost = 646.51/207360000 * 100; // $/Mb numbers taken from cisco ASR 1013 100G router at $646.51 per month
+	
 	private static String[][] nodeSpecs = new String[MAX_LEVELS][20];// the specs for all layers of the fog devices
 	private static ArrayList<Double[]> nodeList = new ArrayList<Double[]>();
 	private static ArrayList<Double[]> tempList = new ArrayList<Double[]>();
@@ -84,9 +90,13 @@ public class DataInterpreter {
 	public static void readFile() throws IOException {
 		FileReader dataFR = null;
 		BufferedReader dataBR = null;
-		PrintWriter node = new PrintWriter("node_test.xml", "UTF-8");
-	    PrintWriter links = new PrintWriter("links_test.xml", "UTF-8");
 		
+		// ziyan
+		
+		//PrintWriter node = new PrintWriter("node_test.xml", "UTF-8");
+	    //PrintWriter links = new PrintWriter("links_test.xml", "UTF-8");
+		PrintWriter node = new PrintWriter("scripts/sample_application/config/node_test.xml", "UTF-8");
+	    PrintWriter links = new PrintWriter("scripts/sample_application/config/links_test.xml", "UTF-8");
 	    node.println("<?xml version=\"1.0\"?>");
 	    links.println("<?xml version=\"1.0\"?>");
 	    node.println("<edge_devices>");
@@ -411,9 +421,9 @@ public class DataInterpreter {
 	 *  19 - max power consumption of fog node (watt)<br>
 	 */
 	public static void initialize() {
-		double tenGbRouterCost = 151.67/2692915200.0 * 100; // $/Mb numbers taken from cisco ASR 901 10G router at $151.67 per month
-		double oneGbRouterCost = 88.23/269291520.0 * 100; // $/Mb numbers taken from cisco ASR 901 1G router at $88.23 per month
-		double hundredGbRouterCost = 646.51/26929152000.0 * 100; // $/Mb numbers taken from cisco ASR 1013 100G router at $646.51 per month
+		//double tenGbRouterCost = 151.67/207360000 * 100; // $/Mb numbers taken from cisco ASR 901 10G router at $151.67 per month
+		//double oneGbRouterCost = 88.23/2073600000 * 100; // $/Mb numbers taken from cisco ASR 901 1G router at $88.23 per month
+		//double hundredGbRouterCost = 646.51/207360000 * 100; // $/Mb numbers taken from cisco ASR 1013 100G router at $646.51 per month
 		// Shaik modified - Multiplied above three costs for routers' data transfer by 1000 to reflect the service provider costs & profit, in addition to router monthly lease fee. 
 		
 		nodeSpecs[MAX_LEVELS - 1][0] = "Cloud";
@@ -427,11 +437,11 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 1][8] = Boolean.toString(SimSettings.getInstance().isMOVING_CLOUD());
 		nodeSpecs[MAX_LEVELS - 1][9] = "28672"; // Shaik modified to 1/100th - prev = 2867200
 		//nodeSpecs[MAX_LEVELS - 1][9] = "500";
-		nodeSpecs[MAX_LEVELS - 1][10] = "13056000"; // Shaik modified to 1/100th (52224000) - prev = 4874240000 // same m/c as that as WARD
+		nodeSpecs[MAX_LEVELS - 1][10] = "78336000"; // Shaik modified to 1/100th (52224000) - prev = 4874240000 // same m/c as that as WARD - 60%
 		nodeSpecs[MAX_LEVELS - 1][11] = "164926744166400";
 		//nodeSpecs[MAX_LEVELS - 1][11] = "1500";
 		nodeSpecs[MAX_LEVELS - 1][12] = "1046898278400";
-		nodeSpecs[MAX_LEVELS - 1][13] = "104857600"; // Shaik modified to 1/100th - prev = 104857600 // Shaik fixed back to 100% value
+		nodeSpecs[MAX_LEVELS - 1][13] = "81920"; // Shaik modified to 1/100th - prev = 104857600 // Shaik fixed back to 100% value
 		nodeSpecs[MAX_LEVELS - 1][14] = "11000"; // Cameron and Matthew modified to add idle power (watt) 
 		nodeSpecs[MAX_LEVELS - 1][15] = "12.6"; // Cameron and Matthew modified to add energy for downloads (nJ/bit)
 		nodeSpecs[MAX_LEVELS - 1][16] = "12.6"; //	Cameron and Matthew modified to add energy for uploads (nJ/bit)
@@ -450,11 +460,11 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 2][8] = Boolean.toString(SimSettings.getInstance().isMOVING_CITY_HALL());
 		nodeSpecs[MAX_LEVELS - 2][9] = "286"; // Shaik modified to 1/100th - prev = 28672
 		//nodeSpecs[MAX_LEVELS - 2][9] = "500";
-		nodeSpecs[MAX_LEVELS - 2][10] = "1305600"; // Shaik modified to 1/100th (522240) - prev = 48742400 // same m/c as that as WARD
+		nodeSpecs[MAX_LEVELS - 2][10] = "29245440"; // Shaik modified to 1/100th (522240) - prev = 48742400 // same m/c as that as WARD - 60%
 		nodeSpecs[MAX_LEVELS - 2][11] = "1649267441664";
 		//nodeSpecs[MAX_LEVELS - 2][11] = "1500";
 		nodeSpecs[MAX_LEVELS - 2][12] = "10468982784";
-		nodeSpecs[MAX_LEVELS - 2][13] = "104857600"; // Shaik modified to 1/100th - prev = 104857600 // Shaik fixed back to 100% value
+		nodeSpecs[MAX_LEVELS - 2][13] = "81920"; // Shaik modified to 1/100th - prev = 104857600 // Shaik fixed back to 100% value
 		nodeSpecs[MAX_LEVELS - 2][14] = "11000"; // Cameron and Matthew modified to add idle power (watt) 
 		nodeSpecs[MAX_LEVELS - 2][15] = "12.6"; // Cameron and Matthew modified to add energy for downloads (nJ/bit)
 		nodeSpecs[MAX_LEVELS - 2][16] = "12.6"; // Cameron and Matthew modified to add energy for uploads (nJ/bit)
@@ -474,11 +484,11 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 3][8] = Boolean.toString(SimSettings.getInstance().isMOVING_UNIVERSITY());
 		nodeSpecs[MAX_LEVELS - 3][9] = "71"; // Shaik modified to 1/100th - prev = 7168
 		//nodeSpecs[MAX_LEVELS - 3][9] = "500";
-		nodeSpecs[MAX_LEVELS - 3][10] = "816000"; // Shaik modified to 1/100th (130560) - prev = 12185600 // same m/c as that as WARD
+		nodeSpecs[MAX_LEVELS - 3][10] = "8529920"; // Shaik modified to 1/100th (130560) - prev = 12185600 // same m/c as that as WARD - 70%
 		nodeSpecs[MAX_LEVELS - 3][11] = "412316860416";
 		//nodeSpecs[MAX_LEVELS - 3][11] = "1500";
 		nodeSpecs[MAX_LEVELS - 3][12] = "2617245696";
-		nodeSpecs[MAX_LEVELS - 3][13] = "10485760"; // Shaik modified to 1/100th - prev = 10485760 // Shaik fixed back to 100% value
+		nodeSpecs[MAX_LEVELS - 3][13] = "81920"; // Shaik modified to 1/100th - prev = 10485760 // Shaik fixed back to 100% value
 		nodeSpecs[MAX_LEVELS - 3][14] = "4000"; // Cameron and Matthew modified to add idle power (watt) 
 		nodeSpecs[MAX_LEVELS - 3][15] = "37"; // Cameron and Matthew modified to add energy for downloads (nJ/bit)
 		nodeSpecs[MAX_LEVELS - 3][16] = "37"; // Cameron and Matthew modified to add energy for uploads (nJ/bit)
@@ -497,11 +507,11 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 4][7] = "true";
 		nodeSpecs[MAX_LEVELS - 4][8] = Boolean.toString(SimSettings.getInstance().isMOVING_WARD());
 		nodeSpecs[MAX_LEVELS - 4][9] = "7"; // Shaik modified to 1/100th - prev = 768
-		nodeSpecs[MAX_LEVELS - 4][10] = "544000"; // Shaik modified to 1/100th - prev = 1305600
+		nodeSpecs[MAX_LEVELS - 4][10] = "913920"; // Shaik modified to 1/100th - prev = 1305600 - 70%
 		nodeSpecs[MAX_LEVELS - 4][11] = "100663296";
 		//nodeSpecs[MAX_LEVELS - 4][11] = "1500";
 		nodeSpecs[MAX_LEVELS - 4][12] = "1677721600";
-		nodeSpecs[MAX_LEVELS - 4][13] = "10485760"; // Shaik modified to 1/100th - prev = 10485760 // Shaik fixed back to 100% value
+		nodeSpecs[MAX_LEVELS - 4][13] = "81920"; // Shaik modified to 1/100th - prev = 10485760 // Shaik fixed back to 100% value
 		nodeSpecs[MAX_LEVELS - 4][14] = "4000"; // Cameron and Matthew modified to add idle power (watt) 
 		nodeSpecs[MAX_LEVELS - 4][15] = "37"; // Cameron and Matthew modified to add energy for downloads (nJ/bit)
 		nodeSpecs[MAX_LEVELS - 4][16] = "37"; // Cameron and Matthew modified to add energy for uploads (nJ/bit)
@@ -520,11 +530,11 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 5][7] = "true";
 		nodeSpecs[MAX_LEVELS - 5][8] = Boolean.toString(SimSettings.getInstance().isMOVING_LIBRARY());
 		nodeSpecs[MAX_LEVELS - 5][9] = "2"; // Shaik modified to 1/100th - prev = 192 
-		nodeSpecs[MAX_LEVELS - 5][10] = "326400"; // Shaik modified to 1/100th - prev = 326400 
+		nodeSpecs[MAX_LEVELS - 5][10] = "244800"; // Shaik modified to 1/100th - prev = 326400 - 75%
 		nodeSpecs[MAX_LEVELS - 5][11] = "25165824";
 		//nodeSpecs[MAX_LEVELS - 5][11] = "1500";
 		nodeSpecs[MAX_LEVELS - 5][12] = "167772160";
-		nodeSpecs[MAX_LEVELS - 5][13] = "10485760"; // Shaik modified to 1/100th - prev = 10485760 // Shaik fixed back to 100% value
+		nodeSpecs[MAX_LEVELS - 5][13] = "81920"; // Shaik modified to 1/100th - prev = 10485760 // Shaik fixed back to 100% value
 		nodeSpecs[MAX_LEVELS - 5][14] = "4000"; // Cameron and Matthew modified to add idle power (watt) 
 		nodeSpecs[MAX_LEVELS - 5][15] = "37"; // Cameron and Matthew modified to add energy for downloads (nJ/bit)
 		nodeSpecs[MAX_LEVELS - 5][16] = "37"; // Cameron and Matthew modified to add energy for uploads (nJ/bit)
@@ -543,10 +553,10 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 6][7] = "true";
 		nodeSpecs[MAX_LEVELS - 6][8] = Boolean.toString(SimSettings.getInstance().isMOVING_COMMUNITY_CENTER());
 		nodeSpecs[MAX_LEVELS - 6][9] = "1"; // Shaik modified to 1/100th - prev = 128
-		nodeSpecs[MAX_LEVELS - 6][10] = "217600"; // Shaik modified to 1/100th - prev = 217600
+		nodeSpecs[MAX_LEVELS - 6][10] = "163200"; // Shaik modified to 1/100th - prev = 217600 - 75% 
 		nodeSpecs[MAX_LEVELS - 6][11] = "16384";
 		nodeSpecs[MAX_LEVELS - 6][12] = "167772160";
-		nodeSpecs[MAX_LEVELS - 6][13] = "1048576"; // Shaik modified to 1/100th - prev = 1048576 // Shaik fixed back to 100% value
+		nodeSpecs[MAX_LEVELS - 6][13] = "819200"; // Shaik modified to 1/100th - prev = 1048576 // Shaik fixed back to 100% value
 		nodeSpecs[MAX_LEVELS - 6][14] = "1589"; // Cameron and Matthew modified to add idle power (watt) 
 		nodeSpecs[MAX_LEVELS - 6][15] = "31.7"; // Cameron and Matthew modified to add energy for downloads (nJ/bit)
 		nodeSpecs[MAX_LEVELS - 6][16] = "31.7"; // Cameron and Matthew modified to add energy for uploads (nJ/bit)
@@ -565,10 +575,10 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 7][7] = "true";
 		nodeSpecs[MAX_LEVELS - 7][8] = Boolean.toString(SimSettings.getInstance().isMOVING_SCHOOL());
 		nodeSpecs[MAX_LEVELS - 7][9] = "1"; // Shaik modified to 1/100th - prev = 32
-		nodeSpecs[MAX_LEVELS - 7][10] = "54400"; // Shaik modified to 1/100th - prev = 54400 
+		nodeSpecs[MAX_LEVELS - 7][10] = "43520"; // Shaik modified to 1/100th - prev = 54400 - 80%
 		nodeSpecs[MAX_LEVELS - 7][11] = "4096";
 		nodeSpecs[MAX_LEVELS - 7][12] = "41943040";
-		nodeSpecs[MAX_LEVELS - 7][13] = "1048576"; // Shaik modified to 1/100th - prev = 1048576 // Shaik fixed back to 100% value
+		nodeSpecs[MAX_LEVELS - 7][13] = "819200"; // Shaik modified to 1/100th - prev = 1048576 // Shaik fixed back to 100% value // Bobby changed to new recommended setting
 		nodeSpecs[MAX_LEVELS - 7][14] = "1589"; // Cameron and Matthew modified to add idle power (watt) 
 		nodeSpecs[MAX_LEVELS - 7][15] = "31.7"; // Cameron and Matthew modified to add energy for downloads (nJ/bit)
 		nodeSpecs[MAX_LEVELS - 7][16] = "31.7"; // Cameron and Matthew modified to add energy for uploads (nJ/bit)

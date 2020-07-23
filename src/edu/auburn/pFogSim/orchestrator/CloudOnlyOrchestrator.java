@@ -146,7 +146,8 @@ public class CloudOnlyOrchestrator extends EdgeOrchestrator {
 			
 			if (tpath == null || tpath.size() == 0) {
 				EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(mobile.getLocation().getXPos(), mobile.getLocation().getYPos(), mobile.getLocation().getAltitude());
-				
+				// Commented out by Bobby to allow for time-cost based sorting (rather than $ cost)
+				/**
 				//double bwCost = mobile.getBWRequirement() * k.getCostPerBW(); 
 				double bwCost = (mobile.getBWRequirement()*8 / (double)1024) * k.getCostPerBW(); //mobile.getBWRequirement() in KB * 8b/B ==>Kb / 1024 = Mb; k.getCostPerBW() in $/Mb -- Shaik modified
 
@@ -159,11 +160,15 @@ public class CloudOnlyOrchestrator extends EdgeOrchestrator {
 				cost = cost + exCost;
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Destination:\t"+ des.getWlanId() + "\tExecuteCost:\t" + exCost + "\tTotalCost:\t" + cost);
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Service CPU Time:\t" + ((double)mobile.getTaskLengthRequirement() / k.getTotalMips()) + "\tMipsCostPerSec:\t" + k.getCostPerSec());
+				**/
+				cost = k.getLatency(mobile);
 			}
 			else {
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("**********Path From " + src.getWlanId() + " To " + des.getWlanId() + "**********");
-				for (NodeSim node: tpath) {
-					EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(node.getLocation().getXPos(), node.getLocation().getYPos(), node.getLocation().getAltitude());
+				/**for (NodeSim node: tpath) {**/
+					//Commented out by Bobby to allow for time-cost based sorting (rather than $ cost)
+					/**EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(node.getLocation().getXPos(), node.getLocation().getYPos(), node.getLocation().getAltitude());
+					
 					//double bwCost = mobile.getBWRequirement() * k.getCostPerBW();
 					double bwCost = (mobile.getBWRequirement()*8 / (double)1024) * k.getCostPerBW(); //mobile.getBWRequirement() in KB * 8b/B ==>Kb / 1024 = Mb; k.getCostPerBW() in $/Mb -- Shaik modified
 
@@ -178,6 +183,9 @@ public class CloudOnlyOrchestrator extends EdgeOrchestrator {
 				cost = cost + exCost;
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Destination:\t"+ des.getWlanId() + "\tExecuteCost:\t" + exCost + "\tTotalCost:\t" + cost);
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Service CPU Time:\t" + ((double)mobile.getTaskLengthRequirement() / desHost.getTotalMips()) + "\tMipsCostPerSec:\t" + desHost.getCostPerSec());
+				**/
+				EdgeHost desHost = SimManager.getInstance().getLocalServerManager().findHostByLoc(des.getLocation().getXPos(), des.getLocation().getYPos(), des.getLocation().getAltitude());
+				cost = desHost.getLatency(mobile);
 			}
 			//*/						
 		}

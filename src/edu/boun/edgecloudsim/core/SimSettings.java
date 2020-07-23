@@ -213,7 +213,6 @@ public class SimSettings {
 		boolean result = false;
 		InputStream input = null;
 		try {
-			
 			// For running on Hopper - Ziyan Tian
 			// using FileInputStream instead of File
 			//input = new FileInputStream(propertiesFile);
@@ -799,18 +798,18 @@ public class SimSettings {
 	public void parseLinksXML(String filePath) 
 	{
 		try {
-			// For running on Hopper - Ziyan Tian
-			//File linksFile = new File(filePath);
-			String streamPath = '/' + filePath;
-			InputStream linksStream = SimSettings.class.getResourceAsStream(streamPath); 
+		// For running on Hopper - Ziyan Tian
+		//File linksFile = new File(filePath);
+		String streamPath = '/' + filePath;
+		InputStream linksStream = SimSettings.class.getResourceAsStream(streamPath); 
 
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			//linksDoc = dBuilder.parse(linksFile);
-			linksDoc = dBuilder.parse(linksStream);
-			linksDoc.getDocumentElement().normalize();
-			
-			NodeList linksList = linksDoc.getElementsByTagName("link");
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+		//linksDoc = dBuilder.parse(linksFile);
+		linksDoc = dBuilder.parse(linksStream);
+		linksDoc.getDocumentElement().normalize();
+		
+		NodeList linksList = linksDoc.getElementsByTagName("link");
 		
 		}
 		catch (Exception e) {

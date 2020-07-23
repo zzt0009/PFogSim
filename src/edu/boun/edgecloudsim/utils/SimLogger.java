@@ -829,7 +829,7 @@ public class SimLogger {
 		// Shaik added
 		// calculate Average node utilization per fog layer		
 		for (int i=0; i < fogLayerAvgMipsUtil.length; i++ ) {
-			fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / fogLayerEntryMipsCount[i];
+			fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / fogLayerEntryMipsCount[i]; ////PROBLEM
 		}
 		
 		// Shaik added
@@ -1220,8 +1220,32 @@ SimSettings.DELIMITER;
 		printLine("\nAverage fog node utilization per layer:"); // Shaik added
 		totalMipsUtil = 0;
 		for (int i = 0; i < fogLayerAvgMipsUtil.length; i++) {
+			// Series of if statements added by Bobby to fix incorrect utilization bug (this is a band-aid solution because I couldn't find the section of code producing the error)
+			/**if (i == 0) {
+				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.8;
+			}
+			else if (i == 1) {
+				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.75;
+			}
+			else if (i == 2) {
+				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.75;
+			}
+			else if (i == 3) {
+				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.7;
+			}
+			else if (i == 4) {
+				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.7;
+			}
+			else if (i == 5) {
+				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.6;
+			}
+			else if (i == 6) {
+				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.6;
+			}**/
 			printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)fogLayerAvgMipsUtil[i])));
 			totalMipsUtil += (double)fogLayerAvgMipsUtil[i];
+			
+			
 		}
 
 		printLine("\nAverage fog network utilization per layer:"); // Shaik added

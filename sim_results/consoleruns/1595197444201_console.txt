@@ -1,0 +1,2679 @@
+Simulation setting file, output folder and iteration number are not provided! Using default ones...
+Simulation started at 19/07/2020 17:24:04
+----------------------------------------------------------------------
+Scenario started at 19/07/2020 17:24:04
+Scenario: HAFA_ORCHESTRATOR - Policy: NEXT_FIT - #iteration: 0
+Duration: 0.5 hour(s) - Poisson: 5.0 - #devices: 50
+CloudSim.init reached
+ScenarioFactory reached
+Creating tasks...Done, 
+SimManager reached
+SimManager is starting...
+	 Creating clusters of fog nodes...i membership[i] clusterSize: 0   259   1
+i membership[i] clusterSize: 1   153   1
+i membership[i] clusterSize: 2   131   1
+i membership[i] clusterSize: 3   240   1
+i membership[i] clusterSize: 4   100   1
+i membership[i] clusterSize: 5   248   1
+i membership[i] clusterSize: 6   127   1
+i membership[i] clusterSize: 7   269   1
+i membership[i] clusterSize: 8   172   1
+i membership[i] clusterSize: 9   239   1
+i membership[i] clusterSize: 10   304   1
+i membership[i] clusterSize: 11   143   1
+i membership[i] clusterSize: 12   298   1
+i membership[i] clusterSize: 13   303   1
+i membership[i] clusterSize: 14   165   1
+i membership[i] clusterSize: 15   136   1
+i membership[i] clusterSize: 16   142   1
+i membership[i] clusterSize: 17   297   1
+i membership[i] clusterSize: 18   178   1
+i membership[i] clusterSize: 19   293   1
+i membership[i] clusterSize: 20   193   1
+i membership[i] clusterSize: 21   308   1
+i membership[i] clusterSize: 22   109   1
+i membership[i] clusterSize: 23   0   1
+i membership[i] clusterSize: 24   1   1
+i membership[i] clusterSize: 25   2   1
+i membership[i] clusterSize: 26   287   1
+i membership[i] clusterSize: 27   143   2
+i membership[i] clusterSize: 28   176   1
+i membership[i] clusterSize: 29   158   1
+i membership[i] clusterSize: 30   286   1
+i membership[i] clusterSize: 31   224   1
+i membership[i] clusterSize: 32   3   1
+i membership[i] clusterSize: 33   258   1
+i membership[i] clusterSize: 34   286   2
+i membership[i] clusterSize: 35   251   1
+i membership[i] clusterSize: 36   305   1
+i membership[i] clusterSize: 37   291   1
+i membership[i] clusterSize: 38   252   1
+i membership[i] clusterSize: 39   261   1
+i membership[i] clusterSize: 40   242   1
+i membership[i] clusterSize: 41   290   1
+i membership[i] clusterSize: 42   108   1
+i membership[i] clusterSize: 43   129   1
+i membership[i] clusterSize: 44   164   1
+i membership[i] clusterSize: 45   160   1
+i membership[i] clusterSize: 46   132   1
+i membership[i] clusterSize: 47   168   1
+i membership[i] clusterSize: 48   279   1
+i membership[i] clusterSize: 49   200   1
+i membership[i] clusterSize: 50   117   1
+i membership[i] clusterSize: 51   159   1
+i membership[i] clusterSize: 52   179   1
+i membership[i] clusterSize: 53   269   2
+i membership[i] clusterSize: 54   239   2
+i membership[i] clusterSize: 55   261   2
+i membership[i] clusterSize: 56   4   1
+i membership[i] clusterSize: 57   111   1
+i membership[i] clusterSize: 58   153   2
+i membership[i] clusterSize: 59   190   1
+i membership[i] clusterSize: 60   119   1
+i membership[i] clusterSize: 61   116   1
+i membership[i] clusterSize: 62   270   1
+i membership[i] clusterSize: 63   119   2
+i membership[i] clusterSize: 64   101   1
+i membership[i] clusterSize: 65   101   2
+i membership[i] clusterSize: 66   272   1
+i membership[i] clusterSize: 67   194   1
+i membership[i] clusterSize: 68   273   1
+i membership[i] clusterSize: 69   247   1
+i membership[i] clusterSize: 70   101   3
+i membership[i] clusterSize: 71   114   1
+i membership[i] clusterSize: 72   188   1
+i membership[i] clusterSize: 73   250   1
+i membership[i] clusterSize: 74   257   1
+i membership[i] clusterSize: 75   255   1
+i membership[i] clusterSize: 76   288   1
+i membership[i] clusterSize: 77   261   3
+i membership[i] clusterSize: 78   207   1
+i membership[i] clusterSize: 79   243   1
+i membership[i] clusterSize: 80   247   2
+i membership[i] clusterSize: 81   257   2
+i membership[i] clusterSize: 82   305   2
+i membership[i] clusterSize: 83   5   1
+i membership[i] clusterSize: 84   240   2
+i membership[i] clusterSize: 85   217   1
+i membership[i] clusterSize: 86   6   1
+i membership[i] clusterSize: 87   7   1
+i membership[i] clusterSize: 88   152   1
+i membership[i] clusterSize: 89   237   1
+i membership[i] clusterSize: 90   215   1
+i membership[i] clusterSize: 91   166   1
+i membership[i] clusterSize: 92   193   2
+i membership[i] clusterSize: 93   214   1
+i membership[i] clusterSize: 94   117   2
+i membership[i] clusterSize: 95   227   1
+i membership[i] clusterSize: 96   113   1
+i membership[i] clusterSize: 97   8   1
+i membership[i] clusterSize: 98   157   1
+i membership[i] clusterSize: 99   9   1
+i membership[i] clusterSize: 100   179   2
+i membership[i] clusterSize: 101   100   2
+i membership[i] clusterSize: 102   302   1
+i membership[i] clusterSize: 103   138   1
+i membership[i] clusterSize: 104   218   1
+i membership[i] clusterSize: 105   276   1
+i membership[i] clusterSize: 106   10   1
+i membership[i] clusterSize: 107   248   2
+i membership[i] clusterSize: 108   243   2
+i membership[i] clusterSize: 109   11   1
+i membership[i] clusterSize: 110   192   1
+i membership[i] clusterSize: 111   12   1
+i membership[i] clusterSize: 112   116   2
+i membership[i] clusterSize: 113   13   1
+i membership[i] clusterSize: 114   241   1
+i membership[i] clusterSize: 115   289   1
+i membership[i] clusterSize: 116   220   1
+i membership[i] clusterSize: 117   300   1
+i membership[i] clusterSize: 118   204   1
+i membership[i] clusterSize: 119   172   2
+i membership[i] clusterSize: 120   105   1
+i membership[i] clusterSize: 121   130   1
+i membership[i] clusterSize: 122   262   1
+i membership[i] clusterSize: 123   254   1
+i membership[i] clusterSize: 124   264   1
+i membership[i] clusterSize: 125   220   2
+i membership[i] clusterSize: 126   247   3
+i membership[i] clusterSize: 127   236   1
+i membership[i] clusterSize: 128   267   1
+i membership[i] clusterSize: 129   222   1
+i membership[i] clusterSize: 130   297   2
+i membership[i] clusterSize: 131   14   1
+i membership[i] clusterSize: 132   309   1
+i membership[i] clusterSize: 133   305   3
+i membership[i] clusterSize: 134   220   3
+i membership[i] clusterSize: 135   118   1
+i membership[i] clusterSize: 136   201   1
+i membership[i] clusterSize: 137   243   3
+i membership[i] clusterSize: 138   130   2
+i membership[i] clusterSize: 139   15   1
+i membership[i] clusterSize: 140   267   2
+i membership[i] clusterSize: 141   268   1
+i membership[i] clusterSize: 142   132   2
+i membership[i] clusterSize: 143   245   1
+i membership[i] clusterSize: 144   188   2
+i membership[i] clusterSize: 145   243   4
+i membership[i] clusterSize: 146   256   1
+i membership[i] clusterSize: 147   104   1
+i membership[i] clusterSize: 148   189   1
+i membership[i] clusterSize: 149   249   1
+i membership[i] clusterSize: 150   240   3
+i membership[i] clusterSize: 151   239   3
+i membership[i] clusterSize: 152   16   1
+i membership[i] clusterSize: 153   17   1
+i membership[i] clusterSize: 154   18   1
+i membership[i] clusterSize: 155   151   1
+i membership[i] clusterSize: 156   132   3
+i membership[i] clusterSize: 157   299   1
+i membership[i] clusterSize: 158   102   1
+i membership[i] clusterSize: 159   233   1
+i membership[i] clusterSize: 160   148   1
+i membership[i] clusterSize: 161   308   2
+i membership[i] clusterSize: 162   242   2
+i membership[i] clusterSize: 163   115   1
+i membership[i] clusterSize: 164   247   4
+i membership[i] clusterSize: 165   249   2
+i membership[i] clusterSize: 166   235   1
+i membership[i] clusterSize: 167   202   1
+i membership[i] clusterSize: 168   186   1
+i membership[i] clusterSize: 169   168   2
+i membership[i] clusterSize: 170   239   4
+i membership[i] clusterSize: 171   19   1
+i membership[i] clusterSize: 172   20   1
+i membership[i] clusterSize: 173   297   3
+i membership[i] clusterSize: 174   120   1
+i membership[i] clusterSize: 175   144   1
+i membership[i] clusterSize: 176   249   3
+i membership[i] clusterSize: 177   232   1
+i membership[i] clusterSize: 178   209   1
+i membership[i] clusterSize: 179   307   1
+i membership[i] clusterSize: 180   284   1
+i membership[i] clusterSize: 181   171   1
+i membership[i] clusterSize: 182   213   1
+i membership[i] clusterSize: 183   145   1
+i membership[i] clusterSize: 184   215   2
+i membership[i] clusterSize: 185   21   1
+i membership[i] clusterSize: 186   224   2
+i membership[i] clusterSize: 187   278   1
+i membership[i] clusterSize: 188   182   1
+i membership[i] clusterSize: 189   214   2
+i membership[i] clusterSize: 190   156   1
+i membership[i] clusterSize: 191   192   2
+i membership[i] clusterSize: 192   124   1
+i membership[i] clusterSize: 193   185   1
+i membership[i] clusterSize: 194   191   1
+i membership[i] clusterSize: 195   22   1
+i membership[i] clusterSize: 196   120   2
+i membership[i] clusterSize: 197   290   2
+i membership[i] clusterSize: 198   23   1
+i membership[i] clusterSize: 199   294   1
+i membership[i] clusterSize: 200   24   1
+i membership[i] clusterSize: 201   236   2
+i membership[i] clusterSize: 202   130   3
+i membership[i] clusterSize: 203   275   1
+i membership[i] clusterSize: 204   283   1
+i membership[i] clusterSize: 205   309   2
+i membership[i] clusterSize: 206   179   3
+i membership[i] clusterSize: 207   126   1
+i membership[i] clusterSize: 208   271   1
+i membership[i] clusterSize: 209   25   1
+i membership[i] clusterSize: 210   157   2
+i membership[i] clusterSize: 211   158   2
+i membership[i] clusterSize: 212   153   3
+i membership[i] clusterSize: 213   165   2
+i membership[i] clusterSize: 214   112   1
+i membership[i] clusterSize: 215   266   1
+i membership[i] clusterSize: 216   136   2
+i membership[i] clusterSize: 217   285   1
+i membership[i] clusterSize: 218   303   2
+i membership[i] clusterSize: 219   219   1
+i membership[i] clusterSize: 220   146   1
+i membership[i] clusterSize: 221   231   1
+i membership[i] clusterSize: 222   124   2
+i membership[i] clusterSize: 223   26   1
+i membership[i] clusterSize: 224   175   1
+i membership[i] clusterSize: 225   131   2
+i membership[i] clusterSize: 226   27   1
+i membership[i] clusterSize: 227   28   1
+i membership[i] clusterSize: 228   297   4
+i membership[i] clusterSize: 229   205   1
+i membership[i] clusterSize: 230   263   1
+i membership[i] clusterSize: 231   308   3
+i membership[i] clusterSize: 232   267   3
+i membership[i] clusterSize: 233   170   1
+i membership[i] clusterSize: 234   169   1
+i membership[i] clusterSize: 235   248   3
+i membership[i] clusterSize: 236   229   1
+i membership[i] clusterSize: 237   29   1
+i membership[i] clusterSize: 238   30   1
+i membership[i] clusterSize: 239   178   2
+i membership[i] clusterSize: 240   253   1
+i membership[i] clusterSize: 241   31   1
+i membership[i] clusterSize: 242   209   2
+i membership[i] clusterSize: 243   276   2
+i membership[i] clusterSize: 244   202   2
+i membership[i] clusterSize: 245   238   1
+i membership[i] clusterSize: 246   295   1
+i membership[i] clusterSize: 247   264   2
+i membership[i] clusterSize: 248   224   3
+i membership[i] clusterSize: 249   273   2
+i membership[i] clusterSize: 250   304   2
+i membership[i] clusterSize: 251   199   1
+i membership[i] clusterSize: 252   277   1
+i membership[i] clusterSize: 253   176   2
+i membership[i] clusterSize: 254   164   2
+i membership[i] clusterSize: 255   32   1
+i membership[i] clusterSize: 256   156   2
+i membership[i] clusterSize: 257   33   1
+i membership[i] clusterSize: 258   233   2
+i membership[i] clusterSize: 259   178   3
+i membership[i] clusterSize: 260   34   1
+i membership[i] clusterSize: 261   255   2
+i membership[i] clusterSize: 262   35   1
+i membership[i] clusterSize: 263   280   1
+i membership[i] clusterSize: 264   192   3
+i membership[i] clusterSize: 265   163   1
+i membership[i] clusterSize: 266   143   3
+i membership[i] clusterSize: 267   166   2
+i membership[i] clusterSize: 268   36   1
+i membership[i] clusterSize: 269   37   1
+i membership[i] clusterSize: 270   137   1
+i membership[i] clusterSize: 271   263   2
+i membership[i] clusterSize: 272   38   1
+i membership[i] clusterSize: 273   39   1
+i membership[i] clusterSize: 274   151   2
+i membership[i] clusterSize: 275   40   1
+i membership[i] clusterSize: 276   41   1
+i membership[i] clusterSize: 277   163   2
+i membership[i] clusterSize: 278   272   2
+i membership[i] clusterSize: 279   221   1
+i membership[i] clusterSize: 280   291   2
+i membership[i] clusterSize: 281   42   1
+i membership[i] clusterSize: 282   43   1
+i membership[i] clusterSize: 283   227   2
+i membership[i] clusterSize: 284   44   1
+i membership[i] clusterSize: 285   121   1
+i membership[i] clusterSize: 286   150   1
+i membership[i] clusterSize: 287   278   2
+i membership[i] clusterSize: 288   225   1
+i membership[i] clusterSize: 289   281   1
+i membership[i] clusterSize: 290   45   1
+i membership[i] clusterSize: 291   171   2
+i membership[i] clusterSize: 292   46   1
+i membership[i] clusterSize: 293   47   1
+i membership[i] clusterSize: 294   213   2
+i membership[i] clusterSize: 295   48   1
+i membership[i] clusterSize: 296   159   2
+i membership[i] clusterSize: 297   258   2
+i membership[i] clusterSize: 298   289   2
+i membership[i] clusterSize: 299   214   3
+i membership[i] clusterSize: 300   237   2
+i membership[i] clusterSize: 301   226   1
+i membership[i] clusterSize: 302   184   1
+i membership[i] clusterSize: 303   49   1
+i membership[i] clusterSize: 304   169   2
+i membership[i] clusterSize: 305   244   1
+i membership[i] clusterSize: 306   304   3
+i membership[i] clusterSize: 307   295   2
+i membership[i] clusterSize: 308   50   1
+i membership[i] clusterSize: 309   147   1
+i membership[i] clusterSize: 310   51   1
+i membership[i] clusterSize: 311   283   2
+i membership[i] clusterSize: 312   128   1
+i membership[i] clusterSize: 313   307   2
+i membership[i] clusterSize: 314   141   1
+i membership[i] clusterSize: 315   107   1
+i membership[i] clusterSize: 316   192   4
+i membership[i] clusterSize: 317   222   2
+i membership[i] clusterSize: 318   109   2
+i membership[i] clusterSize: 319   187   1
+i membership[i] clusterSize: 320   104   2
+i membership[i] clusterSize: 321   308   4
+i membership[i] clusterSize: 322   213   3
+i membership[i] clusterSize: 323   252   2
+i membership[i] clusterSize: 324   216   1
+i membership[i] clusterSize: 325   230   1
+i membership[i] clusterSize: 326   197   1
+i membership[i] clusterSize: 327   52   1
+i membership[i] clusterSize: 328   228   1
+i membership[i] clusterSize: 329   281   2
+i membership[i] clusterSize: 330   214   4
+i membership[i] clusterSize: 331   53   1
+i membership[i] clusterSize: 332   184   2
+i membership[i] clusterSize: 333   54   1
+i membership[i] clusterSize: 334   241   2
+i membership[i] clusterSize: 335   171   3
+i membership[i] clusterSize: 336   175   2
+i membership[i] clusterSize: 337   176   3
+i membership[i] clusterSize: 338   270   2
+i membership[i] clusterSize: 339   55   1
+i membership[i] clusterSize: 340   228   2
+i membership[i] clusterSize: 341   135   1
+i membership[i] clusterSize: 342   154   1
+i membership[i] clusterSize: 343   150   2
+i membership[i] clusterSize: 344   246   1
+i membership[i] clusterSize: 345   56   1
+i membership[i] clusterSize: 346   288   2
+i membership[i] clusterSize: 347   279   2
+i membership[i] clusterSize: 348   189   2
+i membership[i] clusterSize: 349   192   5
+i membership[i] clusterSize: 350   305   4
+i membership[i] clusterSize: 351   223   1
+i membership[i] clusterSize: 352   115   2
+i membership[i] clusterSize: 353   260   1
+i membership[i] clusterSize: 354   182   2
+i membership[i] clusterSize: 355   177   1
+i membership[i] clusterSize: 356   271   2
+i membership[i] clusterSize: 357   57   1
+i membership[i] clusterSize: 358   307   3
+i membership[i] clusterSize: 359   265   1
+i membership[i] clusterSize: 360   306   1
+i membership[i] clusterSize: 361   174   1
+i membership[i] clusterSize: 362   58   1
+i membership[i] clusterSize: 363   195   1
+i membership[i] clusterSize: 364   59   1
+i membership[i] clusterSize: 365   303   3
+i membership[i] clusterSize: 366   246   2
+i membership[i] clusterSize: 367   144   2
+i membership[i] clusterSize: 368   159   3
+i membership[i] clusterSize: 369   228   3
+i membership[i] clusterSize: 370   195   2
+i membership[i] clusterSize: 371   142   2
+i membership[i] clusterSize: 372   203   1
+i membership[i] clusterSize: 373   296   1
+i membership[i] clusterSize: 374   110   1
+i membership[i] clusterSize: 375   138   2
+i membership[i] clusterSize: 376   238   2
+i membership[i] clusterSize: 377   219   2
+i membership[i] clusterSize: 378   60   1
+i membership[i] clusterSize: 379   291   3
+i membership[i] clusterSize: 380   149   1
+i membership[i] clusterSize: 381   296   2
+i membership[i] clusterSize: 382   211   1
+i membership[i] clusterSize: 383   61   1
+i membership[i] clusterSize: 384   212   1
+i membership[i] clusterSize: 385   275   2
+i membership[i] clusterSize: 386   296   3
+i membership[i] clusterSize: 387   122   1
+i membership[i] clusterSize: 388   62   1
+i membership[i] clusterSize: 389   309   3
+i membership[i] clusterSize: 390   162   1
+i membership[i] clusterSize: 391   307   4
+i membership[i] clusterSize: 392   295   3
+i membership[i] clusterSize: 393   235   2
+i membership[i] clusterSize: 394   155   1
+i membership[i] clusterSize: 395   290   3
+i membership[i] clusterSize: 396   63   1
+i membership[i] clusterSize: 397   200   2
+i membership[i] clusterSize: 398   64   1
+i membership[i] clusterSize: 399   227   3
+i membership[i] clusterSize: 400   300   2
+i membership[i] clusterSize: 401   65   1
+i membership[i] clusterSize: 402   123   1
+i membership[i] clusterSize: 403   146   2
+i membership[i] clusterSize: 404   204   2
+i membership[i] clusterSize: 405   66   1
+i membership[i] clusterSize: 406   209   3
+i membership[i] clusterSize: 407   286   3
+i membership[i] clusterSize: 408   293   2
+i membership[i] clusterSize: 409   266   2
+i membership[i] clusterSize: 410   212   2
+i membership[i] clusterSize: 411   222   3
+i membership[i] clusterSize: 412   181   1
+i membership[i] clusterSize: 413   250   2
+i membership[i] clusterSize: 414   125   1
+i membership[i] clusterSize: 415   239   5
+i membership[i] clusterSize: 416   291   4
+i membership[i] clusterSize: 417   268   2
+i membership[i] clusterSize: 418   271   3
+i membership[i] clusterSize: 419   129   2
+i membership[i] clusterSize: 420   174   2
+i membership[i] clusterSize: 421   173   1
+i membership[i] clusterSize: 422   141   2
+i membership[i] clusterSize: 423   234   1
+i membership[i] clusterSize: 424   268   3
+i membership[i] clusterSize: 425   256   2
+i membership[i] clusterSize: 426   211   2
+i membership[i] clusterSize: 427   208   1
+i membership[i] clusterSize: 428   198   1
+i membership[i] clusterSize: 429   272   3
+i membership[i] clusterSize: 430   248   4
+i membership[i] clusterSize: 431   233   3
+i membership[i] clusterSize: 432   280   2
+i membership[i] clusterSize: 433   174   3
+i membership[i] clusterSize: 434   67   1
+i membership[i] clusterSize: 435   68   1
+i membership[i] clusterSize: 436   69   1
+i membership[i] clusterSize: 437   282   1
+i membership[i] clusterSize: 438   199   2
+i membership[i] clusterSize: 439   158   3
+i membership[i] clusterSize: 440   216   2
+i membership[i] clusterSize: 441   265   2
+i membership[i] clusterSize: 442   299   2
+i membership[i] clusterSize: 443   204   3
+i membership[i] clusterSize: 444   148   2
+i membership[i] clusterSize: 445   123   2
+i membership[i] clusterSize: 446   215   3
+i membership[i] clusterSize: 447   233   4
+i membership[i] clusterSize: 448   206   1
+i membership[i] clusterSize: 449   108   2
+i membership[i] clusterSize: 450   70   1
+i membership[i] clusterSize: 451   206   2
+i membership[i] clusterSize: 452   135   2
+i membership[i] clusterSize: 453   245   2
+i membership[i] clusterSize: 454   284   2
+i membership[i] clusterSize: 455   226   2
+i membership[i] clusterSize: 456   206   3
+i membership[i] clusterSize: 457   290   4
+i membership[i] clusterSize: 458   214   5
+i membership[i] clusterSize: 459   292   1
+i membership[i] clusterSize: 460   120   3
+i membership[i] clusterSize: 461   285   2
+i membership[i] clusterSize: 462   114   2
+i membership[i] clusterSize: 463   71   1
+i membership[i] clusterSize: 464   72   1
+i membership[i] clusterSize: 465   73   1
+i membership[i] clusterSize: 466   149   2
+i membership[i] clusterSize: 467   262   2
+i membership[i] clusterSize: 468   232   2
+i membership[i] clusterSize: 469   218   2
+i membership[i] clusterSize: 470   140   1
+i membership[i] clusterSize: 471   147   2
+i membership[i] clusterSize: 472   188   3
+i membership[i] clusterSize: 473   145   2
+i membership[i] clusterSize: 474   282   2
+i membership[i] clusterSize: 475   262   3
+i membership[i] clusterSize: 476   264   3
+i membership[i] clusterSize: 477   273   3
+i membership[i] clusterSize: 478   306   2
+i membership[i] clusterSize: 479   164   3
+i membership[i] clusterSize: 480   256   3
+i membership[i] clusterSize: 481   202   3
+i membership[i] clusterSize: 482   74   1
+i membership[i] clusterSize: 483   208   2
+i membership[i] clusterSize: 484   75   1
+i membership[i] clusterSize: 485   279   3
+i membership[i] clusterSize: 486   265   3
+i membership[i] clusterSize: 487   191   2
+i membership[i] clusterSize: 488   198   2
+i membership[i] clusterSize: 489   201   2
+i membership[i] clusterSize: 490   111   2
+i membership[i] clusterSize: 491   263   3
+i membership[i] clusterSize: 492   76   1
+i membership[i] clusterSize: 493   234   2
+i membership[i] clusterSize: 494   155   2
+i membership[i] clusterSize: 495   77   1
+i membership[i] clusterSize: 496   167   1
+i membership[i] clusterSize: 497   229   2
+i membership[i] clusterSize: 498   274   1
+i membership[i] clusterSize: 499   161   1
+i membership[i] clusterSize: 500   256   4
+i membership[i] clusterSize: 501   252   3
+i membership[i] clusterSize: 502   167   2
+i membership[i] clusterSize: 503   125   2
+i membership[i] clusterSize: 504   110   2
+i membership[i] clusterSize: 505   260   2
+i membership[i] clusterSize: 506   183   1
+i membership[i] clusterSize: 507   265   4
+i membership[i] clusterSize: 508   133   1
+i membership[i] clusterSize: 509   257   3
+i membership[i] clusterSize: 510   140   2
+i membership[i] clusterSize: 511   78   1
+i membership[i] clusterSize: 512   296   4
+i membership[i] clusterSize: 513   180   1
+i membership[i] clusterSize: 514   210   1
+i membership[i] clusterSize: 515   301   1
+i membership[i] clusterSize: 516   128   2
+i membership[i] clusterSize: 517   157   3
+i membership[i] clusterSize: 518   162   2
+i membership[i] clusterSize: 519   79   1
+i membership[i] clusterSize: 520   113   2
+i membership[i] clusterSize: 521   122   2
+i membership[i] clusterSize: 522   241   3
+i membership[i] clusterSize: 523   289   3
+i membership[i] clusterSize: 524   126   2
+i membership[i] clusterSize: 525   133   2
+i membership[i] clusterSize: 526   217   2
+i membership[i] clusterSize: 527   293   3
+i membership[i] clusterSize: 528   291   5
+i membership[i] clusterSize: 529   237   3
+i membership[i] clusterSize: 530   154   2
+i membership[i] clusterSize: 531   152   2
+i membership[i] clusterSize: 532   80   1
+i membership[i] clusterSize: 533   180   2
+i membership[i] clusterSize: 534   142   3
+i membership[i] clusterSize: 535   242   3
+i membership[i] clusterSize: 536   107   2
+i membership[i] clusterSize: 537   81   1
+i membership[i] clusterSize: 538   82   1
+i membership[i] clusterSize: 539   181   2
+i membership[i] clusterSize: 540   197   2
+i membership[i] clusterSize: 541   186   2
+i membership[i] clusterSize: 542   106   1
+i membership[i] clusterSize: 543   221   2
+i membership[i] clusterSize: 544   83   1
+i membership[i] clusterSize: 545   254   2
+i membership[i] clusterSize: 546   244   2
+i membership[i] clusterSize: 547   207   2
+i membership[i] clusterSize: 548   203   2
+i membership[i] clusterSize: 549   159   4
+i membership[i] clusterSize: 550   194   2
+i membership[i] clusterSize: 551   139   1
+i membership[i] clusterSize: 552   172   3
+i membership[i] clusterSize: 553   219   3
+i membership[i] clusterSize: 554   195   3
+i membership[i] clusterSize: 555   84   1
+i membership[i] clusterSize: 556   85   1
+i membership[i] clusterSize: 557   139   2
+i membership[i] clusterSize: 558   153   4
+i membership[i] clusterSize: 559   293   4
+i membership[i] clusterSize: 560   183   2
+i membership[i] clusterSize: 561   86   1
+i membership[i] clusterSize: 562   251   2
+i membership[i] clusterSize: 563   112   2
+i membership[i] clusterSize: 564   295   4
+i membership[i] clusterSize: 565   116   3
+i membership[i] clusterSize: 566   131   3
+i membership[i] clusterSize: 567   276   3
+i membership[i] clusterSize: 568   242   4
+i membership[i] clusterSize: 569   87   1
+i membership[i] clusterSize: 570   187   2
+i membership[i] clusterSize: 571   187   3
+i membership[i] clusterSize: 572   276   4
+i membership[i] clusterSize: 573   264   4
+i membership[i] clusterSize: 574   267   4
+i membership[i] clusterSize: 575   105   2
+i membership[i] clusterSize: 576   230   2
+i membership[i] clusterSize: 577   170   2
+i membership[i] clusterSize: 578   102   2
+i membership[i] clusterSize: 579   88   1
+i membership[i] clusterSize: 580   287   2
+i membership[i] clusterSize: 581   89   1
+i membership[i] clusterSize: 582   90   1
+i membership[i] clusterSize: 583   309   4
+i membership[i] clusterSize: 584   240   4
+i membership[i] clusterSize: 585   305   5
+i membership[i] clusterSize: 586   210   2
+i membership[i] clusterSize: 587   185   2
+i membership[i] clusterSize: 588   298   2
+i membership[i] clusterSize: 589   91   1
+i membership[i] clusterSize: 590   92   1
+i membership[i] clusterSize: 591   277   2
+i membership[i] clusterSize: 592   273   4
+i membership[i] clusterSize: 593   252   4
+i membership[i] clusterSize: 594   198   3
+i membership[i] clusterSize: 595   267   5
+i membership[i] clusterSize: 596   302   2
+i membership[i] clusterSize: 597   160   2
+i membership[i] clusterSize: 598   295   5
+i membership[i] clusterSize: 599   103   1
+i membership[i] clusterSize: 600   293   5
+i membership[i] clusterSize: 601   208   3
+i membership[i] clusterSize: 602   119   3
+i membership[i] clusterSize: 603   93   1
+i membership[i] clusterSize: 604   253   2
+i membership[i] clusterSize: 605   301   2
+i membership[i] clusterSize: 606   254   3
+i membership[i] clusterSize: 607   137   2
+i membership[i] clusterSize: 608   205   2
+i membership[i] clusterSize: 609   251   3
+i membership[i] clusterSize: 610   155   3
+i membership[i] clusterSize: 611   196   1
+i membership[i] clusterSize: 612   94   1
+i membership[i] clusterSize: 613   282   3
+i membership[i] clusterSize: 614   304   4
+i membership[i] clusterSize: 615   258   3
+i membership[i] clusterSize: 616   282   4
+i membership[i] clusterSize: 617   153   5
+i membership[i] clusterSize: 618   153   6
+i membership[i] clusterSize: 619   177   2
+i membership[i] clusterSize: 620   177   3
+i membership[i] clusterSize: 621   177   4
+i membership[i] clusterSize: 622   252   5
+i membership[i] clusterSize: 623   287   3
+i membership[i] clusterSize: 624   232   3
+i membership[i] clusterSize: 625   303   4
+i membership[i] clusterSize: 626   177   5
+i membership[i] clusterSize: 627   280   3
+i membership[i] clusterSize: 628   292   2
+i membership[i] clusterSize: 629   186   3
+i membership[i] clusterSize: 630   207   3
+i membership[i] clusterSize: 631   187   4
+i membership[i] clusterSize: 632   269   3
+i membership[i] clusterSize: 633   294   2
+i membership[i] clusterSize: 634   106   2
+i membership[i] clusterSize: 635   134   1
+i membership[i] clusterSize: 636   260   3
+i membership[i] clusterSize: 637   246   3
+i membership[i] clusterSize: 638   269   4
+i membership[i] clusterSize: 639   289   4
+i membership[i] clusterSize: 640   190   2
+i membership[i] clusterSize: 641   161   2
+i membership[i] clusterSize: 642   165   3
+i membership[i] clusterSize: 643   257   4
+i membership[i] clusterSize: 644   266   3
+i membership[i] clusterSize: 645   254   4
+i membership[i] clusterSize: 646   304   5
+i membership[i] clusterSize: 647   215   4
+i membership[i] clusterSize: 648   201   3
+i membership[i] clusterSize: 649   223   2
+i membership[i] clusterSize: 650   225   2
+i membership[i] clusterSize: 651   254   5
+i membership[i] clusterSize: 652   259   2
+i membership[i] clusterSize: 653   253   3
+i membership[i] clusterSize: 654   290   5
+i membership[i] clusterSize: 655   300   3
+i membership[i] clusterSize: 656   95   1
+i membership[i] clusterSize: 657   292   3
+i membership[i] clusterSize: 658   183   3
+i membership[i] clusterSize: 659   262   4
+i membership[i] clusterSize: 660   134   2
+i membership[i] clusterSize: 661   127   2
+i membership[i] clusterSize: 662   103   2
+i membership[i] clusterSize: 663   173   2
+i membership[i] clusterSize: 664   96   1
+i membership[i] clusterSize: 665   121   2
+i membership[i] clusterSize: 666   97   1
+i membership[i] clusterSize: 667   118   2
+i membership[i] clusterSize: 668   294   3
+i membership[i] clusterSize: 669   253   4
+i membership[i] clusterSize: 670   231   2
+i membership[i] clusterSize: 671   294   4
+i membership[i] clusterSize: 672   98   1
+i membership[i] clusterSize: 673   288   3
+i membership[i] clusterSize: 674   196   2
+i membership[i] clusterSize: 675   168   3
+i membership[i] clusterSize: 676   99   1
+i membership[i] clusterSize: 677   274   2
+i membership[i] clusterSize: 678   288   4
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 1
+Cluster id: 2 ClusterSize: 1
+Cluster id: 3 ClusterSize: 1
+Cluster id: 4 ClusterSize: 1
+Cluster id: 5 ClusterSize: 1
+Cluster id: 6 ClusterSize: 1
+Cluster id: 7 ClusterSize: 1
+Cluster id: 8 ClusterSize: 1
+Cluster id: 9 ClusterSize: 1
+Cluster id: 10 ClusterSize: 1
+Cluster id: 11 ClusterSize: 1
+Cluster id: 12 ClusterSize: 1
+Cluster id: 13 ClusterSize: 1
+Cluster id: 14 ClusterSize: 1
+Cluster id: 15 ClusterSize: 1
+Cluster id: 16 ClusterSize: 1
+Cluster id: 17 ClusterSize: 1
+Cluster id: 18 ClusterSize: 1
+Cluster id: 19 ClusterSize: 1
+Cluster id: 20 ClusterSize: 1
+Cluster id: 21 ClusterSize: 1
+Cluster id: 22 ClusterSize: 1
+Cluster id: 23 ClusterSize: 1
+Cluster id: 24 ClusterSize: 1
+Cluster id: 25 ClusterSize: 1
+Cluster id: 26 ClusterSize: 1
+Cluster id: 27 ClusterSize: 1
+Cluster id: 28 ClusterSize: 1
+Cluster id: 29 ClusterSize: 1
+Cluster id: 30 ClusterSize: 1
+Cluster id: 31 ClusterSize: 1
+Cluster id: 32 ClusterSize: 1
+Cluster id: 33 ClusterSize: 1
+Cluster id: 34 ClusterSize: 1
+Cluster id: 35 ClusterSize: 1
+Cluster id: 36 ClusterSize: 1
+Cluster id: 37 ClusterSize: 1
+Cluster id: 38 ClusterSize: 1
+Cluster id: 39 ClusterSize: 1
+Cluster id: 40 ClusterSize: 1
+Cluster id: 41 ClusterSize: 1
+Cluster id: 42 ClusterSize: 1
+Cluster id: 43 ClusterSize: 1
+Cluster id: 44 ClusterSize: 1
+Cluster id: 45 ClusterSize: 1
+Cluster id: 46 ClusterSize: 1
+Cluster id: 47 ClusterSize: 1
+Cluster id: 48 ClusterSize: 1
+Cluster id: 49 ClusterSize: 1
+Cluster id: 50 ClusterSize: 1
+Cluster id: 51 ClusterSize: 1
+Cluster id: 52 ClusterSize: 1
+Cluster id: 53 ClusterSize: 1
+Cluster id: 54 ClusterSize: 1
+Cluster id: 55 ClusterSize: 1
+Cluster id: 56 ClusterSize: 1
+Cluster id: 57 ClusterSize: 1
+Cluster id: 58 ClusterSize: 1
+Cluster id: 59 ClusterSize: 1
+Cluster id: 60 ClusterSize: 1
+Cluster id: 61 ClusterSize: 1
+Cluster id: 62 ClusterSize: 1
+Cluster id: 63 ClusterSize: 1
+Cluster id: 64 ClusterSize: 1
+Cluster id: 65 ClusterSize: 1
+Cluster id: 66 ClusterSize: 1
+Cluster id: 67 ClusterSize: 1
+Cluster id: 68 ClusterSize: 1
+Cluster id: 69 ClusterSize: 1
+Cluster id: 70 ClusterSize: 1
+Cluster id: 71 ClusterSize: 1
+Cluster id: 72 ClusterSize: 1
+Cluster id: 73 ClusterSize: 1
+Cluster id: 74 ClusterSize: 1
+Cluster id: 75 ClusterSize: 1
+Cluster id: 76 ClusterSize: 1
+Cluster id: 77 ClusterSize: 1
+Cluster id: 78 ClusterSize: 1
+Cluster id: 79 ClusterSize: 1
+Cluster id: 80 ClusterSize: 1
+Cluster id: 81 ClusterSize: 1
+Cluster id: 82 ClusterSize: 1
+Cluster id: 83 ClusterSize: 1
+Cluster id: 84 ClusterSize: 1
+Cluster id: 85 ClusterSize: 1
+Cluster id: 86 ClusterSize: 1
+Cluster id: 87 ClusterSize: 1
+Cluster id: 88 ClusterSize: 1
+Cluster id: 89 ClusterSize: 1
+Cluster id: 90 ClusterSize: 1
+Cluster id: 91 ClusterSize: 1
+Cluster id: 92 ClusterSize: 1
+Cluster id: 93 ClusterSize: 1
+Cluster id: 94 ClusterSize: 1
+Cluster id: 95 ClusterSize: 1
+Cluster id: 96 ClusterSize: 1
+Cluster id: 97 ClusterSize: 1
+Cluster id: 98 ClusterSize: 1
+Cluster id: 99 ClusterSize: 1
+Cluster id: 100 ClusterSize: 2
+Cluster id: 101 ClusterSize: 3
+Cluster id: 102 ClusterSize: 2
+Cluster id: 103 ClusterSize: 2
+Cluster id: 104 ClusterSize: 2
+Cluster id: 105 ClusterSize: 2
+Cluster id: 106 ClusterSize: 2
+Cluster id: 107 ClusterSize: 2
+Cluster id: 108 ClusterSize: 2
+Cluster id: 109 ClusterSize: 2
+Cluster id: 110 ClusterSize: 2
+Cluster id: 111 ClusterSize: 2
+Cluster id: 112 ClusterSize: 2
+Cluster id: 113 ClusterSize: 2
+Cluster id: 114 ClusterSize: 2
+Cluster id: 115 ClusterSize: 2
+Cluster id: 116 ClusterSize: 3
+Cluster id: 117 ClusterSize: 2
+Cluster id: 118 ClusterSize: 2
+Cluster id: 119 ClusterSize: 3
+Cluster id: 120 ClusterSize: 3
+Cluster id: 121 ClusterSize: 2
+Cluster id: 122 ClusterSize: 2
+Cluster id: 123 ClusterSize: 2
+Cluster id: 124 ClusterSize: 2
+Cluster id: 125 ClusterSize: 2
+Cluster id: 126 ClusterSize: 2
+Cluster id: 127 ClusterSize: 2
+Cluster id: 128 ClusterSize: 2
+Cluster id: 129 ClusterSize: 2
+Cluster id: 130 ClusterSize: 3
+Cluster id: 131 ClusterSize: 3
+Cluster id: 132 ClusterSize: 3
+Cluster id: 133 ClusterSize: 2
+Cluster id: 134 ClusterSize: 2
+Cluster id: 135 ClusterSize: 2
+Cluster id: 136 ClusterSize: 2
+Cluster id: 137 ClusterSize: 2
+Cluster id: 138 ClusterSize: 2
+Cluster id: 139 ClusterSize: 2
+Cluster id: 140 ClusterSize: 2
+Cluster id: 141 ClusterSize: 2
+Cluster id: 142 ClusterSize: 3
+Cluster id: 143 ClusterSize: 3
+Cluster id: 144 ClusterSize: 2
+Cluster id: 145 ClusterSize: 2
+Cluster id: 146 ClusterSize: 2
+Cluster id: 147 ClusterSize: 2
+Cluster id: 148 ClusterSize: 2
+Cluster id: 149 ClusterSize: 2
+Cluster id: 150 ClusterSize: 2
+Cluster id: 151 ClusterSize: 2
+Cluster id: 152 ClusterSize: 2
+Cluster id: 153 ClusterSize: 6
+Cluster id: 154 ClusterSize: 2
+Cluster id: 155 ClusterSize: 3
+Cluster id: 156 ClusterSize: 2
+Cluster id: 157 ClusterSize: 3
+Cluster id: 158 ClusterSize: 3
+Cluster id: 159 ClusterSize: 4
+Cluster id: 160 ClusterSize: 2
+Cluster id: 161 ClusterSize: 2
+Cluster id: 162 ClusterSize: 2
+Cluster id: 163 ClusterSize: 2
+Cluster id: 164 ClusterSize: 3
+Cluster id: 165 ClusterSize: 3
+Cluster id: 166 ClusterSize: 2
+Cluster id: 167 ClusterSize: 2
+Cluster id: 168 ClusterSize: 3
+Cluster id: 169 ClusterSize: 2
+Cluster id: 170 ClusterSize: 2
+Cluster id: 171 ClusterSize: 3
+Cluster id: 172 ClusterSize: 3
+Cluster id: 173 ClusterSize: 2
+Cluster id: 174 ClusterSize: 3
+Cluster id: 175 ClusterSize: 2
+Cluster id: 176 ClusterSize: 3
+Cluster id: 177 ClusterSize: 5
+Cluster id: 178 ClusterSize: 3
+Cluster id: 179 ClusterSize: 3
+Cluster id: 180 ClusterSize: 2
+Cluster id: 181 ClusterSize: 2
+Cluster id: 182 ClusterSize: 2
+Cluster id: 183 ClusterSize: 3
+Cluster id: 184 ClusterSize: 2
+Cluster id: 185 ClusterSize: 2
+Cluster id: 186 ClusterSize: 3
+Cluster id: 187 ClusterSize: 4
+Cluster id: 188 ClusterSize: 3
+Cluster id: 189 ClusterSize: 2
+Cluster id: 190 ClusterSize: 2
+Cluster id: 191 ClusterSize: 2
+Cluster id: 192 ClusterSize: 5
+Cluster id: 193 ClusterSize: 2
+Cluster id: 194 ClusterSize: 2
+Cluster id: 195 ClusterSize: 3
+Cluster id: 196 ClusterSize: 2
+Cluster id: 197 ClusterSize: 2
+Cluster id: 198 ClusterSize: 3
+Cluster id: 199 ClusterSize: 2
+Cluster id: 200 ClusterSize: 2
+Cluster id: 201 ClusterSize: 3
+Cluster id: 202 ClusterSize: 3
+Cluster id: 203 ClusterSize: 2
+Cluster id: 204 ClusterSize: 3
+Cluster id: 205 ClusterSize: 2
+Cluster id: 206 ClusterSize: 3
+Cluster id: 207 ClusterSize: 3
+Cluster id: 208 ClusterSize: 3
+Cluster id: 209 ClusterSize: 3
+Cluster id: 210 ClusterSize: 2
+Cluster id: 211 ClusterSize: 2
+Cluster id: 212 ClusterSize: 2
+Cluster id: 213 ClusterSize: 3
+Cluster id: 214 ClusterSize: 5
+Cluster id: 215 ClusterSize: 4
+Cluster id: 216 ClusterSize: 2
+Cluster id: 217 ClusterSize: 2
+Cluster id: 218 ClusterSize: 2
+Cluster id: 219 ClusterSize: 3
+Cluster id: 220 ClusterSize: 3
+Cluster id: 221 ClusterSize: 2
+Cluster id: 222 ClusterSize: 3
+Cluster id: 223 ClusterSize: 2
+Cluster id: 224 ClusterSize: 3
+Cluster id: 225 ClusterSize: 2
+Cluster id: 226 ClusterSize: 2
+Cluster id: 227 ClusterSize: 3
+Cluster id: 228 ClusterSize: 3
+Cluster id: 229 ClusterSize: 2
+Cluster id: 230 ClusterSize: 2
+Cluster id: 231 ClusterSize: 2
+Cluster id: 232 ClusterSize: 3
+Cluster id: 233 ClusterSize: 4
+Cluster id: 234 ClusterSize: 2
+Cluster id: 235 ClusterSize: 2
+Cluster id: 236 ClusterSize: 2
+Cluster id: 237 ClusterSize: 3
+Cluster id: 238 ClusterSize: 2
+Cluster id: 239 ClusterSize: 5
+Cluster id: 240 ClusterSize: 4
+Cluster id: 241 ClusterSize: 3
+Cluster id: 242 ClusterSize: 4
+Cluster id: 243 ClusterSize: 4
+Cluster id: 244 ClusterSize: 2
+Cluster id: 245 ClusterSize: 2
+Cluster id: 246 ClusterSize: 3
+Cluster id: 247 ClusterSize: 4
+Cluster id: 248 ClusterSize: 4
+Cluster id: 249 ClusterSize: 3
+Cluster id: 250 ClusterSize: 2
+Cluster id: 251 ClusterSize: 3
+Cluster id: 252 ClusterSize: 5
+Cluster id: 253 ClusterSize: 4
+Cluster id: 254 ClusterSize: 5
+Cluster id: 255 ClusterSize: 2
+Cluster id: 256 ClusterSize: 4
+Cluster id: 257 ClusterSize: 4
+Cluster id: 258 ClusterSize: 3
+Cluster id: 259 ClusterSize: 2
+Cluster id: 260 ClusterSize: 3
+Cluster id: 261 ClusterSize: 3
+Cluster id: 262 ClusterSize: 4
+Cluster id: 263 ClusterSize: 3
+Cluster id: 264 ClusterSize: 4
+Cluster id: 265 ClusterSize: 4
+Cluster id: 266 ClusterSize: 3
+Cluster id: 267 ClusterSize: 5
+Cluster id: 268 ClusterSize: 3
+Cluster id: 269 ClusterSize: 4
+Cluster id: 270 ClusterSize: 2
+Cluster id: 271 ClusterSize: 3
+Cluster id: 272 ClusterSize: 3
+Cluster id: 273 ClusterSize: 4
+Cluster id: 274 ClusterSize: 2
+Cluster id: 275 ClusterSize: 2
+Cluster id: 276 ClusterSize: 4
+Cluster id: 277 ClusterSize: 2
+Cluster id: 278 ClusterSize: 2
+Cluster id: 279 ClusterSize: 3
+Cluster id: 280 ClusterSize: 3
+Cluster id: 281 ClusterSize: 2
+Cluster id: 282 ClusterSize: 4
+Cluster id: 283 ClusterSize: 2
+Cluster id: 284 ClusterSize: 2
+Cluster id: 285 ClusterSize: 2
+Cluster id: 286 ClusterSize: 3
+Cluster id: 287 ClusterSize: 3
+Cluster id: 288 ClusterSize: 4
+Cluster id: 289 ClusterSize: 4
+Cluster id: 290 ClusterSize: 5
+Cluster id: 291 ClusterSize: 5
+Cluster id: 292 ClusterSize: 3
+Cluster id: 293 ClusterSize: 5
+Cluster id: 294 ClusterSize: 4
+Cluster id: 295 ClusterSize: 5
+Cluster id: 296 ClusterSize: 4
+Cluster id: 297 ClusterSize: 4
+Cluster id: 298 ClusterSize: 2
+Cluster id: 299 ClusterSize: 2
+Cluster id: 300 ClusterSize: 3
+Cluster id: 301 ClusterSize: 2
+Cluster id: 302 ClusterSize: 2
+Cluster id: 303 ClusterSize: 4
+Cluster id: 304 ClusterSize: 5
+Cluster id: 305 ClusterSize: 5
+Cluster id: 306 ClusterSize: 2
+Cluster id: 307 ClusterSize: 4
+Cluster id: 308 ClusterSize: 4
+Cluster id: 309 ClusterSize: 4
+Cluster id: 310 ClusterSize: 0
+Identified number of clusters formed: 310
+i membership[i] clusterSize: 0   47   1
+i membership[i] clusterSize: 1   36   1
+i membership[i] clusterSize: 2   52   1
+i membership[i] clusterSize: 3   52   2
+i membership[i] clusterSize: 4   75   1
+i membership[i] clusterSize: 5   0   1
+i membership[i] clusterSize: 6   1   1
+i membership[i] clusterSize: 7   30   1
+i membership[i] clusterSize: 8   72   1
+i membership[i] clusterSize: 9   64   1
+i membership[i] clusterSize: 10   49   1
+i membership[i] clusterSize: 11   68   1
+i membership[i] clusterSize: 12   39   1
+i membership[i] clusterSize: 13   50   1
+i membership[i] clusterSize: 14   32   1
+i membership[i] clusterSize: 15   61   1
+i membership[i] clusterSize: 16   57   1
+i membership[i] clusterSize: 17   2   1
+i membership[i] clusterSize: 18   3   1
+i membership[i] clusterSize: 19   53   1
+i membership[i] clusterSize: 20   25   1
+i membership[i] clusterSize: 21   68   2
+i membership[i] clusterSize: 22   62   1
+i membership[i] clusterSize: 23   31   1
+i membership[i] clusterSize: 24   17   1
+i membership[i] clusterSize: 25   20   1
+i membership[i] clusterSize: 26   65   1
+i membership[i] clusterSize: 27   45   1
+i membership[i] clusterSize: 28   21   1
+i membership[i] clusterSize: 29   26   1
+i membership[i] clusterSize: 30   26   2
+i membership[i] clusterSize: 31   39   2
+i membership[i] clusterSize: 32   65   2
+i membership[i] clusterSize: 33   58   1
+i membership[i] clusterSize: 34   63   1
+i membership[i] clusterSize: 35   63   2
+i membership[i] clusterSize: 36   54   1
+i membership[i] clusterSize: 37   41   1
+i membership[i] clusterSize: 38   71   1
+i membership[i] clusterSize: 39   20   2
+i membership[i] clusterSize: 40   71   2
+i membership[i] clusterSize: 41   30   2
+i membership[i] clusterSize: 42   75   2
+i membership[i] clusterSize: 43   74   1
+i membership[i] clusterSize: 44   54   2
+i membership[i] clusterSize: 45   65   3
+i membership[i] clusterSize: 46   73   1
+i membership[i] clusterSize: 47   17   2
+i membership[i] clusterSize: 48   61   2
+i membership[i] clusterSize: 49   76   1
+i membership[i] clusterSize: 50   41   2
+i membership[i] clusterSize: 51   71   3
+i membership[i] clusterSize: 52   59   1
+i membership[i] clusterSize: 53   18   1
+i membership[i] clusterSize: 54   70   1
+i membership[i] clusterSize: 55   24   1
+i membership[i] clusterSize: 56   60   1
+i membership[i] clusterSize: 57   68   3
+i membership[i] clusterSize: 58   68   4
+i membership[i] clusterSize: 59   38   1
+i membership[i] clusterSize: 60   21   2
+i membership[i] clusterSize: 61   43   1
+i membership[i] clusterSize: 62   42   1
+i membership[i] clusterSize: 63   51   1
+i membership[i] clusterSize: 64   74   2
+i membership[i] clusterSize: 65   14   1
+i membership[i] clusterSize: 66   49   2
+i membership[i] clusterSize: 67   49   3
+i membership[i] clusterSize: 68   41   3
+i membership[i] clusterSize: 69   38   2
+i membership[i] clusterSize: 70   48   1
+i membership[i] clusterSize: 71   4   1
+i membership[i] clusterSize: 72   41   4
+i membership[i] clusterSize: 73   63   3
+i membership[i] clusterSize: 74   75   3
+i membership[i] clusterSize: 75   71   4
+i membership[i] clusterSize: 76   68   5
+i membership[i] clusterSize: 77   69   1
+i membership[i] clusterSize: 78   55   1
+i membership[i] clusterSize: 79   45   2
+i membership[i] clusterSize: 80   51   2
+i membership[i] clusterSize: 81   33   1
+i membership[i] clusterSize: 82   65   4
+i membership[i] clusterSize: 83   68   6
+i membership[i] clusterSize: 84   53   2
+i membership[i] clusterSize: 85   49   4
+i membership[i] clusterSize: 86   49   5
+i membership[i] clusterSize: 87   68   7
+i membership[i] clusterSize: 88   39   3
+i membership[i] clusterSize: 89   60   2
+i membership[i] clusterSize: 90   44   1
+i membership[i] clusterSize: 91   39   4
+i membership[i] clusterSize: 92   40   1
+i membership[i] clusterSize: 93   61   3
+i membership[i] clusterSize: 94   47   2
+i membership[i] clusterSize: 95   19   1
+i membership[i] clusterSize: 96   5   1
+i membership[i] clusterSize: 97   39   5
+i membership[i] clusterSize: 98   33   2
+i membership[i] clusterSize: 99   56   1
+i membership[i] clusterSize: 100   51   3
+i membership[i] clusterSize: 101   68   8
+i membership[i] clusterSize: 102   23   1
+i membership[i] clusterSize: 103   58   2
+i membership[i] clusterSize: 104   68   9
+i membership[i] clusterSize: 105   55   2
+i membership[i] clusterSize: 106   55   3
+i membership[i] clusterSize: 107   6   1
+i membership[i] clusterSize: 108   31   2
+i membership[i] clusterSize: 109   71   5
+i membership[i] clusterSize: 110   35   1
+i membership[i] clusterSize: 111   65   5
+i membership[i] clusterSize: 112   36   2
+i membership[i] clusterSize: 113   70   2
+i membership[i] clusterSize: 114   32   2
+i membership[i] clusterSize: 115   78   1
+i membership[i] clusterSize: 116   35   2
+i membership[i] clusterSize: 117   76   2
+i membership[i] clusterSize: 118   67   1
+i membership[i] clusterSize: 119   27   1
+i membership[i] clusterSize: 120   53   3
+i membership[i] clusterSize: 121   30   3
+i membership[i] clusterSize: 122   32   3
+i membership[i] clusterSize: 123   73   2
+i membership[i] clusterSize: 124   78   2
+i membership[i] clusterSize: 125   65   6
+i membership[i] clusterSize: 126   39   6
+i membership[i] clusterSize: 127   56   2
+i membership[i] clusterSize: 128   66   1
+i membership[i] clusterSize: 129   41   5
+i membership[i] clusterSize: 130   67   2
+i membership[i] clusterSize: 131   60   3
+i membership[i] clusterSize: 132   18   2
+i membership[i] clusterSize: 133   50   2
+i membership[i] clusterSize: 134   77   1
+i membership[i] clusterSize: 135   22   1
+i membership[i] clusterSize: 136   74   3
+i membership[i] clusterSize: 137   60   4
+i membership[i] clusterSize: 138   29   1
+i membership[i] clusterSize: 139   71   6
+i membership[i] clusterSize: 140   42   2
+i membership[i] clusterSize: 141   64   2
+i membership[i] clusterSize: 142   7   1
+i membership[i] clusterSize: 143   66   2
+i membership[i] clusterSize: 144   58   3
+i membership[i] clusterSize: 145   75   4
+i membership[i] clusterSize: 146   36   3
+i membership[i] clusterSize: 147   51   4
+i membership[i] clusterSize: 148   37   1
+i membership[i] clusterSize: 149   72   2
+i membership[i] clusterSize: 150   38   3
+i membership[i] clusterSize: 151   24   2
+i membership[i] clusterSize: 152   69   2
+i membership[i] clusterSize: 153   69   3
+i membership[i] clusterSize: 154   69   4
+i membership[i] clusterSize: 155   14   2
+i membership[i] clusterSize: 156   41   6
+i membership[i] clusterSize: 157   44   2
+i membership[i] clusterSize: 158   8   1
+i membership[i] clusterSize: 159   72   3
+i membership[i] clusterSize: 160   20   3
+i membership[i] clusterSize: 161   72   4
+i membership[i] clusterSize: 162   55   4
+i membership[i] clusterSize: 163   64   3
+i membership[i] clusterSize: 164   73   3
+i membership[i] clusterSize: 165   34   1
+i membership[i] clusterSize: 166   37   2
+i membership[i] clusterSize: 167   38   4
+i membership[i] clusterSize: 168   72   5
+i membership[i] clusterSize: 169   75   5
+i membership[i] clusterSize: 170   43   2
+i membership[i] clusterSize: 171   9   1
+i membership[i] clusterSize: 172   25   2
+i membership[i] clusterSize: 173   71   7
+i membership[i] clusterSize: 174   46   1
+i membership[i] clusterSize: 175   61   4
+i membership[i] clusterSize: 176   53   4
+i membership[i] clusterSize: 177   59   2
+i membership[i] clusterSize: 178   33   3
+i membership[i] clusterSize: 179   72   6
+i membership[i] clusterSize: 180   28   1
+i membership[i] clusterSize: 181   64   4
+i membership[i] clusterSize: 182   16   1
+i membership[i] clusterSize: 183   43   3
+i membership[i] clusterSize: 184   61   5
+i membership[i] clusterSize: 185   34   2
+i membership[i] clusterSize: 186   46   2
+i membership[i] clusterSize: 187   28   2
+i membership[i] clusterSize: 188   27   2
+i membership[i] clusterSize: 189   54   3
+i membership[i] clusterSize: 190   59   3
+i membership[i] clusterSize: 191   61   6
+i membership[i] clusterSize: 192   49   6
+i membership[i] clusterSize: 193   52   3
+i membership[i] clusterSize: 194   15   1
+i membership[i] clusterSize: 195   60   5
+i membership[i] clusterSize: 196   59   4
+i membership[i] clusterSize: 197   28   3
+i membership[i] clusterSize: 198   54   4
+i membership[i] clusterSize: 199   75   6
+i membership[i] clusterSize: 200   57   2
+i membership[i] clusterSize: 201   41   7
+i membership[i] clusterSize: 202   75   7
+i membership[i] clusterSize: 203   38   5
+i membership[i] clusterSize: 204   24   3
+i membership[i] clusterSize: 205   62   2
+i membership[i] clusterSize: 206   58   4
+i membership[i] clusterSize: 207   64   5
+i membership[i] clusterSize: 208   72   7
+i membership[i] clusterSize: 209   35   3
+i membership[i] clusterSize: 210   54   5
+i membership[i] clusterSize: 211   60   6
+i membership[i] clusterSize: 212   47   3
+i membership[i] clusterSize: 213   48   2
+i membership[i] clusterSize: 214   76   3
+i membership[i] clusterSize: 215   63   4
+i membership[i] clusterSize: 216   10   1
+i membership[i] clusterSize: 217   22   2
+i membership[i] clusterSize: 218   29   2
+i membership[i] clusterSize: 219   11   1
+i membership[i] clusterSize: 220   40   2
+i membership[i] clusterSize: 221   68   10
+i membership[i] clusterSize: 222   16   2
+i membership[i] clusterSize: 223   15   2
+i membership[i] clusterSize: 224   40   3
+i membership[i] clusterSize: 225   48   3
+i membership[i] clusterSize: 226   77   2
+i membership[i] clusterSize: 227   47   4
+i membership[i] clusterSize: 228   75   8
+i membership[i] clusterSize: 229   12   1
+i membership[i] clusterSize: 230   28   4
+i membership[i] clusterSize: 231   59   5
+i membership[i] clusterSize: 232   65   7
+i membership[i] clusterSize: 233   26   3
+i membership[i] clusterSize: 234   48   4
+i membership[i] clusterSize: 235   45   3
+i membership[i] clusterSize: 236   63   5
+i membership[i] clusterSize: 237   77   3
+i membership[i] clusterSize: 238   13   1
+i membership[i] clusterSize: 239   64   6
+i membership[i] clusterSize: 240   39   7
+i membership[i] clusterSize: 241   63   6
+i membership[i] clusterSize: 242   63   7
+i membership[i] clusterSize: 243   19   2
+i membership[i] clusterSize: 244   63   8
+i membership[i] clusterSize: 245   23   2
+i membership[i] clusterSize: 246   31   3
+i membership[i] clusterSize: 247   69   5
+i membership[i] clusterSize: 248   38   6
+i membership[i] clusterSize: 249   56   3
+i membership[i] clusterSize: 250   57   3
+i membership[i] clusterSize: 251   55   5
+i membership[i] clusterSize: 252   19   3
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 1
+Cluster id: 2 ClusterSize: 1
+Cluster id: 3 ClusterSize: 1
+Cluster id: 4 ClusterSize: 1
+Cluster id: 5 ClusterSize: 1
+Cluster id: 6 ClusterSize: 1
+Cluster id: 7 ClusterSize: 1
+Cluster id: 8 ClusterSize: 1
+Cluster id: 9 ClusterSize: 1
+Cluster id: 10 ClusterSize: 1
+Cluster id: 11 ClusterSize: 1
+Cluster id: 12 ClusterSize: 1
+Cluster id: 13 ClusterSize: 1
+Cluster id: 14 ClusterSize: 2
+Cluster id: 15 ClusterSize: 2
+Cluster id: 16 ClusterSize: 2
+Cluster id: 17 ClusterSize: 2
+Cluster id: 18 ClusterSize: 2
+Cluster id: 19 ClusterSize: 3
+Cluster id: 20 ClusterSize: 3
+Cluster id: 21 ClusterSize: 2
+Cluster id: 22 ClusterSize: 2
+Cluster id: 23 ClusterSize: 2
+Cluster id: 24 ClusterSize: 3
+Cluster id: 25 ClusterSize: 2
+Cluster id: 26 ClusterSize: 3
+Cluster id: 27 ClusterSize: 2
+Cluster id: 28 ClusterSize: 4
+Cluster id: 29 ClusterSize: 2
+Cluster id: 30 ClusterSize: 3
+Cluster id: 31 ClusterSize: 3
+Cluster id: 32 ClusterSize: 3
+Cluster id: 33 ClusterSize: 3
+Cluster id: 34 ClusterSize: 2
+Cluster id: 35 ClusterSize: 3
+Cluster id: 36 ClusterSize: 3
+Cluster id: 37 ClusterSize: 2
+Cluster id: 38 ClusterSize: 6
+Cluster id: 39 ClusterSize: 7
+Cluster id: 40 ClusterSize: 3
+Cluster id: 41 ClusterSize: 7
+Cluster id: 42 ClusterSize: 2
+Cluster id: 43 ClusterSize: 3
+Cluster id: 44 ClusterSize: 2
+Cluster id: 45 ClusterSize: 3
+Cluster id: 46 ClusterSize: 2
+Cluster id: 47 ClusterSize: 4
+Cluster id: 48 ClusterSize: 4
+Cluster id: 49 ClusterSize: 6
+Cluster id: 50 ClusterSize: 2
+Cluster id: 51 ClusterSize: 4
+Cluster id: 52 ClusterSize: 3
+Cluster id: 53 ClusterSize: 4
+Cluster id: 54 ClusterSize: 5
+Cluster id: 55 ClusterSize: 5
+Cluster id: 56 ClusterSize: 3
+Cluster id: 57 ClusterSize: 3
+Cluster id: 58 ClusterSize: 4
+Cluster id: 59 ClusterSize: 5
+Cluster id: 60 ClusterSize: 6
+Cluster id: 61 ClusterSize: 6
+Cluster id: 62 ClusterSize: 2
+Cluster id: 63 ClusterSize: 8
+Cluster id: 64 ClusterSize: 6
+Cluster id: 65 ClusterSize: 7
+Cluster id: 66 ClusterSize: 2
+Cluster id: 67 ClusterSize: 2
+Cluster id: 68 ClusterSize: 10
+Cluster id: 69 ClusterSize: 5
+Cluster id: 70 ClusterSize: 2
+Cluster id: 71 ClusterSize: 7
+Cluster id: 72 ClusterSize: 7
+Cluster id: 73 ClusterSize: 3
+Cluster id: 74 ClusterSize: 3
+Cluster id: 75 ClusterSize: 8
+Cluster id: 76 ClusterSize: 3
+Cluster id: 77 ClusterSize: 3
+Cluster id: 78 ClusterSize: 2
+Cluster id: 79 ClusterSize: 0
+Identified number of clusters formed: 79
+i membership[i] clusterSize: 0   13   1
+i membership[i] clusterSize: 1   24   1
+i membership[i] clusterSize: 2   26   1
+i membership[i] clusterSize: 3   15   1
+i membership[i] clusterSize: 4   33   1
+i membership[i] clusterSize: 5   22   1
+i membership[i] clusterSize: 6   34   1
+i membership[i] clusterSize: 7   34   2
+i membership[i] clusterSize: 8   27   1
+i membership[i] clusterSize: 9   22   2
+i membership[i] clusterSize: 10   17   1
+i membership[i] clusterSize: 11   25   1
+i membership[i] clusterSize: 12   31   1
+i membership[i] clusterSize: 13   11   1
+i membership[i] clusterSize: 14   32   1
+i membership[i] clusterSize: 15   29   1
+i membership[i] clusterSize: 16   25   2
+i membership[i] clusterSize: 17   30   1
+i membership[i] clusterSize: 18   10   1
+i membership[i] clusterSize: 19   0   1
+i membership[i] clusterSize: 20   32   2
+i membership[i] clusterSize: 21   18   1
+i membership[i] clusterSize: 22   1   1
+i membership[i] clusterSize: 23   21   1
+i membership[i] clusterSize: 24   8   1
+i membership[i] clusterSize: 25   27   2
+i membership[i] clusterSize: 26   2   1
+i membership[i] clusterSize: 27   12   1
+i membership[i] clusterSize: 28   10   2
+i membership[i] clusterSize: 29   24   2
+i membership[i] clusterSize: 30   29   2
+i membership[i] clusterSize: 31   29   3
+i membership[i] clusterSize: 32   16   1
+i membership[i] clusterSize: 33   18   2
+i membership[i] clusterSize: 34   13   2
+i membership[i] clusterSize: 35   8   2
+i membership[i] clusterSize: 36   20   1
+i membership[i] clusterSize: 37   30   2
+i membership[i] clusterSize: 38   28   1
+i membership[i] clusterSize: 39   26   2
+i membership[i] clusterSize: 40   14   1
+i membership[i] clusterSize: 41   27   3
+i membership[i] clusterSize: 42   18   3
+i membership[i] clusterSize: 43   18   4
+i membership[i] clusterSize: 44   27   4
+i membership[i] clusterSize: 45   31   2
+i membership[i] clusterSize: 46   23   1
+i membership[i] clusterSize: 47   34   3
+i membership[i] clusterSize: 48   32   3
+i membership[i] clusterSize: 49   25   3
+i membership[i] clusterSize: 50   30   3
+i membership[i] clusterSize: 51   15   2
+i membership[i] clusterSize: 52   23   2
+i membership[i] clusterSize: 53   11   2
+i membership[i] clusterSize: 54   21   2
+i membership[i] clusterSize: 55   3   1
+i membership[i] clusterSize: 56   28   2
+i membership[i] clusterSize: 57   12   2
+i membership[i] clusterSize: 58   4   1
+i membership[i] clusterSize: 59   19   1
+i membership[i] clusterSize: 60   26   3
+i membership[i] clusterSize: 61   17   2
+i membership[i] clusterSize: 62   16   2
+i membership[i] clusterSize: 63   20   2
+i membership[i] clusterSize: 64   31   3
+i membership[i] clusterSize: 65   17   3
+i membership[i] clusterSize: 66   26   4
+i membership[i] clusterSize: 67   19   2
+i membership[i] clusterSize: 68   5   1
+i membership[i] clusterSize: 69   34   4
+i membership[i] clusterSize: 70   29   4
+i membership[i] clusterSize: 71   33   2
+i membership[i] clusterSize: 72   6   1
+i membership[i] clusterSize: 73   7   1
+i membership[i] clusterSize: 74   26   5
+i membership[i] clusterSize: 75   9   1
+i membership[i] clusterSize: 76   14   2
+i membership[i] clusterSize: 77   28   3
+i membership[i] clusterSize: 78   9   2
+i membership[i] clusterSize: 79   25   4
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 1
+Cluster id: 2 ClusterSize: 1
+Cluster id: 3 ClusterSize: 1
+Cluster id: 4 ClusterSize: 1
+Cluster id: 5 ClusterSize: 1
+Cluster id: 6 ClusterSize: 1
+Cluster id: 7 ClusterSize: 1
+Cluster id: 8 ClusterSize: 2
+Cluster id: 9 ClusterSize: 2
+Cluster id: 10 ClusterSize: 2
+Cluster id: 11 ClusterSize: 2
+Cluster id: 12 ClusterSize: 2
+Cluster id: 13 ClusterSize: 2
+Cluster id: 14 ClusterSize: 2
+Cluster id: 15 ClusterSize: 2
+Cluster id: 16 ClusterSize: 2
+Cluster id: 17 ClusterSize: 3
+Cluster id: 18 ClusterSize: 4
+Cluster id: 19 ClusterSize: 2
+Cluster id: 20 ClusterSize: 2
+Cluster id: 21 ClusterSize: 2
+Cluster id: 22 ClusterSize: 2
+Cluster id: 23 ClusterSize: 2
+Cluster id: 24 ClusterSize: 2
+Cluster id: 25 ClusterSize: 4
+Cluster id: 26 ClusterSize: 5
+Cluster id: 27 ClusterSize: 4
+Cluster id: 28 ClusterSize: 3
+Cluster id: 29 ClusterSize: 4
+Cluster id: 30 ClusterSize: 3
+Cluster id: 31 ClusterSize: 3
+Cluster id: 32 ClusterSize: 3
+Cluster id: 33 ClusterSize: 2
+Cluster id: 34 ClusterSize: 4
+Cluster id: 35 ClusterSize: 0
+Identified number of clusters formed: 35
+i membership[i] clusterSize: 0   18   1
+i membership[i] clusterSize: 1   6   1
+i membership[i] clusterSize: 2   12   1
+i membership[i] clusterSize: 3   3   1
+i membership[i] clusterSize: 4   2   1
+i membership[i] clusterSize: 5   3   2
+i membership[i] clusterSize: 6   2   2
+i membership[i] clusterSize: 7   1   1
+i membership[i] clusterSize: 8   12   2
+i membership[i] clusterSize: 9   0   1
+i membership[i] clusterSize: 10   9   1
+i membership[i] clusterSize: 11   7   1
+i membership[i] clusterSize: 12   17   1
+i membership[i] clusterSize: 13   5   1
+i membership[i] clusterSize: 14   10   1
+i membership[i] clusterSize: 15   16   1
+i membership[i] clusterSize: 16   10   2
+i membership[i] clusterSize: 17   17   2
+i membership[i] clusterSize: 18   18   2
+i membership[i] clusterSize: 19   1   2
+i membership[i] clusterSize: 20   10   3
+i membership[i] clusterSize: 21   8   1
+i membership[i] clusterSize: 22   14   1
+i membership[i] clusterSize: 23   17   3
+i membership[i] clusterSize: 24   10   4
+i membership[i] clusterSize: 25   5   2
+i membership[i] clusterSize: 26   18   3
+i membership[i] clusterSize: 27   5   3
+i membership[i] clusterSize: 28   14   2
+i membership[i] clusterSize: 29   4   1
+i membership[i] clusterSize: 30   17   4
+i membership[i] clusterSize: 31   7   2
+i membership[i] clusterSize: 32   16   2
+i membership[i] clusterSize: 33   15   1
+i membership[i] clusterSize: 34   8   2
+i membership[i] clusterSize: 35   13   1
+i membership[i] clusterSize: 36   19   1
+i membership[i] clusterSize: 37   13   2
+i membership[i] clusterSize: 38   4   2
+i membership[i] clusterSize: 39   16   3
+i membership[i] clusterSize: 40   13   3
+i membership[i] clusterSize: 41   15   2
+i membership[i] clusterSize: 42   9   2
+i membership[i] clusterSize: 43   11   1
+i membership[i] clusterSize: 44   19   2
+i membership[i] clusterSize: 45   11   2
+i membership[i] clusterSize: 46   18   4
+i membership[i] clusterSize: 47   11   3
+i membership[i] clusterSize: 48   6   2
+i membership[i] clusterSize: 49   16   4
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 2
+Cluster id: 2 ClusterSize: 2
+Cluster id: 3 ClusterSize: 2
+Cluster id: 4 ClusterSize: 2
+Cluster id: 5 ClusterSize: 3
+Cluster id: 6 ClusterSize: 2
+Cluster id: 7 ClusterSize: 2
+Cluster id: 8 ClusterSize: 2
+Cluster id: 9 ClusterSize: 2
+Cluster id: 10 ClusterSize: 4
+Cluster id: 11 ClusterSize: 3
+Cluster id: 12 ClusterSize: 2
+Cluster id: 13 ClusterSize: 3
+Cluster id: 14 ClusterSize: 2
+Cluster id: 15 ClusterSize: 2
+Cluster id: 16 ClusterSize: 4
+Cluster id: 17 ClusterSize: 4
+Cluster id: 18 ClusterSize: 4
+Cluster id: 19 ClusterSize: 2
+Cluster id: 20 ClusterSize: 0
+Identified number of clusters formed: 20
+i membership[i] clusterSize: 0   7   1
+i membership[i] clusterSize: 1   6   1
+i membership[i] clusterSize: 2   0   1
+i membership[i] clusterSize: 3   7   2
+i membership[i] clusterSize: 4   1   1
+i membership[i] clusterSize: 5   6   2
+i membership[i] clusterSize: 6   2   1
+i membership[i] clusterSize: 7   3   1
+i membership[i] clusterSize: 8   4   1
+i membership[i] clusterSize: 9   5   1
+Cluster id: 0 ClusterSize: 1
+Cluster id: 1 ClusterSize: 1
+Cluster id: 2 ClusterSize: 1
+Cluster id: 3 ClusterSize: 1
+Cluster id: 4 ClusterSize: 1
+Cluster id: 5 ClusterSize: 1
+Cluster id: 6 ClusterSize: 2
+Cluster id: 7 ClusterSize: 2
+Cluster id: 8 ClusterSize: 0
+Identified number of clusters formed: 8
+HAFA Achitecture configuration completed.
+createVmList reached
+Created EdgeVM with id: 0 from config of host with id: 0
+Created EdgeVM with id: 1 from config of host with id: 1
+Created EdgeVM with id: 2 from config of host with id: 2
+Created EdgeVM with id: 3 from config of host with id: 3
+Created EdgeVM with id: 4 from config of host with id: 4
+Created EdgeVM with id: 5 from config of host with id: 5
+Created EdgeVM with id: 6 from config of host with id: 6
+Created EdgeVM with id: 7 from config of host with id: 7
+Created EdgeVM with id: 8 from config of host with id: 8
+Created EdgeVM with id: 9 from config of host with id: 9
+Created EdgeVM with id: 10 from config of host with id: 10
+Created EdgeVM with id: 11 from config of host with id: 11
+Created EdgeVM with id: 12 from config of host with id: 12
+Created EdgeVM with id: 13 from config of host with id: 13
+Created EdgeVM with id: 14 from config of host with id: 14
+Created EdgeVM with id: 15 from config of host with id: 15
+Created EdgeVM with id: 16 from config of host with id: 16
+Created EdgeVM with id: 17 from config of host with id: 17
+Created EdgeVM with id: 18 from config of host with id: 18
+Created EdgeVM with id: 19 from config of host with id: 19
+Created EdgeVM with id: 20 from config of host with id: 20
+Created EdgeVM with id: 21 from config of host with id: 21
+Created EdgeVM with id: 22 from config of host with id: 22
+Created EdgeVM with id: 23 from config of host with id: 23
+Created EdgeVM with id: 24 from config of host with id: 24
+Created EdgeVM with id: 25 from config of host with id: 25
+Created EdgeVM with id: 26 from config of host with id: 26
+Created EdgeVM with id: 27 from config of host with id: 27
+Created EdgeVM with id: 28 from config of host with id: 28
+Created EdgeVM with id: 29 from config of host with id: 29
+Created EdgeVM with id: 30 from config of host with id: 30
+Created EdgeVM with id: 31 from config of host with id: 31
+Created EdgeVM with id: 32 from config of host with id: 32
+Created EdgeVM with id: 33 from config of host with id: 33
+Created EdgeVM with id: 34 from config of host with id: 34
+Created EdgeVM with id: 35 from config of host with id: 35
+Created EdgeVM with id: 36 from config of host with id: 36
+Created EdgeVM with id: 37 from config of host with id: 37
+Created EdgeVM with id: 38 from config of host with id: 38
+Created EdgeVM with id: 39 from config of host with id: 39
+Created EdgeVM with id: 40 from config of host with id: 40
+Created EdgeVM with id: 41 from config of host with id: 41
+Created EdgeVM with id: 42 from config of host with id: 42
+Created EdgeVM with id: 43 from config of host with id: 43
+Created EdgeVM with id: 44 from config of host with id: 44
+Created EdgeVM with id: 45 from config of host with id: 45
+Created EdgeVM with id: 46 from config of host with id: 46
+Created EdgeVM with id: 47 from config of host with id: 47
+Created EdgeVM with id: 48 from config of host with id: 48
+Created EdgeVM with id: 49 from config of host with id: 49
+Created EdgeVM with id: 50 from config of host with id: 50
+Created EdgeVM with id: 51 from config of host with id: 51
+Created EdgeVM with id: 52 from config of host with id: 52
+Created EdgeVM with id: 53 from config of host with id: 53
+Created EdgeVM with id: 54 from config of host with id: 54
+Created EdgeVM with id: 55 from config of host with id: 55
+Created EdgeVM with id: 56 from config of host with id: 56
+Created EdgeVM with id: 57 from config of host with id: 57
+Created EdgeVM with id: 58 from config of host with id: 58
+Created EdgeVM with id: 59 from config of host with id: 59
+Created EdgeVM with id: 60 from config of host with id: 60
+Created EdgeVM with id: 61 from config of host with id: 61
+Created EdgeVM with id: 62 from config of host with id: 62
+Created EdgeVM with id: 63 from config of host with id: 63
+Created EdgeVM with id: 64 from config of host with id: 64
+Created EdgeVM with id: 65 from config of host with id: 65
+Created EdgeVM with id: 66 from config of host with id: 66
+Created EdgeVM with id: 67 from config of host with id: 67
+Created EdgeVM with id: 68 from config of host with id: 68
+Created EdgeVM with id: 69 from config of host with id: 69
+Created EdgeVM with id: 70 from config of host with id: 70
+Created EdgeVM with id: 71 from config of host with id: 71
+Created EdgeVM with id: 72 from config of host with id: 72
+Created EdgeVM with id: 73 from config of host with id: 73
+Created EdgeVM with id: 74 from config of host with id: 74
+Created EdgeVM with id: 75 from config of host with id: 75
+Created EdgeVM with id: 76 from config of host with id: 76
+Created EdgeVM with id: 77 from config of host with id: 77
+Created EdgeVM with id: 78 from config of host with id: 78
+Created EdgeVM with id: 79 from config of host with id: 79
+Created EdgeVM with id: 80 from config of host with id: 80
+Created EdgeVM with id: 81 from config of host with id: 81
+Created EdgeVM with id: 82 from config of host with id: 82
+Created EdgeVM with id: 83 from config of host with id: 83
+Created EdgeVM with id: 84 from config of host with id: 84
+Created EdgeVM with id: 85 from config of host with id: 85
+Created EdgeVM with id: 86 from config of host with id: 86
+Created EdgeVM with id: 87 from config of host with id: 87
+Created EdgeVM with id: 88 from config of host with id: 88
+Created EdgeVM with id: 89 from config of host with id: 89
+Created EdgeVM with id: 90 from config of host with id: 90
+Created EdgeVM with id: 91 from config of host with id: 91
+Created EdgeVM with id: 92 from config of host with id: 92
+Created EdgeVM with id: 93 from config of host with id: 93
+Created EdgeVM with id: 94 from config of host with id: 94
+Created EdgeVM with id: 95 from config of host with id: 95
+Created EdgeVM with id: 96 from config of host with id: 96
+Created EdgeVM with id: 97 from config of host with id: 97
+Created EdgeVM with id: 98 from config of host with id: 98
+Created EdgeVM with id: 99 from config of host with id: 99
+Created EdgeVM with id: 100 from config of host with id: 100
+Created EdgeVM with id: 101 from config of host with id: 101
+Created EdgeVM with id: 102 from config of host with id: 102
+Created EdgeVM with id: 103 from config of host with id: 103
+Created EdgeVM with id: 104 from config of host with id: 104
+Created EdgeVM with id: 105 from config of host with id: 105
+Created EdgeVM with id: 106 from config of host with id: 106
+Created EdgeVM with id: 107 from config of host with id: 107
+Created EdgeVM with id: 108 from config of host with id: 108
+Created EdgeVM with id: 109 from config of host with id: 109
+Created EdgeVM with id: 110 from config of host with id: 110
+Created EdgeVM with id: 111 from config of host with id: 111
+Created EdgeVM with id: 112 from config of host with id: 112
+Created EdgeVM with id: 113 from config of host with id: 113
+Created EdgeVM with id: 114 from config of host with id: 114
+Created EdgeVM with id: 115 from config of host with id: 115
+Created EdgeVM with id: 116 from config of host with id: 116
+Created EdgeVM with id: 117 from config of host with id: 117
+Created EdgeVM with id: 118 from config of host with id: 118
+Created EdgeVM with id: 119 from config of host with id: 119
+Created EdgeVM with id: 120 from config of host with id: 120
+Created EdgeVM with id: 121 from config of host with id: 121
+Created EdgeVM with id: 122 from config of host with id: 122
+Created EdgeVM with id: 123 from config of host with id: 123
+Created EdgeVM with id: 124 from config of host with id: 124
+Created EdgeVM with id: 125 from config of host with id: 125
+Created EdgeVM with id: 126 from config of host with id: 126
+Created EdgeVM with id: 127 from config of host with id: 127
+Created EdgeVM with id: 128 from config of host with id: 128
+Created EdgeVM with id: 129 from config of host with id: 129
+Created EdgeVM with id: 130 from config of host with id: 130
+Created EdgeVM with id: 131 from config of host with id: 131
+Created EdgeVM with id: 132 from config of host with id: 132
+Created EdgeVM with id: 133 from config of host with id: 133
+Created EdgeVM with id: 134 from config of host with id: 134
+Created EdgeVM with id: 135 from config of host with id: 135
+Created EdgeVM with id: 136 from config of host with id: 136
+Created EdgeVM with id: 137 from config of host with id: 137
+Created EdgeVM with id: 138 from config of host with id: 138
+Created EdgeVM with id: 139 from config of host with id: 139
+Created EdgeVM with id: 140 from config of host with id: 140
+Created EdgeVM with id: 141 from config of host with id: 141
+Created EdgeVM with id: 142 from config of host with id: 142
+Created EdgeVM with id: 143 from config of host with id: 143
+Created EdgeVM with id: 144 from config of host with id: 144
+Created EdgeVM with id: 145 from config of host with id: 145
+Created EdgeVM with id: 146 from config of host with id: 146
+Created EdgeVM with id: 147 from config of host with id: 147
+Created EdgeVM with id: 148 from config of host with id: 148
+Created EdgeVM with id: 149 from config of host with id: 149
+Created EdgeVM with id: 150 from config of host with id: 150
+Created EdgeVM with id: 151 from config of host with id: 151
+Created EdgeVM with id: 152 from config of host with id: 152
+Created EdgeVM with id: 153 from config of host with id: 153
+Created EdgeVM with id: 154 from config of host with id: 154
+Created EdgeVM with id: 155 from config of host with id: 155
+Created EdgeVM with id: 156 from config of host with id: 156
+Created EdgeVM with id: 157 from config of host with id: 157
+Created EdgeVM with id: 158 from config of host with id: 158
+Created EdgeVM with id: 159 from config of host with id: 159
+Created EdgeVM with id: 160 from config of host with id: 160
+Created EdgeVM with id: 161 from config of host with id: 161
+Created EdgeVM with id: 162 from config of host with id: 162
+Created EdgeVM with id: 163 from config of host with id: 163
+Created EdgeVM with id: 164 from config of host with id: 164
+Created EdgeVM with id: 165 from config of host with id: 165
+Created EdgeVM with id: 166 from config of host with id: 166
+Created EdgeVM with id: 167 from config of host with id: 167
+Created EdgeVM with id: 168 from config of host with id: 168
+Created EdgeVM with id: 169 from config of host with id: 169
+Created EdgeVM with id: 170 from config of host with id: 170
+Created EdgeVM with id: 171 from config of host with id: 171
+Created EdgeVM with id: 172 from config of host with id: 172
+Created EdgeVM with id: 173 from config of host with id: 173
+Created EdgeVM with id: 174 from config of host with id: 174
+Created EdgeVM with id: 175 from config of host with id: 175
+Created EdgeVM with id: 176 from config of host with id: 176
+Created EdgeVM with id: 177 from config of host with id: 177
+Created EdgeVM with id: 178 from config of host with id: 178
+Created EdgeVM with id: 179 from config of host with id: 179
+Created EdgeVM with id: 180 from config of host with id: 180
+Created EdgeVM with id: 181 from config of host with id: 181
+Created EdgeVM with id: 182 from config of host with id: 182
+Created EdgeVM with id: 183 from config of host with id: 183
+Created EdgeVM with id: 184 from config of host with id: 184
+Created EdgeVM with id: 185 from config of host with id: 185
+Created EdgeVM with id: 186 from config of host with id: 186
+Created EdgeVM with id: 187 from config of host with id: 187
+Created EdgeVM with id: 188 from config of host with id: 188
+Created EdgeVM with id: 189 from config of host with id: 189
+Created EdgeVM with id: 190 from config of host with id: 190
+Created EdgeVM with id: 191 from config of host with id: 191
+Created EdgeVM with id: 192 from config of host with id: 192
+Created EdgeVM with id: 193 from config of host with id: 193
+Created EdgeVM with id: 194 from config of host with id: 194
+Created EdgeVM with id: 195 from config of host with id: 195
+Created EdgeVM with id: 196 from config of host with id: 196
+Created EdgeVM with id: 197 from config of host with id: 197
+Created EdgeVM with id: 198 from config of host with id: 198
+Created EdgeVM with id: 199 from config of host with id: 199
+Created EdgeVM with id: 200 from config of host with id: 200
+Created EdgeVM with id: 201 from config of host with id: 201
+Created EdgeVM with id: 202 from config of host with id: 202
+Created EdgeVM with id: 203 from config of host with id: 203
+Created EdgeVM with id: 204 from config of host with id: 204
+Created EdgeVM with id: 205 from config of host with id: 205
+Created EdgeVM with id: 206 from config of host with id: 206
+Created EdgeVM with id: 207 from config of host with id: 207
+Created EdgeVM with id: 208 from config of host with id: 208
+Created EdgeVM with id: 209 from config of host with id: 209
+Created EdgeVM with id: 210 from config of host with id: 210
+Created EdgeVM with id: 211 from config of host with id: 211
+Created EdgeVM with id: 212 from config of host with id: 212
+Created EdgeVM with id: 213 from config of host with id: 213
+Created EdgeVM with id: 214 from config of host with id: 214
+Created EdgeVM with id: 215 from config of host with id: 215
+Created EdgeVM with id: 216 from config of host with id: 216
+Created EdgeVM with id: 217 from config of host with id: 217
+Created EdgeVM with id: 218 from config of host with id: 218
+Created EdgeVM with id: 219 from config of host with id: 219
+Created EdgeVM with id: 220 from config of host with id: 220
+Created EdgeVM with id: 221 from config of host with id: 221
+Created EdgeVM with id: 222 from config of host with id: 222
+Created EdgeVM with id: 223 from config of host with id: 223
+Created EdgeVM with id: 224 from config of host with id: 224
+Created EdgeVM with id: 225 from config of host with id: 225
+Created EdgeVM with id: 226 from config of host with id: 226
+Created EdgeVM with id: 227 from config of host with id: 227
+Created EdgeVM with id: 228 from config of host with id: 228
+Created EdgeVM with id: 229 from config of host with id: 229
+Created EdgeVM with id: 230 from config of host with id: 230
+Created EdgeVM with id: 231 from config of host with id: 231
+Created EdgeVM with id: 232 from config of host with id: 232
+Created EdgeVM with id: 233 from config of host with id: 233
+Created EdgeVM with id: 234 from config of host with id: 234
+Created EdgeVM with id: 235 from config of host with id: 235
+Created EdgeVM with id: 236 from config of host with id: 236
+Created EdgeVM with id: 237 from config of host with id: 237
+Created EdgeVM with id: 238 from config of host with id: 238
+Created EdgeVM with id: 239 from config of host with id: 239
+Created EdgeVM with id: 240 from config of host with id: 240
+Created EdgeVM with id: 241 from config of host with id: 241
+Created EdgeVM with id: 242 from config of host with id: 242
+Created EdgeVM with id: 243 from config of host with id: 243
+Created EdgeVM with id: 244 from config of host with id: 244
+Created EdgeVM with id: 245 from config of host with id: 245
+Created EdgeVM with id: 246 from config of host with id: 246
+Created EdgeVM with id: 247 from config of host with id: 247
+Created EdgeVM with id: 248 from config of host with id: 248
+Created EdgeVM with id: 249 from config of host with id: 249
+Created EdgeVM with id: 250 from config of host with id: 250
+Created EdgeVM with id: 251 from config of host with id: 251
+Created EdgeVM with id: 252 from config of host with id: 252
+Created EdgeVM with id: 253 from config of host with id: 253
+Created EdgeVM with id: 254 from config of host with id: 254
+Created EdgeVM with id: 255 from config of host with id: 255
+Created EdgeVM with id: 256 from config of host with id: 256
+Created EdgeVM with id: 257 from config of host with id: 257
+Created EdgeVM with id: 258 from config of host with id: 258
+Created EdgeVM with id: 259 from config of host with id: 259
+Created EdgeVM with id: 260 from config of host with id: 260
+Created EdgeVM with id: 261 from config of host with id: 261
+Created EdgeVM with id: 262 from config of host with id: 262
+Created EdgeVM with id: 263 from config of host with id: 263
+Created EdgeVM with id: 264 from config of host with id: 264
+Created EdgeVM with id: 265 from config of host with id: 265
+Created EdgeVM with id: 266 from config of host with id: 266
+Created EdgeVM with id: 267 from config of host with id: 267
+Created EdgeVM with id: 268 from config of host with id: 268
+Created EdgeVM with id: 269 from config of host with id: 269
+Created EdgeVM with id: 270 from config of host with id: 270
+Created EdgeVM with id: 271 from config of host with id: 271
+Created EdgeVM with id: 272 from config of host with id: 272
+Created EdgeVM with id: 273 from config of host with id: 273
+Created EdgeVM with id: 274 from config of host with id: 274
+Created EdgeVM with id: 275 from config of host with id: 275
+Created EdgeVM with id: 276 from config of host with id: 276
+Created EdgeVM with id: 277 from config of host with id: 277
+Created EdgeVM with id: 278 from config of host with id: 278
+Created EdgeVM with id: 279 from config of host with id: 279
+Created EdgeVM with id: 280 from config of host with id: 280
+Created EdgeVM with id: 281 from config of host with id: 281
+Created EdgeVM with id: 282 from config of host with id: 282
+Created EdgeVM with id: 283 from config of host with id: 283
+Created EdgeVM with id: 284 from config of host with id: 284
+Created EdgeVM with id: 285 from config of host with id: 285
+Created EdgeVM with id: 286 from config of host with id: 286
+Created EdgeVM with id: 287 from config of host with id: 287
+Created EdgeVM with id: 288 from config of host with id: 288
+Created EdgeVM with id: 289 from config of host with id: 289
+Created EdgeVM with id: 290 from config of host with id: 290
+Created EdgeVM with id: 291 from config of host with id: 291
+Created EdgeVM with id: 292 from config of host with id: 292
+Created EdgeVM with id: 293 from config of host with id: 293
+Created EdgeVM with id: 294 from config of host with id: 294
+Created EdgeVM with id: 295 from config of host with id: 295
+Created EdgeVM with id: 296 from config of host with id: 296
+Created EdgeVM with id: 297 from config of host with id: 297
+Created EdgeVM with id: 298 from config of host with id: 298
+Created EdgeVM with id: 299 from config of host with id: 299
+Created EdgeVM with id: 300 from config of host with id: 300
+Created EdgeVM with id: 301 from config of host with id: 301
+Created EdgeVM with id: 302 from config of host with id: 302
+Created EdgeVM with id: 303 from config of host with id: 303
+Created EdgeVM with id: 304 from config of host with id: 304
+Created EdgeVM with id: 305 from config of host with id: 305
+Created EdgeVM with id: 306 from config of host with id: 306
+Created EdgeVM with id: 307 from config of host with id: 307
+Created EdgeVM with id: 308 from config of host with id: 308
+Created EdgeVM with id: 309 from config of host with id: 309
+Created EdgeVM with id: 310 from config of host with id: 310
+Created EdgeVM with id: 311 from config of host with id: 311
+Created EdgeVM with id: 312 from config of host with id: 312
+Created EdgeVM with id: 313 from config of host with id: 313
+Created EdgeVM with id: 314 from config of host with id: 314
+Created EdgeVM with id: 315 from config of host with id: 315
+Created EdgeVM with id: 316 from config of host with id: 316
+Created EdgeVM with id: 317 from config of host with id: 317
+Created EdgeVM with id: 318 from config of host with id: 318
+Created EdgeVM with id: 319 from config of host with id: 319
+Created EdgeVM with id: 320 from config of host with id: 320
+Created EdgeVM with id: 321 from config of host with id: 321
+Created EdgeVM with id: 322 from config of host with id: 322
+Created EdgeVM with id: 323 from config of host with id: 323
+Created EdgeVM with id: 324 from config of host with id: 324
+Created EdgeVM with id: 325 from config of host with id: 325
+Created EdgeVM with id: 326 from config of host with id: 326
+Created EdgeVM with id: 327 from config of host with id: 327
+Created EdgeVM with id: 328 from config of host with id: 328
+Created EdgeVM with id: 329 from config of host with id: 329
+Created EdgeVM with id: 330 from config of host with id: 330
+Created EdgeVM with id: 331 from config of host with id: 331
+Created EdgeVM with id: 332 from config of host with id: 332
+Created EdgeVM with id: 333 from config of host with id: 333
+Created EdgeVM with id: 334 from config of host with id: 334
+Created EdgeVM with id: 335 from config of host with id: 335
+Created EdgeVM with id: 336 from config of host with id: 336
+Created EdgeVM with id: 337 from config of host with id: 337
+Created EdgeVM with id: 338 from config of host with id: 338
+Created EdgeVM with id: 339 from config of host with id: 339
+Created EdgeVM with id: 340 from config of host with id: 340
+Created EdgeVM with id: 341 from config of host with id: 341
+Created EdgeVM with id: 342 from config of host with id: 342
+Created EdgeVM with id: 343 from config of host with id: 343
+Created EdgeVM with id: 344 from config of host with id: 344
+Created EdgeVM with id: 345 from config of host with id: 345
+Created EdgeVM with id: 346 from config of host with id: 346
+Created EdgeVM with id: 347 from config of host with id: 347
+Created EdgeVM with id: 348 from config of host with id: 348
+Created EdgeVM with id: 349 from config of host with id: 349
+Created EdgeVM with id: 350 from config of host with id: 350
+Created EdgeVM with id: 351 from config of host with id: 351
+Created EdgeVM with id: 352 from config of host with id: 352
+Created EdgeVM with id: 353 from config of host with id: 353
+Created EdgeVM with id: 354 from config of host with id: 354
+Created EdgeVM with id: 355 from config of host with id: 355
+Created EdgeVM with id: 356 from config of host with id: 356
+Created EdgeVM with id: 357 from config of host with id: 357
+Created EdgeVM with id: 358 from config of host with id: 358
+Created EdgeVM with id: 359 from config of host with id: 359
+Created EdgeVM with id: 360 from config of host with id: 360
+Created EdgeVM with id: 361 from config of host with id: 361
+Created EdgeVM with id: 362 from config of host with id: 362
+Created EdgeVM with id: 363 from config of host with id: 363
+Created EdgeVM with id: 364 from config of host with id: 364
+Created EdgeVM with id: 365 from config of host with id: 365
+Created EdgeVM with id: 366 from config of host with id: 366
+Created EdgeVM with id: 367 from config of host with id: 367
+Created EdgeVM with id: 368 from config of host with id: 368
+Created EdgeVM with id: 369 from config of host with id: 369
+Created EdgeVM with id: 370 from config of host with id: 370
+Created EdgeVM with id: 371 from config of host with id: 371
+Created EdgeVM with id: 372 from config of host with id: 372
+Created EdgeVM with id: 373 from config of host with id: 373
+Created EdgeVM with id: 374 from config of host with id: 374
+Created EdgeVM with id: 375 from config of host with id: 375
+Created EdgeVM with id: 376 from config of host with id: 376
+Created EdgeVM with id: 377 from config of host with id: 377
+Created EdgeVM with id: 378 from config of host with id: 378
+Created EdgeVM with id: 379 from config of host with id: 379
+Created EdgeVM with id: 380 from config of host with id: 380
+Created EdgeVM with id: 381 from config of host with id: 381
+Created EdgeVM with id: 382 from config of host with id: 382
+Created EdgeVM with id: 383 from config of host with id: 383
+Created EdgeVM with id: 384 from config of host with id: 384
+Created EdgeVM with id: 385 from config of host with id: 385
+Created EdgeVM with id: 386 from config of host with id: 386
+Created EdgeVM with id: 387 from config of host with id: 387
+Created EdgeVM with id: 388 from config of host with id: 388
+Created EdgeVM with id: 389 from config of host with id: 389
+Created EdgeVM with id: 390 from config of host with id: 390
+Created EdgeVM with id: 391 from config of host with id: 391
+Created EdgeVM with id: 392 from config of host with id: 392
+Created EdgeVM with id: 393 from config of host with id: 393
+Created EdgeVM with id: 394 from config of host with id: 394
+Created EdgeVM with id: 395 from config of host with id: 395
+Created EdgeVM with id: 396 from config of host with id: 396
+Created EdgeVM with id: 397 from config of host with id: 397
+Created EdgeVM with id: 398 from config of host with id: 398
+Created EdgeVM with id: 399 from config of host with id: 399
+Created EdgeVM with id: 400 from config of host with id: 400
+Created EdgeVM with id: 401 from config of host with id: 401
+Created EdgeVM with id: 402 from config of host with id: 402
+Created EdgeVM with id: 403 from config of host with id: 403
+Created EdgeVM with id: 404 from config of host with id: 404
+Created EdgeVM with id: 405 from config of host with id: 405
+Created EdgeVM with id: 406 from config of host with id: 406
+Created EdgeVM with id: 407 from config of host with id: 407
+Created EdgeVM with id: 408 from config of host with id: 408
+Created EdgeVM with id: 409 from config of host with id: 409
+Created EdgeVM with id: 410 from config of host with id: 410
+Created EdgeVM with id: 411 from config of host with id: 411
+Created EdgeVM with id: 412 from config of host with id: 412
+Created EdgeVM with id: 413 from config of host with id: 413
+Created EdgeVM with id: 414 from config of host with id: 414
+Created EdgeVM with id: 415 from config of host with id: 415
+Created EdgeVM with id: 416 from config of host with id: 416
+Created EdgeVM with id: 417 from config of host with id: 417
+Created EdgeVM with id: 418 from config of host with id: 418
+Created EdgeVM with id: 419 from config of host with id: 419
+Created EdgeVM with id: 420 from config of host with id: 420
+Created EdgeVM with id: 421 from config of host with id: 421
+Created EdgeVM with id: 422 from config of host with id: 422
+Created EdgeVM with id: 423 from config of host with id: 423
+Created EdgeVM with id: 424 from config of host with id: 424
+Created EdgeVM with id: 425 from config of host with id: 425
+Created EdgeVM with id: 426 from config of host with id: 426
+Created EdgeVM with id: 427 from config of host with id: 427
+Created EdgeVM with id: 428 from config of host with id: 428
+Created EdgeVM with id: 429 from config of host with id: 429
+Created EdgeVM with id: 430 from config of host with id: 430
+Created EdgeVM with id: 431 from config of host with id: 431
+Created EdgeVM with id: 432 from config of host with id: 432
+Created EdgeVM with id: 433 from config of host with id: 433
+Created EdgeVM with id: 434 from config of host with id: 434
+Created EdgeVM with id: 435 from config of host with id: 435
+Created EdgeVM with id: 436 from config of host with id: 436
+Created EdgeVM with id: 437 from config of host with id: 437
+Created EdgeVM with id: 438 from config of host with id: 438
+Created EdgeVM with id: 439 from config of host with id: 439
+Created EdgeVM with id: 440 from config of host with id: 440
+Created EdgeVM with id: 441 from config of host with id: 441
+Created EdgeVM with id: 442 from config of host with id: 442
+Created EdgeVM with id: 443 from config of host with id: 443
+Created EdgeVM with id: 444 from config of host with id: 444
+Created EdgeVM with id: 445 from config of host with id: 445
+Created EdgeVM with id: 446 from config of host with id: 446
+Created EdgeVM with id: 447 from config of host with id: 447
+Created EdgeVM with id: 448 from config of host with id: 448
+Created EdgeVM with id: 449 from config of host with id: 449
+Created EdgeVM with id: 450 from config of host with id: 450
+Created EdgeVM with id: 451 from config of host with id: 451
+Created EdgeVM with id: 452 from config of host with id: 452
+Created EdgeVM with id: 453 from config of host with id: 453
+Created EdgeVM with id: 454 from config of host with id: 454
+Created EdgeVM with id: 455 from config of host with id: 455
+Created EdgeVM with id: 456 from config of host with id: 456
+Created EdgeVM with id: 457 from config of host with id: 457
+Created EdgeVM with id: 458 from config of host with id: 458
+Created EdgeVM with id: 459 from config of host with id: 459
+Created EdgeVM with id: 460 from config of host with id: 460
+Created EdgeVM with id: 461 from config of host with id: 461
+Created EdgeVM with id: 462 from config of host with id: 462
+Created EdgeVM with id: 463 from config of host with id: 463
+Created EdgeVM with id: 464 from config of host with id: 464
+Created EdgeVM with id: 465 from config of host with id: 465
+Created EdgeVM with id: 466 from config of host with id: 466
+Created EdgeVM with id: 467 from config of host with id: 467
+Created EdgeVM with id: 468 from config of host with id: 468
+Created EdgeVM with id: 469 from config of host with id: 469
+Created EdgeVM with id: 470 from config of host with id: 470
+Created EdgeVM with id: 471 from config of host with id: 471
+Created EdgeVM with id: 472 from config of host with id: 472
+Created EdgeVM with id: 473 from config of host with id: 473
+Created EdgeVM with id: 474 from config of host with id: 474
+Created EdgeVM with id: 475 from config of host with id: 475
+Created EdgeVM with id: 476 from config of host with id: 476
+Created EdgeVM with id: 477 from config of host with id: 477
+Created EdgeVM with id: 478 from config of host with id: 478
+Created EdgeVM with id: 479 from config of host with id: 479
+Created EdgeVM with id: 480 from config of host with id: 480
+Created EdgeVM with id: 481 from config of host with id: 481
+Created EdgeVM with id: 482 from config of host with id: 482
+Created EdgeVM with id: 483 from config of host with id: 483
+Created EdgeVM with id: 484 from config of host with id: 484
+Created EdgeVM with id: 485 from config of host with id: 485
+Created EdgeVM with id: 486 from config of host with id: 486
+Created EdgeVM with id: 487 from config of host with id: 487
+Created EdgeVM with id: 488 from config of host with id: 488
+Created EdgeVM with id: 489 from config of host with id: 489
+Created EdgeVM with id: 490 from config of host with id: 490
+Created EdgeVM with id: 491 from config of host with id: 491
+Created EdgeVM with id: 492 from config of host with id: 492
+Created EdgeVM with id: 493 from config of host with id: 493
+Created EdgeVM with id: 494 from config of host with id: 494
+Created EdgeVM with id: 495 from config of host with id: 495
+Created EdgeVM with id: 496 from config of host with id: 496
+Created EdgeVM with id: 497 from config of host with id: 497
+Created EdgeVM with id: 498 from config of host with id: 498
+Created EdgeVM with id: 499 from config of host with id: 499
+Created EdgeVM with id: 500 from config of host with id: 500
+Created EdgeVM with id: 501 from config of host with id: 501
+Created EdgeVM with id: 502 from config of host with id: 502
+Created EdgeVM with id: 503 from config of host with id: 503
+Created EdgeVM with id: 504 from config of host with id: 504
+Created EdgeVM with id: 505 from config of host with id: 505
+Created EdgeVM with id: 506 from config of host with id: 506
+Created EdgeVM with id: 507 from config of host with id: 507
+Created EdgeVM with id: 508 from config of host with id: 508
+Created EdgeVM with id: 509 from config of host with id: 509
+Created EdgeVM with id: 510 from config of host with id: 510
+Created EdgeVM with id: 511 from config of host with id: 511
+Created EdgeVM with id: 512 from config of host with id: 512
+Created EdgeVM with id: 513 from config of host with id: 513
+Created EdgeVM with id: 514 from config of host with id: 514
+Created EdgeVM with id: 515 from config of host with id: 515
+Created EdgeVM with id: 516 from config of host with id: 516
+Created EdgeVM with id: 517 from config of host with id: 517
+Created EdgeVM with id: 518 from config of host with id: 518
+Created EdgeVM with id: 519 from config of host with id: 519
+Created EdgeVM with id: 520 from config of host with id: 520
+Created EdgeVM with id: 521 from config of host with id: 521
+Created EdgeVM with id: 522 from config of host with id: 522
+Created EdgeVM with id: 523 from config of host with id: 523
+Created EdgeVM with id: 524 from config of host with id: 524
+Created EdgeVM with id: 525 from config of host with id: 525
+Created EdgeVM with id: 526 from config of host with id: 526
+Created EdgeVM with id: 527 from config of host with id: 527
+Created EdgeVM with id: 528 from config of host with id: 528
+Created EdgeVM with id: 529 from config of host with id: 529
+Created EdgeVM with id: 530 from config of host with id: 530
+Created EdgeVM with id: 531 from config of host with id: 531
+Created EdgeVM with id: 532 from config of host with id: 532
+Created EdgeVM with id: 533 from config of host with id: 533
+Created EdgeVM with id: 534 from config of host with id: 534
+Created EdgeVM with id: 535 from config of host with id: 535
+Created EdgeVM with id: 536 from config of host with id: 536
+Created EdgeVM with id: 537 from config of host with id: 537
+Created EdgeVM with id: 538 from config of host with id: 538
+Created EdgeVM with id: 539 from config of host with id: 539
+Created EdgeVM with id: 540 from config of host with id: 540
+Created EdgeVM with id: 541 from config of host with id: 541
+Created EdgeVM with id: 542 from config of host with id: 542
+Created EdgeVM with id: 543 from config of host with id: 543
+Created EdgeVM with id: 544 from config of host with id: 544
+Created EdgeVM with id: 545 from config of host with id: 545
+Created EdgeVM with id: 546 from config of host with id: 546
+Created EdgeVM with id: 547 from config of host with id: 547
+Created EdgeVM with id: 548 from config of host with id: 548
+Created EdgeVM with id: 549 from config of host with id: 549
+Created EdgeVM with id: 550 from config of host with id: 550
+Created EdgeVM with id: 551 from config of host with id: 551
+Created EdgeVM with id: 552 from config of host with id: 552
+Created EdgeVM with id: 553 from config of host with id: 553
+Created EdgeVM with id: 554 from config of host with id: 554
+Created EdgeVM with id: 555 from config of host with id: 555
+Created EdgeVM with id: 556 from config of host with id: 556
+Created EdgeVM with id: 557 from config of host with id: 557
+Created EdgeVM with id: 558 from config of host with id: 558
+Created EdgeVM with id: 559 from config of host with id: 559
+Created EdgeVM with id: 560 from config of host with id: 560
+Created EdgeVM with id: 561 from config of host with id: 561
+Created EdgeVM with id: 562 from config of host with id: 562
+Created EdgeVM with id: 563 from config of host with id: 563
+Created EdgeVM with id: 564 from config of host with id: 564
+Created EdgeVM with id: 565 from config of host with id: 565
+Created EdgeVM with id: 566 from config of host with id: 566
+Created EdgeVM with id: 567 from config of host with id: 567
+Created EdgeVM with id: 568 from config of host with id: 568
+Created EdgeVM with id: 569 from config of host with id: 569
+Created EdgeVM with id: 570 from config of host with id: 570
+Created EdgeVM with id: 571 from config of host with id: 571
+Created EdgeVM with id: 572 from config of host with id: 572
+Created EdgeVM with id: 573 from config of host with id: 573
+Created EdgeVM with id: 574 from config of host with id: 574
+Created EdgeVM with id: 575 from config of host with id: 575
+Created EdgeVM with id: 576 from config of host with id: 576
+Created EdgeVM with id: 577 from config of host with id: 577
+Created EdgeVM with id: 578 from config of host with id: 578
+Created EdgeVM with id: 579 from config of host with id: 579
+Created EdgeVM with id: 580 from config of host with id: 580
+Created EdgeVM with id: 581 from config of host with id: 581
+Created EdgeVM with id: 582 from config of host with id: 582
+Created EdgeVM with id: 583 from config of host with id: 583
+Created EdgeVM with id: 584 from config of host with id: 584
+Created EdgeVM with id: 585 from config of host with id: 585
+Created EdgeVM with id: 586 from config of host with id: 586
+Created EdgeVM with id: 587 from config of host with id: 587
+Created EdgeVM with id: 588 from config of host with id: 588
+Created EdgeVM with id: 589 from config of host with id: 589
+Created EdgeVM with id: 590 from config of host with id: 590
+Created EdgeVM with id: 591 from config of host with id: 591
+Created EdgeVM with id: 592 from config of host with id: 592
+Created EdgeVM with id: 593 from config of host with id: 593
+Created EdgeVM with id: 594 from config of host with id: 594
+Created EdgeVM with id: 595 from config of host with id: 595
+Created EdgeVM with id: 596 from config of host with id: 596
+Created EdgeVM with id: 597 from config of host with id: 597
+Created EdgeVM with id: 598 from config of host with id: 598
+Created EdgeVM with id: 599 from config of host with id: 599
+Created EdgeVM with id: 600 from config of host with id: 600
+Created EdgeVM with id: 601 from config of host with id: 601
+Created EdgeVM with id: 602 from config of host with id: 602
+Created EdgeVM with id: 603 from config of host with id: 603
+Created EdgeVM with id: 604 from config of host with id: 604
+Created EdgeVM with id: 605 from config of host with id: 605
+Created EdgeVM with id: 606 from config of host with id: 606
+Created EdgeVM with id: 607 from config of host with id: 607
+Created EdgeVM with id: 608 from config of host with id: 608
+Created EdgeVM with id: 609 from config of host with id: 609
+Created EdgeVM with id: 610 from config of host with id: 610
+Created EdgeVM with id: 611 from config of host with id: 611
+Created EdgeVM with id: 612 from config of host with id: 612
+Created EdgeVM with id: 613 from config of host with id: 613
+Created EdgeVM with id: 614 from config of host with id: 614
+Created EdgeVM with id: 615 from config of host with id: 615
+Created EdgeVM with id: 616 from config of host with id: 616
+Created EdgeVM with id: 617 from config of host with id: 617
+Created EdgeVM with id: 618 from config of host with id: 618
+Created EdgeVM with id: 619 from config of host with id: 619
+Created EdgeVM with id: 620 from config of host with id: 620
+Created EdgeVM with id: 621 from config of host with id: 621
+Created EdgeVM with id: 622 from config of host with id: 622
+Created EdgeVM with id: 623 from config of host with id: 623
+Created EdgeVM with id: 624 from config of host with id: 624
+Created EdgeVM with id: 625 from config of host with id: 625
+Created EdgeVM with id: 626 from config of host with id: 626
+Created EdgeVM with id: 627 from config of host with id: 627
+Created EdgeVM with id: 628 from config of host with id: 628
+Created EdgeVM with id: 629 from config of host with id: 629
+Created EdgeVM with id: 630 from config of host with id: 630
+Created EdgeVM with id: 631 from config of host with id: 631
+Created EdgeVM with id: 632 from config of host with id: 632
+Created EdgeVM with id: 633 from config of host with id: 633
+Created EdgeVM with id: 634 from config of host with id: 634
+Created EdgeVM with id: 635 from config of host with id: 635
+Created EdgeVM with id: 636 from config of host with id: 636
+Created EdgeVM with id: 637 from config of host with id: 637
+Created EdgeVM with id: 638 from config of host with id: 638
+Created EdgeVM with id: 639 from config of host with id: 639
+Created EdgeVM with id: 640 from config of host with id: 640
+Created EdgeVM with id: 641 from config of host with id: 641
+Created EdgeVM with id: 642 from config of host with id: 642
+Created EdgeVM with id: 643 from config of host with id: 643
+Created EdgeVM with id: 644 from config of host with id: 644
+Created EdgeVM with id: 645 from config of host with id: 645
+Created EdgeVM with id: 646 from config of host with id: 646
+Created EdgeVM with id: 647 from config of host with id: 647
+Created EdgeVM with id: 648 from config of host with id: 648
+Created EdgeVM with id: 649 from config of host with id: 649
+Created EdgeVM with id: 650 from config of host with id: 650
+Created EdgeVM with id: 651 from config of host with id: 651
+Created EdgeVM with id: 652 from config of host with id: 652
+Created EdgeVM with id: 653 from config of host with id: 653
+Created EdgeVM with id: 654 from config of host with id: 654
+Created EdgeVM with id: 655 from config of host with id: 655
+Created EdgeVM with id: 656 from config of host with id: 656
+Created EdgeVM with id: 657 from config of host with id: 657
+Created EdgeVM with id: 658 from config of host with id: 658
+Created EdgeVM with id: 659 from config of host with id: 659
+Created EdgeVM with id: 660 from config of host with id: 660
+Created EdgeVM with id: 661 from config of host with id: 661
+Created EdgeVM with id: 662 from config of host with id: 662
+Created EdgeVM with id: 663 from config of host with id: 663
+Created EdgeVM with id: 664 from config of host with id: 664
+Created EdgeVM with id: 665 from config of host with id: 665
+Created EdgeVM with id: 666 from config of host with id: 666
+Created EdgeVM with id: 667 from config of host with id: 667
+Created EdgeVM with id: 668 from config of host with id: 668
+Created EdgeVM with id: 669 from config of host with id: 669
+Created EdgeVM with id: 670 from config of host with id: 670
+Created EdgeVM with id: 671 from config of host with id: 671
+Created EdgeVM with id: 672 from config of host with id: 672
+Created EdgeVM with id: 673 from config of host with id: 673
+Created EdgeVM with id: 674 from config of host with id: 674
+Created EdgeVM with id: 675 from config of host with id: 675
+Created EdgeVM with id: 676 from config of host with id: 676
+Created EdgeVM with id: 677 from config of host with id: 677
+Created EdgeVM with id: 678 from config of host with id: 678
+Created EdgeVM with id: 679 from config of host with id: 679
+Created EdgeVM with id: 680 from config of host with id: 680
+Created EdgeVM with id: 681 from config of host with id: 681
+Created EdgeVM with id: 682 from config of host with id: 682
+Created EdgeVM with id: 683 from config of host with id: 683
+Created EdgeVM with id: 684 from config of host with id: 684
+Created EdgeVM with id: 685 from config of host with id: 685
+Created EdgeVM with id: 686 from config of host with id: 686
+Created EdgeVM with id: 687 from config of host with id: 687
+Created EdgeVM with id: 688 from config of host with id: 688
+Created EdgeVM with id: 689 from config of host with id: 689
+Created EdgeVM with id: 690 from config of host with id: 690
+Created EdgeVM with id: 691 from config of host with id: 691
+Created EdgeVM with id: 692 from config of host with id: 692
+Created EdgeVM with id: 693 from config of host with id: 693
+Created EdgeVM with id: 694 from config of host with id: 694
+Created EdgeVM with id: 695 from config of host with id: 695
+Created EdgeVM with id: 696 from config of host with id: 696
+Created EdgeVM with id: 697 from config of host with id: 697
+Created EdgeVM with id: 698 from config of host with id: 698
+Created EdgeVM with id: 699 from config of host with id: 699
+Created EdgeVM with id: 700 from config of host with id: 700
+Created EdgeVM with id: 701 from config of host with id: 701
+Created EdgeVM with id: 702 from config of host with id: 702
+Created EdgeVM with id: 703 from config of host with id: 703
+Created EdgeVM with id: 704 from config of host with id: 704
+Created EdgeVM with id: 705 from config of host with id: 705
+Created EdgeVM with id: 706 from config of host with id: 706
+Created EdgeVM with id: 707 from config of host with id: 707
+Created EdgeVM with id: 708 from config of host with id: 708
+Created EdgeVM with id: 709 from config of host with id: 709
+Created EdgeVM with id: 710 from config of host with id: 710
+Created EdgeVM with id: 711 from config of host with id: 711
+Created EdgeVM with id: 712 from config of host with id: 712
+Created EdgeVM with id: 713 from config of host with id: 713
+Created EdgeVM with id: 714 from config of host with id: 714
+Created EdgeVM with id: 715 from config of host with id: 715
+Created EdgeVM with id: 716 from config of host with id: 716
+Created EdgeVM with id: 717 from config of host with id: 717
+Created EdgeVM with id: 718 from config of host with id: 718
+Created EdgeVM with id: 719 from config of host with id: 719
+Created EdgeVM with id: 720 from config of host with id: 720
+Created EdgeVM with id: 721 from config of host with id: 721
+Created EdgeVM with id: 722 from config of host with id: 722
+Created EdgeVM with id: 723 from config of host with id: 723
+Created EdgeVM with id: 724 from config of host with id: 724
+Created EdgeVM with id: 725 from config of host with id: 725
+Created EdgeVM with id: 726 from config of host with id: 726
+Created EdgeVM with id: 727 from config of host with id: 727
+Created EdgeVM with id: 728 from config of host with id: 728
+Created EdgeVM with id: 729 from config of host with id: 729
+Created EdgeVM with id: 730 from config of host with id: 730
+Created EdgeVM with id: 731 from config of host with id: 731
+Created EdgeVM with id: 732 from config of host with id: 732
+Created EdgeVM with id: 733 from config of host with id: 733
+Created EdgeVM with id: 734 from config of host with id: 734
+Created EdgeVM with id: 735 from config of host with id: 735
+Created EdgeVM with id: 736 from config of host with id: 736
+Created EdgeVM with id: 737 from config of host with id: 737
+Created EdgeVM with id: 738 from config of host with id: 738
+Created EdgeVM with id: 739 from config of host with id: 739
+Created EdgeVM with id: 740 from config of host with id: 740
+Created EdgeVM with id: 741 from config of host with id: 741
+Created EdgeVM with id: 742 from config of host with id: 742
+Created EdgeVM with id: 743 from config of host with id: 743
+Created EdgeVM with id: 744 from config of host with id: 744
+Created EdgeVM with id: 745 from config of host with id: 745
+Created EdgeVM with id: 746 from config of host with id: 746
+Created EdgeVM with id: 747 from config of host with id: 747
+Created EdgeVM with id: 748 from config of host with id: 748
+Created EdgeVM with id: 749 from config of host with id: 749
+Created EdgeVM with id: 750 from config of host with id: 750
+Created EdgeVM with id: 751 from config of host with id: 751
+Created EdgeVM with id: 752 from config of host with id: 752
+Created EdgeVM with id: 753 from config of host with id: 753
+Created EdgeVM with id: 754 from config of host with id: 754
+Created EdgeVM with id: 755 from config of host with id: 755
+Created EdgeVM with id: 756 from config of host with id: 756
+Created EdgeVM with id: 757 from config of host with id: 757
+Created EdgeVM with id: 758 from config of host with id: 758
+Created EdgeVM with id: 759 from config of host with id: 759
+Created EdgeVM with id: 760 from config of host with id: 760
+Created EdgeVM with id: 761 from config of host with id: 761
+Created EdgeVM with id: 762 from config of host with id: 762
+Created EdgeVM with id: 763 from config of host with id: 763
+Created EdgeVM with id: 764 from config of host with id: 764
+Created EdgeVM with id: 765 from config of host with id: 765
+Created EdgeVM with id: 766 from config of host with id: 766
+Created EdgeVM with id: 767 from config of host with id: 767
+Created EdgeVM with id: 768 from config of host with id: 768
+Created EdgeVM with id: 769 from config of host with id: 769
+Created EdgeVM with id: 770 from config of host with id: 770
+Created EdgeVM with id: 771 from config of host with id: 771
+Created EdgeVM with id: 772 from config of host with id: 772
+Created EdgeVM with id: 773 from config of host with id: 773
+Created EdgeVM with id: 774 from config of host with id: 774
+Created EdgeVM with id: 775 from config of host with id: 775
+Created EdgeVM with id: 776 from config of host with id: 776
+Created EdgeVM with id: 777 from config of host with id: 777
+Created EdgeVM with id: 778 from config of host with id: 778
+Created EdgeVM with id: 779 from config of host with id: 779
+Created EdgeVM with id: 780 from config of host with id: 780
+Created EdgeVM with id: 781 from config of host with id: 781
+Created EdgeVM with id: 782 from config of host with id: 782
+Created EdgeVM with id: 783 from config of host with id: 783
+Created EdgeVM with id: 784 from config of host with id: 784
+Created EdgeVM with id: 785 from config of host with id: 785
+Created EdgeVM with id: 786 from config of host with id: 786
+Created EdgeVM with id: 787 from config of host with id: 787
+Created EdgeVM with id: 788 from config of host with id: 788
+Created EdgeVM with id: 789 from config of host with id: 789
+Created EdgeVM with id: 790 from config of host with id: 790
+Created EdgeVM with id: 791 from config of host with id: 791
+Created EdgeVM with id: 792 from config of host with id: 792
+Created EdgeVM with id: 793 from config of host with id: 793
+Created EdgeVM with id: 794 from config of host with id: 794
+Created EdgeVM with id: 795 from config of host with id: 795
+Created EdgeVM with id: 796 from config of host with id: 796
+Created EdgeVM with id: 797 from config of host with id: 797
+Created EdgeVM with id: 798 from config of host with id: 798
+Created EdgeVM with id: 799 from config of host with id: 799
+Created EdgeVM with id: 800 from config of host with id: 800
+Created EdgeVM with id: 801 from config of host with id: 801
+Created EdgeVM with id: 802 from config of host with id: 802
+Created EdgeVM with id: 803 from config of host with id: 803
+Created EdgeVM with id: 804 from config of host with id: 804
+Created EdgeVM with id: 805 from config of host with id: 805
+Created EdgeVM with id: 806 from config of host with id: 806
+Created EdgeVM with id: 807 from config of host with id: 807
+Created EdgeVM with id: 808 from config of host with id: 808
+Created EdgeVM with id: 809 from config of host with id: 809
+Created EdgeVM with id: 810 from config of host with id: 810
+Created EdgeVM with id: 811 from config of host with id: 811
+Created EdgeVM with id: 812 from config of host with id: 812
+Created EdgeVM with id: 813 from config of host with id: 813
+Created EdgeVM with id: 814 from config of host with id: 814
+Created EdgeVM with id: 815 from config of host with id: 815
+Created EdgeVM with id: 816 from config of host with id: 816
+Created EdgeVM with id: 817 from config of host with id: 817
+Created EdgeVM with id: 818 from config of host with id: 818
+Created EdgeVM with id: 819 from config of host with id: 819
+Created EdgeVM with id: 820 from config of host with id: 820
+Created EdgeVM with id: 821 from config of host with id: 821
+Created EdgeVM with id: 822 from config of host with id: 822
+Created EdgeVM with id: 823 from config of host with id: 823
+Created EdgeVM with id: 824 from config of host with id: 824
+Created EdgeVM with id: 825 from config of host with id: 825
+Created EdgeVM with id: 826 from config of host with id: 826
+Created EdgeVM with id: 827 from config of host with id: 827
+Created EdgeVM with id: 828 from config of host with id: 828
+Created EdgeVM with id: 829 from config of host with id: 829
+Created EdgeVM with id: 830 from config of host with id: 830
+Created EdgeVM with id: 831 from config of host with id: 831
+Created EdgeVM with id: 832 from config of host with id: 832
+Created EdgeVM with id: 833 from config of host with id: 833
+Created EdgeVM with id: 834 from config of host with id: 834
+Created EdgeVM with id: 835 from config of host with id: 835
+Created EdgeVM with id: 836 from config of host with id: 836
+Created EdgeVM with id: 837 from config of host with id: 837
+Created EdgeVM with id: 838 from config of host with id: 838
+Created EdgeVM with id: 839 from config of host with id: 839
+Created EdgeVM with id: 840 from config of host with id: 840
+Created EdgeVM with id: 841 from config of host with id: 841
+Created EdgeVM with id: 842 from config of host with id: 842
+Created EdgeVM with id: 843 from config of host with id: 843
+Created EdgeVM with id: 844 from config of host with id: 844
+Created EdgeVM with id: 845 from config of host with id: 845
+Created EdgeVM with id: 846 from config of host with id: 846
+Created EdgeVM with id: 847 from config of host with id: 847
+Created EdgeVM with id: 848 from config of host with id: 848
+Created EdgeVM with id: 849 from config of host with id: 849
+Created EdgeVM with id: 850 from config of host with id: 850
+Created EdgeVM with id: 851 from config of host with id: 851
+Created EdgeVM with id: 852 from config of host with id: 852
+Created EdgeVM with id: 853 from config of host with id: 853
+Created EdgeVM with id: 854 from config of host with id: 854
+Created EdgeVM with id: 855 from config of host with id: 855
+Created EdgeVM with id: 856 from config of host with id: 856
+Created EdgeVM with id: 857 from config of host with id: 857
+Created EdgeVM with id: 858 from config of host with id: 858
+Created EdgeVM with id: 859 from config of host with id: 859
+Created EdgeVM with id: 860 from config of host with id: 860
+Created EdgeVM with id: 861 from config of host with id: 861
+Created EdgeVM with id: 862 from config of host with id: 862
+Created EdgeVM with id: 863 from config of host with id: 863
+Created EdgeVM with id: 864 from config of host with id: 864
+Created EdgeVM with id: 865 from config of host with id: 865
+Created EdgeVM with id: 866 from config of host with id: 866
+Created EdgeVM with id: 867 from config of host with id: 867
+Created EdgeVM with id: 868 from config of host with id: 868
+Created EdgeVM with id: 869 from config of host with id: 869
+Created EdgeVM with id: 870 from config of host with id: 870
+Created EdgeVM with id: 871 from config of host with id: 871
+Created EdgeVM with id: 872 from config of host with id: 872
+Created EdgeVM with id: 873 from config of host with id: 873
+Created EdgeVM with id: 874 from config of host with id: 874
+Created EdgeVM with id: 875 from config of host with id: 875
+Created EdgeVM with id: 876 from config of host with id: 876
+Created EdgeVM with id: 877 from config of host with id: 877
+Created EdgeVM with id: 878 from config of host with id: 878
+Created EdgeVM with id: 879 from config of host with id: 879
+Created EdgeVM with id: 880 from config of host with id: 880
+Created EdgeVM with id: 881 from config of host with id: 881
+Created EdgeVM with id: 882 from config of host with id: 882
+Created EdgeVM with id: 883 from config of host with id: 883
+Created EdgeVM with id: 884 from config of host with id: 884
+Created EdgeVM with id: 885 from config of host with id: 885
+Created EdgeVM with id: 886 from config of host with id: 886
+Created EdgeVM with id: 887 from config of host with id: 887
+Created EdgeVM with id: 888 from config of host with id: 888
+Created EdgeVM with id: 889 from config of host with id: 889
+Created EdgeVM with id: 890 from config of host with id: 890
+Created EdgeVM with id: 891 from config of host with id: 891
+Created EdgeVM with id: 892 from config of host with id: 892
+Created EdgeVM with id: 893 from config of host with id: 893
+Created EdgeVM with id: 894 from config of host with id: 894
+Created EdgeVM with id: 895 from config of host with id: 895
+Created EdgeVM with id: 896 from config of host with id: 896
+Created EdgeVM with id: 897 from config of host with id: 897
+Created EdgeVM with id: 898 from config of host with id: 898
+Created EdgeVM with id: 899 from config of host with id: 899
+Created EdgeVM with id: 900 from config of host with id: 900
+Created EdgeVM with id: 901 from config of host with id: 901
+Created EdgeVM with id: 902 from config of host with id: 902
+Created EdgeVM with id: 903 from config of host with id: 903
+Created EdgeVM with id: 904 from config of host with id: 904
+Created EdgeVM with id: 905 from config of host with id: 905
+Created EdgeVM with id: 906 from config of host with id: 906
+Created EdgeVM with id: 907 from config of host with id: 907
+Created EdgeVM with id: 908 from config of host with id: 908
+Created EdgeVM with id: 909 from config of host with id: 909
+Created EdgeVM with id: 910 from config of host with id: 910
+Created EdgeVM with id: 911 from config of host with id: 911
+Created EdgeVM with id: 912 from config of host with id: 912
+Created EdgeVM with id: 913 from config of host with id: 913
+Created EdgeVM with id: 914 from config of host with id: 914
+Created EdgeVM with id: 915 from config of host with id: 915
+Created EdgeVM with id: 916 from config of host with id: 916
+Created EdgeVM with id: 917 from config of host with id: 917
+Created EdgeVM with id: 918 from config of host with id: 918
+Created EdgeVM with id: 919 from config of host with id: 919
+Created EdgeVM with id: 920 from config of host with id: 920
+Created EdgeVM with id: 921 from config of host with id: 921
+Created EdgeVM with id: 922 from config of host with id: 922
+Created EdgeVM with id: 923 from config of host with id: 923
+Created EdgeVM with id: 924 from config of host with id: 924
+Created EdgeVM with id: 925 from config of host with id: 925
+Created EdgeVM with id: 926 from config of host with id: 926
+Created EdgeVM with id: 927 from config of host with id: 927
+Created EdgeVM with id: 928 from config of host with id: 928
+Created EdgeVM with id: 929 from config of host with id: 929
+Created EdgeVM with id: 930 from config of host with id: 930
+Created EdgeVM with id: 931 from config of host with id: 931
+Created EdgeVM with id: 932 from config of host with id: 932
+Created EdgeVM with id: 933 from config of host with id: 933
+Created EdgeVM with id: 934 from config of host with id: 934
+Created EdgeVM with id: 935 from config of host with id: 935
+Created EdgeVM with id: 936 from config of host with id: 936
+Created EdgeVM with id: 937 from config of host with id: 937
+Created EdgeVM with id: 938 from config of host with id: 938
+Created EdgeVM with id: 939 from config of host with id: 939
+Created EdgeVM with id: 940 from config of host with id: 940
+Created EdgeVM with id: 941 from config of host with id: 941
+Created EdgeVM with id: 942 from config of host with id: 942
+Created EdgeVM with id: 943 from config of host with id: 943
+Created EdgeVM with id: 944 from config of host with id: 944
+Created EdgeVM with id: 945 from config of host with id: 945
+Created EdgeVM with id: 946 from config of host with id: 946
+Created EdgeVM with id: 947 from config of host with id: 947
+Created EdgeVM with id: 948 from config of host with id: 948
+Created EdgeVM with id: 949 from config of host with id: 949
+Created EdgeVM with id: 950 from config of host with id: 950
+Created EdgeVM with id: 951 from config of host with id: 951
+Created EdgeVM with id: 952 from config of host with id: 952
+Created EdgeVM with id: 953 from config of host with id: 953
+Created EdgeVM with id: 954 from config of host with id: 954
+Created EdgeVM with id: 955 from config of host with id: 955
+Created EdgeVM with id: 956 from config of host with id: 956
+Created EdgeVM with id: 957 from config of host with id: 957
+Created EdgeVM with id: 958 from config of host with id: 958
+Created EdgeVM with id: 959 from config of host with id: 959
+Created EdgeVM with id: 960 from config of host with id: 960
+Created EdgeVM with id: 961 from config of host with id: 961
+Created EdgeVM with id: 962 from config of host with id: 962
+Created EdgeVM with id: 963 from config of host with id: 963
+Created EdgeVM with id: 964 from config of host with id: 964
+Created EdgeVM with id: 965 from config of host with id: 965
+Created EdgeVM with id: 966 from config of host with id: 966
+Created EdgeVM with id: 967 from config of host with id: 967
+Created EdgeVM with id: 968 from config of host with id: 968
+Created EdgeVM with id: 969 from config of host with id: 969
+Created EdgeVM with id: 970 from config of host with id: 970
+Created EdgeVM with id: 971 from config of host with id: 971
+Created EdgeVM with id: 972 from config of host with id: 972
+Created EdgeVM with id: 973 from config of host with id: 973
+Created EdgeVM with id: 974 from config of host with id: 974
+Created EdgeVM with id: 975 from config of host with id: 975
+Created EdgeVM with id: 976 from config of host with id: 976
+Created EdgeVM with id: 977 from config of host with id: 977
+Created EdgeVM with id: 978 from config of host with id: 978
+Created EdgeVM with id: 979 from config of host with id: 979
+Created EdgeVM with id: 980 from config of host with id: 980
+Created EdgeVM with id: 981 from config of host with id: 981
+Created EdgeVM with id: 982 from config of host with id: 982
+Created EdgeVM with id: 983 from config of host with id: 983
+Created EdgeVM with id: 984 from config of host with id: 984
+Created EdgeVM with id: 985 from config of host with id: 985
+Created EdgeVM with id: 986 from config of host with id: 986
+Created EdgeVM with id: 987 from config of host with id: 987
+Created EdgeVM with id: 988 from config of host with id: 988
+Created EdgeVM with id: 989 from config of host with id: 989
+Created EdgeVM with id: 990 from config of host with id: 990
+Created EdgeVM with id: 991 from config of host with id: 991
+Created EdgeVM with id: 992 from config of host with id: 992
+Created EdgeVM with id: 993 from config of host with id: 993
+Created EdgeVM with id: 994 from config of host with id: 994
+Created EdgeVM with id: 995 from config of host with id: 995
+Created EdgeVM with id: 996 from config of host with id: 996
+Created EdgeVM with id: 997 from config of host with id: 997
+Created EdgeVM with id: 998 from config of host with id: 998
+Created EdgeVM with id: 999 from config of host with id: 999
+Created EdgeVM with id: 1000 from config of host with id: 1000
+Created EdgeVM with id: 1001 from config of host with id: 1001
+Created EdgeVM with id: 1002 from config of host with id: 1002
+Created EdgeVM with id: 1003 from config of host with id: 1003
+Created EdgeVM with id: 1004 from config of host with id: 1004
+Created EdgeVM with id: 1005 from config of host with id: 1005
+Created EdgeVM with id: 1006 from config of host with id: 1006
+Created EdgeVM with id: 1007 from config of host with id: 1007
+Created EdgeVM with id: 1008 from config of host with id: 1008
+Created EdgeVM with id: 1009 from config of host with id: 1009
+Created EdgeVM with id: 1010 from config of host with id: 1010
+Created EdgeVM with id: 1011 from config of host with id: 1011
+Created EdgeVM with id: 1012 from config of host with id: 1012
+Created EdgeVM with id: 1013 from config of host with id: 1013
+Created EdgeVM with id: 1014 from config of host with id: 1014
+Created EdgeVM with id: 1015 from config of host with id: 1015
+Created EdgeVM with id: 1016 from config of host with id: 1016
+Created EdgeVM with id: 1017 from config of host with id: 1017
+Created EdgeVM with id: 1018 from config of host with id: 1018
+Created EdgeVM with id: 1019 from config of host with id: 1019
+Created EdgeVM with id: 1020 from config of host with id: 1020
+Created EdgeVM with id: 1021 from config of host with id: 1021
+Created EdgeVM with id: 1022 from config of host with id: 1022
+Created EdgeVM with id: 1023 from config of host with id: 1023
+Created EdgeVM with id: 1024 from config of host with id: 1024
+Created EdgeVM with id: 1025 from config of host with id: 1025
+Created EdgeVM with id: 1026 from config of host with id: 1026
+Created EdgeVM with id: 1027 from config of host with id: 1027
+Created EdgeVM with id: 1028 from config of host with id: 1028
+Created EdgeVM with id: 1029 from config of host with id: 1029
+Created EdgeVM with id: 1030 from config of host with id: 1030
+Created EdgeVM with id: 1031 from config of host with id: 1031
+Created EdgeVM with id: 1032 from config of host with id: 1032
+Created EdgeVM with id: 1033 from config of host with id: 1033
+Created EdgeVM with id: 1034 from config of host with id: 1034
+Created EdgeVM with id: 1035 from config of host with id: 1035
+Created EdgeVM with id: 1036 from config of host with id: 1036
+Created EdgeVM with id: 1037 from config of host with id: 1037
+Created EdgeVM with id: 1038 from config of host with id: 1038
+Created EdgeVM with id: 1039 from config of host with id: 1039
+Created EdgeVM with id: 1040 from config of host with id: 1040
+Created EdgeVM with id: 1041 from config of host with id: 1041
+Created EdgeVM with id: 1042 from config of host with id: 1042
+Created EdgeVM with id: 1043 from config of host with id: 1043
+Created EdgeVM with id: 1044 from config of host with id: 1044
+Created EdgeVM with id: 1045 from config of host with id: 1045
+Created EdgeVM with id: 1046 from config of host with id: 1046
+Created EdgeVM with id: 1047 from config of host with id: 1047
+Created EdgeVM with id: 1048 from config of host with id: 1048
+Created EdgeVM with id: 1049 from config of host with id: 1049
+Created EdgeVM with id: 1050 from config of host with id: 1050
+Created EdgeVM with id: 1051 from config of host with id: 1051
+Created EdgeVM with id: 1052 from config of host with id: 1052
+Created EdgeVM with id: 1053 from config of host with id: 1053
+Created EdgeVM with id: 1054 from config of host with id: 1054
+Created EdgeVM with id: 1055 from config of host with id: 1055
+Created EdgeVM with id: 1056 from config of host with id: 1056
+Created EdgeVM with id: 1057 from config of host with id: 1057
+Created EdgeVM with id: 1058 from config of host with id: 1058
+Created EdgeVM with id: 1059 from config of host with id: 1059
+Created EdgeVM with id: 1060 from config of host with id: 1060
+Created EdgeVM with id: 1061 from config of host with id: 1061
+Created EdgeVM with id: 1062 from config of host with id: 1062
+Created EdgeVM with id: 1063 from config of host with id: 1063
+Created EdgeVM with id: 1064 from config of host with id: 1064
+Created EdgeVM with id: 1065 from config of host with id: 1065
+Created EdgeVM with id: 1066 from config of host with id: 1066
+Created EdgeVM with id: 1067 from config of host with id: 1067
+Created EdgeVM with id: 1068 from config of host with id: 1068
+Created EdgeVM with id: 1069 from config of host with id: 1069
+Created EdgeVM with id: 1070 from config of host with id: 1070
+Created EdgeVM with id: 1071 from config of host with id: 1071
+Created EdgeVM with id: 1072 from config of host with id: 1072
+Created EdgeVM with id: 1073 from config of host with id: 1073
+createVmList - completed
+
+	Creating device locations...Done.
+  Mobile device: 0  WAP: 643  Assigned host: 13
+  Mobile device: 1  WAP: 244  Assigned host: 244
+  Mobile device: 2  WAP: 333  Assigned host: 333
+  Mobile device: 3  WAP: 515  Assigned host: 134
+  Mobile device: 4  WAP: 879  Assigned host: 1
+  Mobile device: 5  WAP: 800  Assigned host: 47
+  Mobile device: 6  WAP: 415  Assigned host: 1
+  Mobile device: 7  WAP: 341  Assigned host: 341
+  Mobile device: 8  WAP: 416  Assigned host: 1
+  Mobile device: 9  WAP: 22  Assigned host: 22
+  Mobile device: 10  WAP: 320  Assigned host: 320
+  Mobile device: 11  WAP: 480  Assigned host: 297
+  Mobile device: 12  WAP: 608  Assigned host: 1
+  Mobile device: 13  WAP: 164  Assigned host: 164
+  Mobile device: 14  WAP: 173  Assigned host: 173
+  Mobile device: 15  WAP: 380  Assigned host: 380
+  Mobile device: 16  WAP: 203  Assigned host: 203
+  Mobile device: 17  WAP: 638  Assigned host: 1
+  Mobile device: 18  WAP: 749  Assigned host: 8
+  Mobile device: 19  WAP: 991  Assigned host: 46
+  Mobile device: 20  WAP: 71  Assigned host: 71
+  Mobile device: 21  WAP: 407  Assigned host: 67
+  Mobile device: 22  WAP: 745  Assigned host: 227
+  Mobile device: 23  WAP: 32  Assigned host: 32
+  Mobile device: 24  WAP: 443  Assigned host: 1
+  Mobile device: 25  WAP: 422  Assigned host: 346
+  Mobile device: 26  WAP: 1073  Assigned host: 1
+  Mobile device: 27  WAP: 166  Assigned host: 166
+  Mobile device: 28  WAP: 79  Assigned host: 79
+  Mobile device: 29  WAP: 640  Assigned host: 98
+  Mobile device: 30  WAP: 838  Assigned host: 134
+  Mobile device: 31  WAP: 745  Assigned host: 227
+  Mobile device: 32  WAP: 618  Assigned host: 1
+  Mobile device: 33  WAP: 476  Assigned host: 36
+  Mobile device: 34  WAP: 239  Assigned host: 239
+  Mobile device: 35  WAP: 212  Assigned host: 212
+  Mobile device: 36  WAP: 737  Assigned host: 1
+  Mobile device: 37  WAP: 814  Assigned host: 1
+  Mobile device: 38  WAP: 348  Assigned host: 348
+  Mobile device: 39  WAP: 650  Assigned host: 85
+  Mobile device: 40  WAP: 240  Assigned host: 240
+  Mobile device: 41  WAP: 494  Assigned host: 364
+  Mobile device: 42  WAP: 619  Assigned host: 8
+  Mobile device: 43  WAP: 795  Assigned host: 8
+  Mobile device: 44  WAP: 401  Assigned host: 8
+  Mobile device: 45  WAP: 695  Assigned host: 1
+  Mobile device: 46  WAP: 152  Assigned host: 152
+  Mobile device: 47  WAP: 811  Assigned host: 35
+  Mobile device: 48  WAP: 188  Assigned host: 188
+  Mobile device: 49  WAP: 227  Assigned host: 227
+Done.
+Executing
+CHECK_ALL_VM reached
+All VMs could be created!
+.........10.........20.........30.........40.........50.........60.........70.........80.........90

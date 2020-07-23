@@ -137,7 +137,7 @@ public class FixedNodeOrchestrator extends EdgeOrchestrator{
 			tpath = networkModel.findPath(src, des);
 			
 			if (tpath == null || tpath.size() == 0) {
-				EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(mobile.getLocation().getXPos(), mobile.getLocation().getYPos(), mobile.getLocation().getAltitude());
+				/**EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(mobile.getLocation().getXPos(), mobile.getLocation().getYPos(), mobile.getLocation().getAltitude());
 				
 				//double bwCost = mobile.getBWRequirement() * k.getCostPerBW(); 
 				double bwCost = (mobile.getBWRequirement()*8 / (double)1024) * k.getCostPerBW(); //mobile.getBWRequirement() in KB * 8b/B ==>Kb / 1024 = Mb; k.getCostPerBW() in $/Mb -- Shaik modified
@@ -151,10 +151,13 @@ public class FixedNodeOrchestrator extends EdgeOrchestrator{
 				cost = cost + exCost;
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Destination:\t"+ des.getWlanId() + "\tExecuteCost:\t" + exCost + "\tTotalCost:\t" + cost);
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Service CPU Time:\t" + ((double)mobile.getTaskLengthRequirement() / k.getTotalMips()) + "\tMipsCostPerSec:\t" + k.getCostPerSec());
+				**/
+				EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(mobile.getLocation().getXPos(), mobile.getLocation().getYPos(), mobile.getLocation().getAltitude());
+				cost = k.getLatency(mobile);
 			}
 			else {
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("**********Path From " + src.getWlanId() + " To " + des.getWlanId() + "**********");
-				for (NodeSim node: tpath) {
+				/**for (NodeSim node: tpath) {
 					EdgeHost k = SimManager.getInstance().getLocalServerManager().findHostByLoc(node.getLocation().getXPos(), node.getLocation().getYPos(), node.getLocation().getAltitude());
 					//double bwCost = mobile.getBWRequirement() * k.getCostPerBW();
 					double bwCost = (mobile.getBWRequirement()*8 / (double)1024) * k.getCostPerBW(); //mobile.getBWRequirement() in KB * 8b/B ==>Kb / 1024 = Mb; k.getCostPerBW() in $/Mb -- Shaik modified
@@ -169,8 +172,11 @@ public class FixedNodeOrchestrator extends EdgeOrchestrator{
 				cost = cost + exCost;
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Destination:\t"+ des.getWlanId() + "\tExecuteCost:\t" + exCost + "\tTotalCost:\t" + cost);
 				//SimLogger.getInstance().getCentralizeLogPrinter().println("Service CPU Time:\t" + ((double)mobile.getTaskLengthRequirement() / desHost.getTotalMips()) + "\tMipsCostPerSec:\t" + desHost.getCostPerSec());
+				**/
 			}
-			//*/						
+			//*/
+				EdgeHost desHost = SimManager.getInstance().getLocalServerManager().findHostByLoc(des.getLocation().getXPos(), des.getLocation().getYPos(), des.getLocation().getAltitude());
+				cost = desHost.getLatency(mobile);
 		}
 		else
 			System.out.println("  Mobile device: "+mobile.getId()+"  WAP: "+mobile.getLocation().getServingWlanId()+"  Assigned host:  NULL");

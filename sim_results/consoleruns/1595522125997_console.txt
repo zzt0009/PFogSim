@@ -1,0 +1,7 @@
+Simulation setting file, output folder and iteration number are not provided! Using default ones...
+Simulation started at 23/07/2020 11:36:11
+----------------------------------------------------------------------
+Scenario started at 23/07/2020 11:36:17
+Scenario: HAFA_ORCHESTRATOR - Policy: NEXT_FIT - #iteration: 0
+Duration: 0.5 hour(s) - Poisson: 5.0 - #devices: 50
+CloudSim.init reached

@@ -71,8 +71,6 @@ public class mainApp {
 			
 			configFile = "scripts/sample_application/config/default_config.properties";
 			applicationsFile = "scripts/sample_application/config/applications.xml";
-			//edgeDevicesFile = "scripts/sample_application/config/edge_devices_test.xml";
-			//edgeDevicesFile = "small_node_test.xml";
 			edgeDevicesFile = "scripts/sample_application/config/node_test.xml";
 			outputFolder = "sim_results/ite" + iterationNumber;
 			outFolder2 = "sim_results/consoleruns";
