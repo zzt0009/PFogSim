@@ -78,6 +78,17 @@ public class mainApp {
 			SimLogger.printLine("Simulation setting file, output folder and iteration number are not provided! Using default ones...");
 		}
 
+		
+		// Ziyan 
+		// generate new config files
+//		DataInterpreter.initialize();
+//		try {
+//			DataInterpreter.readFile();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
 		//load settings from configuration file
 		SimSettings SS = SimSettings.getInstance();
 		if(SS.initialize(configFile, edgeDevicesFile, applicationsFile, linksFile) == false){
