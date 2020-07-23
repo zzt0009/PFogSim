@@ -77,10 +77,10 @@ public class mainApp {
 			SimLogger.fileInitialize(outFolder2);
 			SimLogger.printLine("Simulation setting file, output folder and iteration number are not provided! Using default ones...");
 		}
-
 		
-		// Ziyan 
-		// generate new config files
+		
+		// Ziyan Tian
+		// generate new configuration files
 //		DataInterpreter.initialize();
 //		try {
 //			DataInterpreter.readFile();

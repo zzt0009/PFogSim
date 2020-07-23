@@ -2620,3 +2620,5 @@ Created EdgeVM with id: 1071 from config of host with id: 1071
 Created EdgeVM with id: 1072 from config of host with id: 1072
 Created EdgeVM with id: 1073 from config of host with id: 1073
 createVmList - completed
+
+	Creating device locations...Done.
