@@ -49,53 +49,39 @@ public class mainApp {
 		//enable console output and file output of this application
 		SimLogger.enablePrintLog();
 		
-		int iterationNumber = 0; // index for the list of n scenarios in properties file is from 0..n-1
+		int iterationNumber = 2; // index for the list of n scenarios in properties file is from 0..n-1
 		String configFile = "";
-		String outputFolder = "";
-		String outFolder2 = "";
 		String edgeDevicesFile = "";
 		String applicationsFile = "";
+		String outputIte = "";
+		String outputConsoleruns = "";
+		
 		String linksFile = "scripts/sample_application/config/links_test.xml";
 		//String linksFile = "small_link_test.xml";
 		//String linksFile = "links_test.xml";
 
-		if (args.length == 6){
-			configFile = args[0];
-			edgeDevicesFile = args[1];
-			applicationsFile = args[2];
-			outputFolder = args[3];
-			iterationNumber = Integer.parseInt(args[4]);
-			outFolder2 = "sim_results/consoleruns";
+		if (args.length != 0){
+			//configFile = args[0];
+			//edgeDevicesFile = args[1];
+			//applicationsFile = args[2];
+			//outputIte = args[3];
+			iterationNumber = Integer.parseInt(args[0]);
+			//outputConsoleruns = args[5];
 		}
-		else{
+		//else{
 			
 			configFile = "scripts/sample_application/config/default_config.properties";
 			applicationsFile = "scripts/sample_application/config/applications.xml";
 			edgeDevicesFile = "scripts/sample_application/config/node_test.xml";
-			outputFolder = "sim_results/ite" + iterationNumber;
-			outFolder2 = "sim_results/consoleruns";
-			SimLogger.fileInitialize(outFolder2);
+			outputIte = "sim_results/ite" + iterationNumber;
+			outputConsoleruns = "sim_results/consoleruns";
+			SimLogger.fileInitialize(outputConsoleruns);
 			SimLogger.printLine("Simulation setting file, output folder and iteration number are not provided! Using default ones...");
-		}
+		//}
 		
 		
 		// Ziyan Tian
-		// generate new configuration files
-//		DataInterpreter.initialize();
-//		try {
-//			DataInterpreter.readFile();
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-		
-		//load settings from configuration file
-		SimSettings SS = SimSettings.getInstance();
-		if(SS.initialize(configFile, edgeDevicesFile, applicationsFile, linksFile) == false){
-			SimLogger.printLine("cannot initialize simulation settings!");
-			System.exit(0);
-		}
-		
+		//generate new configuration files
 		DataInterpreter.initialize();
 		try {
 			DataInterpreter.readFile();
@@ -104,10 +90,25 @@ public class mainApp {
 			e.printStackTrace();
 		}
 		
+		//load settings from configuration file
+		SimSettings SS = SimSettings.getInstance();
+		if(SS.initialize(configFile, edgeDevicesFile, applicationsFile, linksFile) == false){
+			SimLogger.printLine("cannot initialize simulation settings!");
+			System.exit(0);
+		}
+		
+//		DataInterpreter.initialize();
+//		try {
+//			DataInterpreter.readFile();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
 		
 		if(SS.getFileLoggingEnabled()){
 			SimLogger.enableFileLog();
-			SimUtils.cleanOutputFolder(outputFolder);
+			SimUtils.cleanOutputFolder(outputIte);
 		}
 		SS.setSimulationSpace(DataInterpreter.getSimulationSpace());
 		SS.setMaxLevels(DataInterpreter.getMaxLevels());
@@ -138,7 +139,7 @@ public class mainApp {
 					SimLogger.printLine("Scenario started at " + now);
 					SimLogger.printLine("Scenario: " + simScenario + " - Policy: " + orchestratorPolicy + " - #iteration: " + iterationNumber);
 					SimLogger.printLine("Duration: " + SS.getSimulationTime()/3600 + " hour(s) - Poisson: " + SS.getTaskLookUpTable()[0][2] + " - #devices: " + iteMobileDevices);
-					SimLogger.getInstance().simStarted(outputFolder,"SIMRESULT_" + simScenario + "_"  + orchestratorPolicy + "_" + iteMobileDevices + "DEVICES");
+					SimLogger.getInstance().simStarted(outputIte,"SIMRESULT_" + simScenario + "_"  + orchestratorPolicy + "_" + iteMobileDevices + "DEVICES");
 					
 					try
 					{
