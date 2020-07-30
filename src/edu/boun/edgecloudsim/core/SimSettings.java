@@ -21,10 +21,13 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Properties;
 import java.util.Random;
 
@@ -707,7 +710,7 @@ public class SimSettings {
 			}
 	
 		} catch (Exception e) {
-			SimLogger.printLine("Edge Devices XML cannot be parsed! Terminating simulation...");
+			SimLogger.printLine("Application Devices XML cannot be parsed! Terminating simulation...");
 			e.printStackTrace();
 			System.exit(0);
 		}
@@ -725,6 +728,17 @@ public class SimSettings {
 			//File devicesFile = new File(filePath);
 			String streamPath = '/' + filePath;
 			InputStream devicesStream = SimSettings.class.getResourceAsStream(streamPath); 
+			
+			
+			// check devicesStream  
+//			String readLine;
+//			BufferedReader br = new BufferedReader(new InputStreamReader(devicesStream));
+//			 
+//			while (((readLine = br.readLine()) != null)) {
+//			System.out.println(readLine);
+//			 
+//			 
+//			}
 
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -732,11 +746,13 @@ public class SimSettings {
 			//edgeDevicesDoc = dBuilder.parse(devicesFile);
 			edgeDevicesDoc = dBuilder.parse(devicesStream);
 			edgeDevicesDoc.getDocumentElement().normalize();
+			
 
 			NodeList datacenterList = edgeDevicesDoc.getElementsByTagName("datacenter");
 			for (int i = 0; i < datacenterList.getLength(); i++) {
 			    NUM_OF_EDGE_DATACENTERS++;
 				Node datacenterNode = datacenterList.item(i);
+				System.out.println(datacenterNode.getNodeName());
 	
 				Element datacenterElement = (Element) datacenterNode;
 				isAttribtuePresent(datacenterElement, "arch");
@@ -761,6 +777,7 @@ public class SimSettings {
 				for (int j = 0; j < hostList.getLength(); j++) {
 				    NUM_OF_EDGE_HOSTS++;
 					Node hostNode = hostList.item(j);
+					System.out.println(hostNode.getNodeName());
 					
 					Element hostElement = (Element) hostNode;
 					isElementPresent(hostElement, "core");
@@ -772,6 +789,7 @@ public class SimSettings {
 					for (int k = 0; k < vmList.getLength(); k++) {
 					    NUM_OF_EDGE_VMS++;
 						Node vmNode = vmList.item(k);
+						System.out.println(vmNode);
 						
 						Element vmElement = (Element) vmNode;
 						isAttribtuePresent(vmElement, "vmm");
@@ -779,6 +797,11 @@ public class SimSettings {
 						isElementPresent(vmElement, "mips");
 						isElementPresent(vmElement, "ram");
 						isElementPresent(vmElement, "storage");
+						//System.out.println("vmm: "+ vmElement.getElementsByTagName("vmm").item(0).getTextContent());  
+						System.out.println("core: "+ vmElement.getElementsByTagName("core").item(0).getTextContent());  
+						System.out.println("mips: "+ vmElement.getElementsByTagName("mips").item(0).getTextContent());  
+						System.out.println("ram: "+ vmElement.getElementsByTagName("ram").item(0).getTextContent());  
+						System.out.println("storage: "+ vmElement.getElementsByTagName("storage").item(0).getTextContent());  
 					}
 				}
 			}

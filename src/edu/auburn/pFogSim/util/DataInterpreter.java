@@ -30,7 +30,7 @@ public class DataInterpreter {
 			"Chicago_Wards.csv", 
 			"Chicago_Libraries.csv", 
 			"Chicago_Connect.csv", 
-			"Chicago_Schools.csv"};
+			"Chicago_Schools2.csv"};
 	
 	// Cost of routers in cents. Change these values for different routers. Numerator is monthly cost in dollars, denominator is link capacity for 30 days
 	private static double tenGbRouterCost = 151.67/207360000 * 100; // $/Mb numbers taken from cisco ASR 901 10G router at $151.67 per month

@@ -93,7 +93,7 @@ public class GPSVectorMobility extends MobilityModel {
 			
 			//Picks a random wireless access point to start at
 			//Shaik modified - to set all mobile devices to same host Fog node - int randDatacenterId = SimUtils.getRandomNumber(0, accessPoints.size()-1);
-            int randDatacenterId = SimUtils.getRandomNumber(0, accessPoints.size()-1);
+            /**int randDatacenterId = SimUtils.getRandomNumber(0, accessPoints.size()-1);
             int randDatacenterId2 = SimUtils.getRandomNumber(0, accessPoints.size()-1);
 			int wlan_id = accessPoints.get(randDatacenterId).getWlanId();
 			int wlan_id2 = accessPoints.get(randDatacenterId2).getWlanId();
@@ -102,6 +102,18 @@ public class GPSVectorMobility extends MobilityModel {
 			double alt = accessPoints.get(randDatacenterId).getLocation().getAltitude();
 			double x_pos2 = accessPoints.get(randDatacenterId2).getLocation().getXPos();
 			double y_pos2 = accessPoints.get(randDatacenterId2).getLocation().getYPos();
+			double alt2 = accessPoints.get(randDatacenterId2).getLocation().getAltitude();**/
+			
+			// added by Bobby, this section limits creation of devices to a range specified by MIN_LAT, MIN_LONG, MAX_LAT, and MAX_LONG
+			int randDatacenterId = SimUtils.getRandomNumber(0, accessPoints.size()-1);
+            int randDatacenterId2 = SimUtils.getRandomNumber(0, accessPoints.size()-1);
+			int wlan_id = accessPoints.get(randDatacenterId).getWlanId();
+			int wlan_id2 = accessPoints.get(randDatacenterId2).getWlanId();
+			double x_pos = SimUtils.getRandomDoubleNumber(this.MIN_LONG, this.MAX_LONG);
+			double y_pos = SimUtils.getRandomDoubleNumber(this.MIN_LAT, this.MAX_LAT);
+			double alt = accessPoints.get(randDatacenterId).getLocation().getAltitude();
+			double x_pos2 = SimUtils.getRandomDoubleNumber(this.MIN_LONG, this.MAX_LONG);
+			double y_pos2 = SimUtils.getRandomDoubleNumber(this.MIN_LAT, this.MAX_LAT);
 			double alt2 = accessPoints.get(randDatacenterId2).getLocation().getAltitude();
 			
 			//Qian find device #1071

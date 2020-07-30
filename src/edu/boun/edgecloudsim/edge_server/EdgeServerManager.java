@@ -237,8 +237,9 @@ public class EdgeServerManager {
 					EdgeVM vm = new EdgeVM(vmCounter, brokerID, mips, numOfCores, (int) ram, bandwidth, storage, vmm, new CloudletSchedulerTimeShared());
 					vm.setVmType(SimSettings.VM_TYPES.EDGE_VM);
 					vm.setArch(arch);
+					
 					vmList.get(hostCounter).add(vm);
-					SimLogger.printLine("Created EdgeVM with id: "+vmCounter+" from config of host with id: "+hostCounter);
+					SimLogger.printLine("Created EdgeVM with id: " + vmCounter +" from config of host with id: "+ hostCounter);
 					vmCounter++;
 				}
 

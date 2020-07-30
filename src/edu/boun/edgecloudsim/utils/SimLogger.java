@@ -503,6 +503,7 @@ public class SimLogger {
 		double[] fogLayerAvgNwUtil = {0, 0, 0, 0, 0, 0, 0}; // Shaik added
 		double[] fogLayerTotalNwUtil = {0, 0, 0, 0, 0, 0, 0}; // Shaik added
 		double[] fogLayerEntryNwCount = {0, 0, 0, 0, 0, 0, 0}; // Shaik added
+		int[]  mipsValue = {43520, 163200, 244800, 913920, 8529920, 29245440, 78336000}; // Ziyan added for computing fog node utilization
 
 		// open all files and prepare them for write
 		if (fileLogEnabled) {
@@ -829,7 +830,13 @@ public class SimLogger {
 		// Shaik added
 		// calculate Average node utilization per fog layer		
 		for (int i=0; i < fogLayerAvgMipsUtil.length; i++ ) {
-			fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / fogLayerEntryMipsCount[i]; ////PROBLEM
+			
+			// Ziyan modified - to lower the average Fog server utilization when only 50 nodes in level one
+			fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / (fogLayerEntryMipsCount[i]  * mipsValue[i]); 
+			
+			// fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / (fogLayerEntryMipsCount[i]);  //PROBLEM  // prev
+			//printLine("fogLayerAvgMipsUtil[" + i + "] = fogLayerTotalMipsUtil[" + i + "] / fogLayerEntryMipsCount[" + i + "]: " + fogLayerAvgMipsUtil[i] + "*" + "mipsValue[" + i + "]"  + "="  + fogLayerTotalMipsUtil[i] + "/" + fogLayerEntryMipsCount[i] + "*" +  mipsValue[i]); // fogLayerEntryMipsCount[i] * mips value
+			
 		}
 		
 		// Shaik added
@@ -1141,10 +1148,15 @@ SimSettings.DELIMITER;
 				+ String.format("%.6f", serviceTimeOnCloud[numOfAppTypes] / (double) completedTaskOnCloud[numOfAppTypes])
 				+ ")");
 		*/
-		printLine("\naverage service time: "
+		
+		// Ziyan modified - round all the time figures (service time, processing time, network delay) to the fifth decimal place
+		/*printLine("\naverage service time: "
 				+ String.format("%.6f", serviceTime[numOfAppTypes] / (double) completedTask[numOfAppTypes])
 				+ " seconds.");
-
+	    */
+		printLine("\naverage service time: "
+				+ String.format("%.5f", serviceTime[numOfAppTypes] / (double) completedTask[numOfAppTypes])
+				+ " seconds.");
 		/*printLine("average processing time: "
 				+ String.format("%.6f", processingTime[numOfAppTypes] / (double) completedTask[numOfAppTypes])
 				+ " seconds. (" + "on Cloudlet: "
@@ -1154,10 +1166,13 @@ SimSettings.DELIMITER;
 				+ ")");
 		*/
 	
-		printLine("average processing time: "
+		/*printLine("average processing time: "
 				+ String.format("%.6f", processingTime[numOfAppTypes] / (double) completedTask[numOfAppTypes])
 				+ " seconds.");
-
+		*/
+		printLine("average processing time: "
+				+ String.format("%.5f", processingTime[numOfAppTypes] / (double) completedTask[numOfAppTypes])
+				+ " seconds.");
 		/*printLine("average network delay: "
 				+ String.format("%.6f", networkDelay[numOfAppTypes] / (double) completedTask[numOfAppTypes])
 				+ " seconds. (" + "LAN delay: "
@@ -1165,11 +1180,14 @@ SimSettings.DELIMITER;
 				+ ", " + "WAN delay: "
 				+ String.format("%.6f", wanDelay[numOfAppTypes] / (double) completedTaskOnCloud[numOfAppTypes]) + ")");
 		*/
-		
+		/*
 		printLine("average network delay: "
 				+ String.format("%.6f", networkDelay[numOfAppTypes] / (double) completedTask[numOfAppTypes])
 				+ " seconds.");
-
+	    */
+		printLine("average network delay: "
+				+ String.format("%.5f", networkDelay[numOfAppTypes] / (double) completedTask[numOfAppTypes])
+				+ " seconds.");
 /*		printLine("\naverage server utilization: " 
 				+ String.format("%.6f", totalVmLoad / (double) vmLoadList.size()) + "%");
 		printLine("average Fog server utilization: " 
@@ -1185,7 +1203,8 @@ SimSettings.DELIMITER;
 		double averageTaskCost = (completedTask[numOfAppTypes] == 0) ? 0.0 : (cost[numOfAppTypes] / (double) completedTask[numOfAppTypes]);
 		printLine("\nAverage cost: $" + String.format("%.6f", averageTaskCost)); // Shaik updated
 		
-		printLine("Processing Time: " + processingTime[numOfAppTypes]);
+		// printLine("Processing Time: " + processingTime[numOfAppTypes]);
+		printLine("Processing Time: " + String.format("%.5f", processingTime[numOfAppTypes]));
 		
 		double averageDistance = (completedTask[numOfAppTypes] == 0) ? 0.0 : (totalDist[numOfAppTypes] / (double) completedTask[numOfAppTypes]);
 		printLine("Average Distance from task to host: " + String.format("%.2f", averageDistance));
@@ -1210,11 +1229,14 @@ SimSettings.DELIMITER;
 			printLine("Average number of Puddles searched for placement: " + String.format("%.2f", averageNumPuddles));
 		}
 		
+		
+		// Ziyan modified - round the node utilization figures to the second decimal place
 		//Qian print average fog nodes utilization in each level.
 		getTotalFogNodesCountInEachLevel();
 		printLine("\nPercentage of fog nodes executing atleast one task:"); // Shaik modified
 		for (int i = 0; i < 7; i++) {
-			printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)levelFogNodeCount[i] / (double)totalNodesNmuberInEachLevel[i] * 100)) + " %");
+			//printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)levelFogNodeCount[i] / (double)totalNodesNmuberInEachLevel[i] * 100)) + " %");
+			printLine("\tLevel " + (i + 1) + ": " + String.format("%.2f", ((double)levelFogNodeCount[i] / (double)totalNodesNmuberInEachLevel[i] * 100)) + " %");
 		}
 		
 		printLine("\nAverage fog node utilization per layer:"); // Shaik added
@@ -1242,7 +1264,8 @@ SimSettings.DELIMITER;
 			else if (i == 6) {
 				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.6;
 			}**/
-			printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)fogLayerAvgMipsUtil[i])));
+			//printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)fogLayerAvgMipsUtil[i])));
+			printLine("\tLevel " + (i + 1) + ": " + String.format("%.2f", ((double)fogLayerAvgMipsUtil[i])));
 			totalMipsUtil += (double)fogLayerAvgMipsUtil[i];
 			
 			
@@ -1251,14 +1274,26 @@ SimSettings.DELIMITER;
 		printLine("\nAverage fog network utilization per layer:"); // Shaik added
 		totalNwUtil = 0;
 		for (int i = 0; i < fogLayerAvgNwUtil.length; i++) {
-			printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)fogLayerAvgNwUtil[i])));
+			
+			//printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)fogLayerAvgNwUtil[i])));
+			printLine("\tLevel " + (i + 1) + ": " + String.format("%.2f", ((double)fogLayerAvgNwUtil[i])));
 			totalNwUtil += (double)fogLayerAvgNwUtil[i];
 		}
 		
+		// ********************************************************************************
+		//printLine("average Fog server utilization: " 
+		//		+ String.format("%.6f", totalMipsUtil / (double)fogLayerAvgMipsUtil.length) + "%"); // Shaik added
+		
+//		printLine("average Fog server utilization: " 
+//				+ String.format("%.6f", totalMipsUtil / (double)fogLayerAvgMipsUtil.length) + "%"); // Shaik added
+//		printLine("average Fog network utilization: " 
+//				+ String.format("%.6f", totalNwUtil / (double)fogLayerAvgNwUtil.length) + "%"); // Shaik added
+		
 		printLine("average Fog server utilization: " 
-				+ String.format("%.6f", totalMipsUtil / (double)fogLayerAvgMipsUtil.length) + "%"); // Shaik added
+				+ String.format("%.2f", totalMipsUtil * 100 / (double)fogLayerAvgMipsUtil.length) + "%"); // Shaik added
 		printLine("average Fog network utilization: " 
-				+ String.format("%.6f", totalNwUtil / (double)fogLayerAvgNwUtil.length) + "%"); // Shaik added
+				+ String.format("%.2f", totalNwUtil * 100/ (double)fogLayerAvgNwUtil.length) + "%"); // Shaik added
+
 
 		
 		// clear related collections (map list etc.)
