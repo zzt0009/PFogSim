@@ -503,7 +503,7 @@ public class SimLogger {
 		double[] fogLayerAvgNwUtil = {0, 0, 0, 0, 0, 0, 0}; // Shaik added
 		double[] fogLayerTotalNwUtil = {0, 0, 0, 0, 0, 0, 0}; // Shaik added
 		double[] fogLayerEntryNwCount = {0, 0, 0, 0, 0, 0, 0}; // Shaik added
-		int[]  mipsValue = {43520, 163200, 244800, 913920, 8529920, 29245440, 78336000}; // Ziyan added for computing fog node utilization
+		int[]  mipsValue = {43520, 309000, 309000, 913920, 8529920, 29245440, 78336000}; // Ziyan added for computing fog node utilization
 
 		// open all files and prepare them for write
 		if (fileLogEnabled) {
@@ -804,6 +804,16 @@ public class SimLogger {
 		// Shaik added
 		// calculate Average Mips utilization of all fog nodes		
 		double totalFnMipsUtil = 0;		
+/**		for (FNMipsUtilLogItem entry : fnMipsUtilList) {		
+			totalFnMipsUtil += entry.getFnMipsUtil();	
+			if (fileLogEnabled)	
+				appendToFile(fnMipsUtilBW, entry.toString());
+			
+			// Capture metrics per layer
+			fogLayerTotalMipsUtil[entry.getHostLevel()-1] += entry.getFnMipsUtil();
+			fogLayerEntryMipsCount[entry.getHostLevel()-1]++;	
+		}**/
+		
 		for (FNMipsUtilLogItem entry : fnMipsUtilList) {		
 			totalFnMipsUtil += entry.getFnMipsUtil();	
 			if (fileLogEnabled)	
@@ -832,9 +842,9 @@ public class SimLogger {
 		for (int i=0; i < fogLayerAvgMipsUtil.length; i++ ) {
 			
 			// Ziyan modified - to lower the average Fog server utilization when only 50 nodes in level one
-			fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / (fogLayerEntryMipsCount[i]  * mipsValue[i]); 
+			//fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / (fogLayerEntryMipsCount[i]  * mipsValue[i]); 
 			
-			// fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / (fogLayerEntryMipsCount[i]);  //PROBLEM  // prev
+			fogLayerAvgMipsUtil[i] = fogLayerTotalMipsUtil[i] / (fogLayerEntryMipsCount[i]);  //PROBLEM  // prev
 			//printLine("fogLayerAvgMipsUtil[" + i + "] = fogLayerTotalMipsUtil[" + i + "] / fogLayerEntryMipsCount[" + i + "]: " + fogLayerAvgMipsUtil[i] + "*" + "mipsValue[" + i + "]"  + "="  + fogLayerTotalMipsUtil[i] + "/" + fogLayerEntryMipsCount[i] + "*" +  mipsValue[i]); // fogLayerEntryMipsCount[i] * mips value
 			
 		}
@@ -1265,7 +1275,7 @@ SimSettings.DELIMITER;
 				fogLayerAvgMipsUtil[i] = fogLayerAvgMipsUtil[i] * 0.6;
 			}**/
 			//printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)fogLayerAvgMipsUtil[i])));
-			printLine("\tLevel " + (i + 1) + ": " + String.format("%.2f", ((double)fogLayerAvgMipsUtil[i])));
+			printLine("\tLevel " + (i + 1) + ": " + String.format("%.2f", ((double)fogLayerAvgMipsUtil[i] / 100)) + " %");
 			totalMipsUtil += (double)fogLayerAvgMipsUtil[i];
 			
 			
@@ -1276,7 +1286,7 @@ SimSettings.DELIMITER;
 		for (int i = 0; i < fogLayerAvgNwUtil.length; i++) {
 			
 			//printLine("\tLevel " + (i + 1) + ": " + String.format("%.6f", ((double)fogLayerAvgNwUtil[i])));
-			printLine("\tLevel " + (i + 1) + ": " + String.format("%.2f", ((double)fogLayerAvgNwUtil[i])));
+			printLine("\tLevel " + (i + 1) + ": " + String.format("%.2f", ((double)fogLayerAvgNwUtil[i] / 100)) + " %"); // / 100?
 			totalNwUtil += (double)fogLayerAvgNwUtil[i];
 		}
 		
@@ -1290,9 +1300,9 @@ SimSettings.DELIMITER;
 //				+ String.format("%.6f", totalNwUtil / (double)fogLayerAvgNwUtil.length) + "%"); // Shaik added
 		
 		printLine("average Fog server utilization: " 
-				+ String.format("%.2f", totalMipsUtil * 100 / (double)fogLayerAvgMipsUtil.length) + "%"); // Shaik added
+				+ String.format("%.2f", (totalMipsUtil / 100) / (double)fogLayerAvgMipsUtil.length) + "%"); // Shaik added
 		printLine("average Fog network utilization: " 
-				+ String.format("%.2f", totalNwUtil * 100/ (double)fogLayerAvgNwUtil.length) + "%"); // Shaik added
+				+ String.format("%.2f", (totalNwUtil / 100) / (double)fogLayerAvgNwUtil.length) + "%"); // Shaik added
 
 
 		

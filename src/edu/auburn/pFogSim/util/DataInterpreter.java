@@ -29,7 +29,7 @@ public class DataInterpreter {
 			"Chicago_Universities.csv", 
 			"Chicago_Wards.csv", 
 			"Chicago_Libraries.csv", 
-			"Chicago_Connect.csv", 
+			"Chicago_Connect3.csv", 
 			"Chicago_Schools2.csv"};
 	
 	// Cost of routers in cents. Change these values for different routers. Numerator is monthly cost in dollars, denominator is link capacity for 30 days
@@ -297,11 +297,17 @@ public class DataInterpreter {
 			}
 
 			// Qian - create universities circle to let Connect centers and Schools to connect to nearest University / Ward / Library.
-			if(i == 2 || i == 3 || i == 4) { 
+//			if(i == 2 || i == 3 || i == 4 ) { 
+//				for(Double[] input : tempList) 	{
+//					universitiesCircle.add(new Double[] {(double)input[0], (double)input[1], (double)input[2], (double)input[3]});
+//				}
+//			}
+			if(i == 2 || i == 3 || i == 4 || i == 5) { 
 				for(Double[] input : tempList) 	{
 					universitiesCircle.add(new Double[] {(double)input[0], (double)input[1], (double)input[2], (double)input[3]});
 				}
 			}
+			
 			
 			// If the next set of nodes are Wards / Libraries, link to nearest university.
 			if (i == 2 || i==3) { 
@@ -530,7 +536,7 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 5][7] = "true";
 		nodeSpecs[MAX_LEVELS - 5][8] = Boolean.toString(SimSettings.getInstance().isMOVING_LIBRARY());
 		nodeSpecs[MAX_LEVELS - 5][9] = "2"; // Shaik modified to 1/100th - prev = 192 
-		nodeSpecs[MAX_LEVELS - 5][10] = "244800"; // Shaik modified to 1/100th - prev = 326400 - 75%
+		nodeSpecs[MAX_LEVELS - 5][10] = "309000"; // Shaik modified to 1/100th - prev = 326400 - 75% Bobby => 309000
 		nodeSpecs[MAX_LEVELS - 5][11] = "25165824";
 		//nodeSpecs[MAX_LEVELS - 5][11] = "1500";
 		nodeSpecs[MAX_LEVELS - 5][12] = "167772160";
@@ -553,7 +559,7 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 6][7] = "true";
 		nodeSpecs[MAX_LEVELS - 6][8] = Boolean.toString(SimSettings.getInstance().isMOVING_COMMUNITY_CENTER());
 		nodeSpecs[MAX_LEVELS - 6][9] = "1"; // Shaik modified to 1/100th - prev = 128
-		nodeSpecs[MAX_LEVELS - 6][10] = "163200"; // Shaik modified to 1/100th - prev = 217600 - 75% 
+		nodeSpecs[MAX_LEVELS - 6][10] = "309000"; // Shaik modified to 1/100th - prev = 217600 - 75%  Bobby => 309000
 		nodeSpecs[MAX_LEVELS - 6][11] = "16384";
 		nodeSpecs[MAX_LEVELS - 6][12] = "167772160";
 		nodeSpecs[MAX_LEVELS - 6][13] = "819200"; // Shaik modified to 1/100th - prev = 1048576 // Shaik fixed back to 100% value
@@ -575,7 +581,7 @@ public class DataInterpreter {
 		nodeSpecs[MAX_LEVELS - 7][7] = "true";
 		nodeSpecs[MAX_LEVELS - 7][8] = Boolean.toString(SimSettings.getInstance().isMOVING_SCHOOL());
 		nodeSpecs[MAX_LEVELS - 7][9] = "1"; // Shaik modified to 1/100th - prev = 32
-		nodeSpecs[MAX_LEVELS - 7][10] = "43520"; // Shaik modified to 1/100th - prev = 54400 - 80%
+		nodeSpecs[MAX_LEVELS - 7][10] = "12000"; // Shaik modified to 1/100th - prev = 54400 - 80% Bobby => 12000
 		nodeSpecs[MAX_LEVELS - 7][11] = "4096";
 		nodeSpecs[MAX_LEVELS - 7][12] = "41943040";
 		nodeSpecs[MAX_LEVELS - 7][13] = "819200"; // Shaik modified to 1/100th - prev = 1048576 // Shaik fixed back to 100% value // Bobby changed to new recommended setting

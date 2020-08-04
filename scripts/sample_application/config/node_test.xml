@@ -1878,13 +1878,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -1908,13 +1908,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -1938,13 +1938,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -1968,13 +1968,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -1998,13 +1998,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2028,13 +2028,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2058,13 +2058,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2088,13 +2088,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2118,13 +2118,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2148,13 +2148,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2178,13 +2178,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2208,13 +2208,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2238,13 +2238,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2268,13 +2268,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2298,13 +2298,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2328,13 +2328,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2358,13 +2358,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2388,13 +2388,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2418,13 +2418,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2448,13 +2448,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2478,13 +2478,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2508,13 +2508,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2538,13 +2538,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2568,13 +2568,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2598,13 +2598,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2628,13 +2628,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2658,13 +2658,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2688,13 +2688,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2718,13 +2718,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2748,13 +2748,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2778,13 +2778,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2808,13 +2808,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2838,13 +2838,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2868,13 +2868,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2898,13 +2898,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2928,13 +2928,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2958,13 +2958,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -2988,13 +2988,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3018,13 +3018,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3048,13 +3048,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3078,13 +3078,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3108,13 +3108,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3138,13 +3138,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3168,13 +3168,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3198,13 +3198,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3228,13 +3228,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3258,13 +3258,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3288,13 +3288,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3318,13 +3318,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3348,13 +3348,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3378,13 +3378,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3408,13 +3408,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3438,13 +3438,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3468,13 +3468,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3498,13 +3498,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3528,13 +3528,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3558,13 +3558,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3588,13 +3588,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3618,13 +3618,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3648,13 +3648,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3678,13 +3678,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3708,13 +3708,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3738,13 +3738,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3768,13 +3768,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3798,13 +3798,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3828,13 +3828,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3858,13 +3858,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3888,13 +3888,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3918,13 +3918,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3948,13 +3948,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -3978,13 +3978,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4008,13 +4008,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4038,13 +4038,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4068,13 +4068,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4098,13 +4098,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4128,13 +4128,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4158,13 +4158,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4188,13 +4188,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4218,13 +4218,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4248,13 +4248,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>2</core>
-	<mips>244800</mips>
+	<mips>309000</mips>
 	<ram>25165824</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>2</core>
-			<mips>244800</mips>
+			<mips>309000</mips>
 			<ram>25165824</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4278,13 +4278,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4308,13 +4308,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4338,13 +4338,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4368,13 +4368,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4398,13 +4398,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4428,13 +4428,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4458,13 +4458,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4488,13 +4488,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4518,13 +4518,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4548,13 +4548,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4578,13 +4578,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4608,13 +4608,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4638,13 +4638,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4668,13 +4668,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4698,13 +4698,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4728,13 +4728,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4758,13 +4758,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4788,13 +4788,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4818,13 +4818,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4848,13 +4848,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4878,13 +4878,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4908,13 +4908,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4938,13 +4938,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4968,13 +4968,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -4998,13 +4998,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5028,13 +5028,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5058,13 +5058,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5088,13 +5088,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5118,13 +5118,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5148,13 +5148,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5178,13 +5178,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5208,13 +5208,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5238,13 +5238,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5268,13 +5268,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5298,13 +5298,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5328,13 +5328,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5358,13 +5358,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5388,13 +5388,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5418,13 +5418,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5448,13 +5448,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5478,13 +5478,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5508,13 +5508,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5538,13 +5538,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5568,13 +5568,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5598,13 +5598,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5628,13 +5628,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5658,13 +5658,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5688,13 +5688,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5718,13 +5718,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5748,13 +5748,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5778,13 +5778,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5808,13 +5808,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5838,13 +5838,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5868,13 +5868,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5898,13 +5898,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5928,13 +5928,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5958,13 +5958,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -5988,13 +5988,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6018,13 +6018,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6048,13 +6048,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6078,13 +6078,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6108,13 +6108,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6138,13 +6138,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6168,13 +6168,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6198,13 +6198,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6228,13 +6228,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6258,13 +6258,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6288,13 +6288,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6318,13 +6318,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6348,13 +6348,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6378,13 +6378,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6408,13 +6408,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6438,13 +6438,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6468,13 +6468,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6498,13 +6498,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6528,13 +6528,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6558,13 +6558,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6588,13 +6588,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6618,13 +6618,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6648,13 +6648,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6678,13 +6678,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6708,13 +6708,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6738,13 +6738,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6768,13 +6768,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6798,13 +6798,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6828,13 +6828,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6858,13 +6858,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6888,13 +6888,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6918,13 +6918,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6948,13 +6948,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -6978,13 +6978,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7008,13 +7008,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7038,13 +7038,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7068,13 +7068,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7098,13 +7098,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7128,13 +7128,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7158,13 +7158,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7188,13 +7188,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7218,13 +7218,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7248,13 +7248,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7278,13 +7278,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7308,13 +7308,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7338,13 +7338,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7368,13 +7368,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7398,13 +7398,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7428,13 +7428,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7458,13 +7458,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7488,13 +7488,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7518,13 +7518,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7548,13 +7548,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7578,13 +7578,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7608,13 +7608,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7638,13 +7638,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7668,13 +7668,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7698,13 +7698,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7728,13 +7728,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7758,13 +7758,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7788,13 +7788,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7818,13 +7818,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7848,13 +7848,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7878,13 +7878,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7908,13 +7908,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7938,13 +7938,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7968,13 +7968,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -7998,13 +7998,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8028,13 +8028,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8058,13 +8058,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8088,13 +8088,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8118,13 +8118,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8148,13 +8148,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8178,13 +8178,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8208,13 +8208,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8238,13 +8238,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8268,13 +8268,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8298,13 +8298,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8328,13 +8328,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8358,13 +8358,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8388,13 +8388,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8418,13 +8418,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8448,13 +8448,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8478,13 +8478,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8508,13 +8508,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8538,13 +8538,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8568,13 +8568,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8598,13 +8598,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8628,13 +8628,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8658,13 +8658,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8688,13 +8688,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8718,13 +8718,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8748,13 +8748,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8778,13 +8778,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8808,13 +8808,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8838,13 +8838,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8868,13 +8868,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8898,13 +8898,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8928,13 +8928,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8958,13 +8958,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -8988,13 +8988,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9018,13 +9018,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9048,13 +9048,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9078,13 +9078,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9108,13 +9108,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9138,13 +9138,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9168,13 +9168,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9198,13 +9198,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9228,13 +9228,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9258,13 +9258,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9288,13 +9288,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9318,13 +9318,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9348,13 +9348,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9378,13 +9378,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9408,13 +9408,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9438,13 +9438,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9468,13 +9468,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9498,13 +9498,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9528,13 +9528,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9558,13 +9558,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9588,13 +9588,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9618,13 +9618,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9648,13 +9648,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9678,13 +9678,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9708,13 +9708,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9738,13 +9738,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9768,13 +9768,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9798,13 +9798,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9828,13 +9828,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9858,13 +9858,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9888,13 +9888,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9918,13 +9918,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9948,13 +9948,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -9978,13 +9978,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10008,13 +10008,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10038,13 +10038,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10068,13 +10068,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10098,13 +10098,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10128,13 +10128,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10158,13 +10158,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10188,13 +10188,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10218,13 +10218,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10248,13 +10248,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10278,13 +10278,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10308,13 +10308,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10338,13 +10338,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10368,13 +10368,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10398,13 +10398,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10428,13 +10428,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10458,13 +10458,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10488,13 +10488,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10518,13 +10518,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10548,13 +10548,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10578,13 +10578,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10608,13 +10608,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10638,13 +10638,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10668,13 +10668,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10698,13 +10698,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10728,13 +10728,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10758,13 +10758,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10788,13 +10788,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10818,13 +10818,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10848,13 +10848,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10878,13 +10878,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10908,13 +10908,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10938,13 +10938,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10968,13 +10968,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -10998,13 +10998,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11028,13 +11028,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11058,13 +11058,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11088,13 +11088,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11118,13 +11118,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11148,13 +11148,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11178,13 +11178,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11208,13 +11208,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11238,13 +11238,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11268,13 +11268,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11298,13 +11298,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11328,13 +11328,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11358,13 +11358,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11388,13 +11388,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11418,13 +11418,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11448,13 +11448,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11478,13 +11478,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11508,13 +11508,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11538,13 +11538,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11568,13 +11568,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11598,13 +11598,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11628,13 +11628,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11658,13 +11658,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11688,13 +11688,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11718,13 +11718,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11748,13 +11748,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11778,13 +11778,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11808,13 +11808,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11838,13 +11838,193 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>163200</mips>
+	<mips>309000</mips>
 	<ram>16384</ram>
 	<storage>167772160</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>163200</mips>
+			<mips>309000</mips>
+			<ram>16384</ram>
+			<storage>167772160</storage>
+		</VM>
+	</host>
+</datacenter>
+<datacenter arch="Community Center" os="Linux" vmm="Xen">
+
+<costPerBw>4.254918981481481E-6</costPerBw>
+	<costPerSec>0.01319444</costPerSec>
+	<costPerMem>0.05</costPerMem>
+	<costPerStorage>0.1</costPerStorage>
+<location>
+	<x_pos>-87.7068731427</x_pos>
+	<y_pos>41.8589271059</y_pos>
+	<altitude>0</altitude>
+	<level>2</level>	<wlan_id>395</wlan_id>
+	<wap>true</wap>
+	<moving>false</moving>
+	<bandwidth>819200</bandwidth>
+	<dx>2</dx>
+	<dy>2</dy>/n</location>
+<host>
+	<core>1</core>
+	<mips>309000</mips>
+	<ram>16384</ram>
+	<storage>167772160</storage>
+
+	<VM vmm="Xen">
+			<core>1</core>
+			<mips>309000</mips>
+			<ram>16384</ram>
+			<storage>167772160</storage>
+		</VM>
+	</host>
+</datacenter>
+<datacenter arch="Community Center" os="Linux" vmm="Xen">
+
+<costPerBw>4.254918981481481E-6</costPerBw>
+	<costPerSec>0.01319444</costPerSec>
+	<costPerMem>0.05</costPerMem>
+	<costPerStorage>0.1</costPerStorage>
+<location>
+	<x_pos>-87.7083332058</x_pos>
+	<y_pos>41.8589271058</y_pos>
+	<altitude>0</altitude>
+	<level>2</level>	<wlan_id>396</wlan_id>
+	<wap>true</wap>
+	<moving>false</moving>
+	<bandwidth>819200</bandwidth>
+	<dx>2</dx>
+	<dy>2</dy>/n</location>
+<host>
+	<core>1</core>
+	<mips>309000</mips>
+	<ram>16384</ram>
+	<storage>167772160</storage>
+
+	<VM vmm="Xen">
+			<core>1</core>
+			<mips>309000</mips>
+			<ram>16384</ram>
+			<storage>167772160</storage>
+		</VM>
+	</host>
+</datacenter>
+<datacenter arch="Community Center" os="Linux" vmm="Xen">
+
+<costPerBw>4.254918981481481E-6</costPerBw>
+	<costPerSec>0.01319444</costPerSec>
+	<costPerMem>0.05</costPerMem>
+	<costPerStorage>0.1</costPerStorage>
+<location>
+	<x_pos>-87.7068731428</x_pos>
+	<y_pos>41.8593009219</y_pos>
+	<altitude>0</altitude>
+	<level>2</level>	<wlan_id>397</wlan_id>
+	<wap>true</wap>
+	<moving>false</moving>
+	<bandwidth>819200</bandwidth>
+	<dx>2</dx>
+	<dy>2</dy>/n</location>
+<host>
+	<core>1</core>
+	<mips>309000</mips>
+	<ram>16384</ram>
+	<storage>167772160</storage>
+
+	<VM vmm="Xen">
+			<core>1</core>
+			<mips>309000</mips>
+			<ram>16384</ram>
+			<storage>167772160</storage>
+		</VM>
+	</host>
+</datacenter>
+<datacenter arch="Community Center" os="Linux" vmm="Xen">
+
+<costPerBw>4.254918981481481E-6</costPerBw>
+	<costPerSec>0.01319444</costPerSec>
+	<costPerMem>0.05</costPerMem>
+	<costPerStorage>0.1</costPerStorage>
+<location>
+	<x_pos>-87.7083332059</x_pos>
+	<y_pos>41.8593009218</y_pos>
+	<altitude>0</altitude>
+	<level>2</level>	<wlan_id>398</wlan_id>
+	<wap>true</wap>
+	<moving>false</moving>
+	<bandwidth>819200</bandwidth>
+	<dx>2</dx>
+	<dy>2</dy>/n</location>
+<host>
+	<core>1</core>
+	<mips>309000</mips>
+	<ram>16384</ram>
+	<storage>167772160</storage>
+
+	<VM vmm="Xen">
+			<core>1</core>
+			<mips>309000</mips>
+			<ram>16384</ram>
+			<storage>167772160</storage>
+		</VM>
+	</host>
+</datacenter>
+<datacenter arch="Community Center" os="Linux" vmm="Xen">
+
+<costPerBw>4.254918981481481E-6</costPerBw>
+	<costPerSec>0.01319444</costPerSec>
+	<costPerMem>0.05</costPerMem>
+	<costPerStorage>0.1</costPerStorage>
+<location>
+	<x_pos>-87.7068731429</x_pos>
+	<y_pos>41.8604223688</y_pos>
+	<altitude>0</altitude>
+	<level>2</level>	<wlan_id>399</wlan_id>
+	<wap>true</wap>
+	<moving>false</moving>
+	<bandwidth>819200</bandwidth>
+	<dx>2</dx>
+	<dy>2</dy>/n</location>
+<host>
+	<core>1</core>
+	<mips>309000</mips>
+	<ram>16384</ram>
+	<storage>167772160</storage>
+
+	<VM vmm="Xen">
+			<core>1</core>
+			<mips>309000</mips>
+			<ram>16384</ram>
+			<storage>167772160</storage>
+		</VM>
+	</host>
+</datacenter>
+<datacenter arch="Community Center" os="Linux" vmm="Xen">
+
+<costPerBw>4.254918981481481E-6</costPerBw>
+	<costPerSec>0.01319444</costPerSec>
+	<costPerMem>0.05</costPerMem>
+	<costPerStorage>0.1</costPerStorage>
+<location>
+	<x_pos>-87.70833320511</x_pos>
+	<y_pos>41.8604223689</y_pos>
+	<altitude>0</altitude>
+	<level>2</level>	<wlan_id>400</wlan_id>
+	<wap>true</wap>
+	<moving>false</moving>
+	<bandwidth>819200</bandwidth>
+	<dx>2</dx>
+	<dy>2</dy>/n</location>
+<host>
+	<core>1</core>
+	<mips>309000</mips>
+	<ram>16384</ram>
+	<storage>167772160</storage>
+
+	<VM vmm="Xen">
+			<core>1</core>
+			<mips>309000</mips>
 			<ram>16384</ram>
 			<storage>167772160</storage>
 		</VM>
@@ -11860,7 +12040,7 @@
 	<x_pos>-87.708820</x_pos>
 	<y_pos>41.85855329</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>395</wlan_id>
+	<level>1</level>	<wlan_id>401</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -11868,13 +12048,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -11890,7 +12070,7 @@
 	<x_pos>-87.7083332057</x_pos>
 	<y_pos>41.85855329</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>396</wlan_id>
+	<level>1</level>	<wlan_id>402</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -11898,13 +12078,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -11920,7 +12100,7 @@
 	<x_pos>-87.7078465710</x_pos>
 	<y_pos>41.85855329</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>397</wlan_id>
+	<level>1</level>	<wlan_id>403</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -11928,13 +12108,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -11950,7 +12130,7 @@
 	<x_pos>-87.7073598570</x_pos>
 	<y_pos>41.85855329</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>398</wlan_id>
+	<level>1</level>	<wlan_id>404</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -11958,13 +12138,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -11980,7 +12160,7 @@
 	<x_pos>-87.7068731420</x_pos>
 	<y_pos>41.85855329</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>399</wlan_id>
+	<level>1</level>	<wlan_id>405</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -11988,13 +12168,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12010,7 +12190,7 @@
 	<x_pos>-87.7063864280</x_pos>
 	<y_pos>41.85855329</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>400</wlan_id>
+	<level>1</level>	<wlan_id>406</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12018,13 +12198,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12040,7 +12220,7 @@
 	<x_pos>-87.7058997140</x_pos>
 	<y_pos>41.85855329</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>401</wlan_id>
+	<level>1</level>	<wlan_id>407</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12048,13 +12228,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12070,7 +12250,7 @@
 	<x_pos>-87.708821</x_pos>
 	<y_pos>41.8589271057</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>402</wlan_id>
+	<level>1</level>	<wlan_id>408</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12078,13 +12258,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12100,7 +12280,7 @@
 	<x_pos>-87.7083332157</x_pos>
 	<y_pos>41.8589271057</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>403</wlan_id>
+	<level>1</level>	<wlan_id>409</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12108,13 +12288,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12130,7 +12310,7 @@
 	<x_pos>-87.7078465711</x_pos>
 	<y_pos>41.8589271057</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>404</wlan_id>
+	<level>1</level>	<wlan_id>410</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12138,13 +12318,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12160,7 +12340,7 @@
 	<x_pos>-87.7073598571</x_pos>
 	<y_pos>41.8589271057</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>405</wlan_id>
+	<level>1</level>	<wlan_id>411</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12168,13 +12348,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12190,7 +12370,7 @@
 	<x_pos>-87.7068731421</x_pos>
 	<y_pos>41.8589271057</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>406</wlan_id>
+	<level>1</level>	<wlan_id>412</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12198,13 +12378,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12220,7 +12400,7 @@
 	<x_pos>-87.7063864281</x_pos>
 	<y_pos>41.8589271057</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>407</wlan_id>
+	<level>1</level>	<wlan_id>413</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12228,13 +12408,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12250,7 +12430,7 @@
 	<x_pos>-87.7058997141</x_pos>
 	<y_pos>41.8589271057</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>408</wlan_id>
+	<level>1</level>	<wlan_id>414</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12258,13 +12438,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12280,7 +12460,7 @@
 	<x_pos>-87.708822</x_pos>
 	<y_pos>41.8593009214</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>409</wlan_id>
+	<level>1</level>	<wlan_id>415</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12288,13 +12468,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12310,7 +12490,7 @@
 	<x_pos>-87.7083332257</x_pos>
 	<y_pos>41.8593009214</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>410</wlan_id>
+	<level>1</level>	<wlan_id>416</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12318,13 +12498,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12340,7 +12520,7 @@
 	<x_pos>-87.7078465712</x_pos>
 	<y_pos>41.8593009214</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>411</wlan_id>
+	<level>1</level>	<wlan_id>417</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12348,13 +12528,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12370,7 +12550,7 @@
 	<x_pos>-87.7073598572</x_pos>
 	<y_pos>41.8593009214</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>412</wlan_id>
+	<level>1</level>	<wlan_id>418</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12378,13 +12558,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12400,7 +12580,7 @@
 	<x_pos>-87.7068731422</x_pos>
 	<y_pos>41.8593009214</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>413</wlan_id>
+	<level>1</level>	<wlan_id>419</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12408,13 +12588,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12430,7 +12610,7 @@
 	<x_pos>-87.7063864282</x_pos>
 	<y_pos>41.8593009214</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>414</wlan_id>
+	<level>1</level>	<wlan_id>420</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12438,13 +12618,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12460,7 +12640,7 @@
 	<x_pos>-87.7058997142</x_pos>
 	<y_pos>41.8593009214</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>415</wlan_id>
+	<level>1</level>	<wlan_id>421</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12468,13 +12648,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12490,7 +12670,7 @@
 	<x_pos>-87.708823</x_pos>
 	<y_pos>41.8596747371</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>416</wlan_id>
+	<level>1</level>	<wlan_id>422</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12498,13 +12678,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12520,7 +12700,7 @@
 	<x_pos>-87.7083332357</x_pos>
 	<y_pos>41.8596747371</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>417</wlan_id>
+	<level>1</level>	<wlan_id>423</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12528,13 +12708,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12550,7 +12730,7 @@
 	<x_pos>-87.7078465713</x_pos>
 	<y_pos>41.8596747371</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>418</wlan_id>
+	<level>1</level>	<wlan_id>424</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12558,13 +12738,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12580,7 +12760,7 @@
 	<x_pos>-87.7073598573</x_pos>
 	<y_pos>41.8596747371</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>419</wlan_id>
+	<level>1</level>	<wlan_id>425</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12588,13 +12768,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12610,7 +12790,7 @@
 	<x_pos>-87.7068731423</x_pos>
 	<y_pos>41.8596747371</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>420</wlan_id>
+	<level>1</level>	<wlan_id>426</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12618,13 +12798,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12640,7 +12820,7 @@
 	<x_pos>-87.7063864283</x_pos>
 	<y_pos>41.8596747371</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>421</wlan_id>
+	<level>1</level>	<wlan_id>427</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12648,13 +12828,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12670,7 +12850,7 @@
 	<x_pos>-87.7058997143</x_pos>
 	<y_pos>41.8596747371</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>422</wlan_id>
+	<level>1</level>	<wlan_id>428</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12678,13 +12858,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12700,7 +12880,7 @@
 	<x_pos>-87.708824</x_pos>
 	<y_pos>41.8600485528</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>423</wlan_id>
+	<level>1</level>	<wlan_id>429</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12708,13 +12888,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12730,7 +12910,7 @@
 	<x_pos>-87.7083332458</x_pos>
 	<y_pos>41.8600485528</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>424</wlan_id>
+	<level>1</level>	<wlan_id>430</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12738,13 +12918,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12760,7 +12940,7 @@
 	<x_pos>-87.7078465714</x_pos>
 	<y_pos>41.8600485528</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>425</wlan_id>
+	<level>1</level>	<wlan_id>431</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12768,13 +12948,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12790,7 +12970,7 @@
 	<x_pos>-87.7073598574</x_pos>
 	<y_pos>41.8600485528</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>426</wlan_id>
+	<level>1</level>	<wlan_id>432</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12798,13 +12978,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12820,7 +13000,7 @@
 	<x_pos>-87.7068731424</x_pos>
 	<y_pos>41.8600485528</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>427</wlan_id>
+	<level>1</level>	<wlan_id>433</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12828,13 +13008,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12850,7 +13030,7 @@
 	<x_pos>-87.7063864284</x_pos>
 	<y_pos>41.8600485528</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>428</wlan_id>
+	<level>1</level>	<wlan_id>434</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12858,13 +13038,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12880,7 +13060,7 @@
 	<x_pos>-87.7058997144</x_pos>
 	<y_pos>41.8600485528</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>429</wlan_id>
+	<level>1</level>	<wlan_id>435</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12888,13 +13068,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12910,7 +13090,7 @@
 	<x_pos>-87.708825</x_pos>
 	<y_pos>41.8604223685</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>430</wlan_id>
+	<level>1</level>	<wlan_id>436</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12918,13 +13098,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12940,7 +13120,7 @@
 	<x_pos>-87.7083332557</x_pos>
 	<y_pos>41.8604223685</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>431</wlan_id>
+	<level>1</level>	<wlan_id>437</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12948,13 +13128,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -12970,7 +13150,7 @@
 	<x_pos>-87.7078465715</x_pos>
 	<y_pos>41.8604223685</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>432</wlan_id>
+	<level>1</level>	<wlan_id>438</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -12978,13 +13158,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13000,7 +13180,7 @@
 	<x_pos>-87.7073598575</x_pos>
 	<y_pos>41.8604223685</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>433</wlan_id>
+	<level>1</level>	<wlan_id>439</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13008,13 +13188,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13030,7 +13210,7 @@
 	<x_pos>-87.7068731425</x_pos>
 	<y_pos>41.8604223685</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>434</wlan_id>
+	<level>1</level>	<wlan_id>440</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13038,13 +13218,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13060,7 +13240,7 @@
 	<x_pos>-87.7063864285</x_pos>
 	<y_pos>41.8604223685</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>435</wlan_id>
+	<level>1</level>	<wlan_id>441</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13068,13 +13248,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13090,7 +13270,7 @@
 	<x_pos>-87.7058997145</x_pos>
 	<y_pos>41.8604223685</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>436</wlan_id>
+	<level>1</level>	<wlan_id>442</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13098,13 +13278,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13120,7 +13300,7 @@
 	<x_pos>-87.708826</x_pos>
 	<y_pos>41.8607961842</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>437</wlan_id>
+	<level>1</level>	<wlan_id>443</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13128,13 +13308,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13150,7 +13330,7 @@
 	<x_pos>-87.7083332657</x_pos>
 	<y_pos>41.8607961842</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>438</wlan_id>
+	<level>1</level>	<wlan_id>444</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13158,13 +13338,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13180,7 +13360,7 @@
 	<x_pos>-87.7078465716</x_pos>
 	<y_pos>41.8607961842</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>439</wlan_id>
+	<level>1</level>	<wlan_id>445</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13188,13 +13368,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13210,7 +13390,7 @@
 	<x_pos>-87.7073598576</x_pos>
 	<y_pos>41.8607961842</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>440</wlan_id>
+	<level>1</level>	<wlan_id>446</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13218,13 +13398,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13240,7 +13420,7 @@
 	<x_pos>-87.7068731426</x_pos>
 	<y_pos>41.8607961842</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>441</wlan_id>
+	<level>1</level>	<wlan_id>447</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13248,13 +13428,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13270,7 +13450,7 @@
 	<x_pos>-87.7063864286</x_pos>
 	<y_pos>41.8607961842</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>442</wlan_id>
+	<level>1</level>	<wlan_id>448</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13278,13 +13458,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13300,7 +13480,7 @@
 	<x_pos>-87.7058997146</x_pos>
 	<y_pos>41.8607961842</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>443</wlan_id>
+	<level>1</level>	<wlan_id>449</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13308,13 +13488,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>
@@ -13330,7 +13510,7 @@
 	<x_pos>-87.7058997132</x_pos>
 	<y_pos>41.8607961842</y_pos>
 	<altitude>0</altitude>
-	<level>1</level>	<wlan_id>444</wlan_id>
+	<level>1</level>	<wlan_id>450</wlan_id>
 	<wap>true</wap>
 	<moving>false</moving>
 	<bandwidth>819200</bandwidth>
@@ -13338,13 +13518,13 @@
 	<dy>2</dy>/n</location>
 <host>
 	<core>1</core>
-	<mips>43520</mips>
+	<mips>12000</mips>
 	<ram>4096</ram>
 	<storage>41943040</storage>
 
 	<VM vmm="Xen">
 			<core>1</core>
-			<mips>43520</mips>
+			<mips>12000</mips>
 			<ram>4096</ram>
 			<storage>41943040</storage>
 		</VM>

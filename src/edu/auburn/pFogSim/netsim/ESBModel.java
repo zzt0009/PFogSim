@@ -243,9 +243,8 @@ public class ESBModel extends NetworkModel {
 	 */
 	private double calculateESB(double propogationDelay, double bandwidth /*Kbps*/, double PoissonMean, double avgTaskSize /*KB*/, int deviceCount){
 		double Bps=0;
-		
+	
 		avgTaskSize = avgTaskSize * (double)1024; //convert from KB to Byte
-		
 		Bps = bandwidth * (double)1024 / (double)8; //convert from Kbps to Byte per seconds
 		
 		double result = 0.0;
@@ -263,10 +262,40 @@ public class ESBModel extends NetworkModel {
 	 * @return
 	 */
 	private double getWlanUploadDelay(Location loc, double dataSize /*KB*/, double time) {
+		
 		// calculate data transfer time at network node
 		double transferTime = dataSize * 8 / loc.getBW(); 
 		// calculate congestion delay at network node
 		double congestionDelay = calculateESB(0, loc.getBW(), WlanPoissonMean, (avgTaskInputSize+avgTaskOutputSize), getDeviceCount(loc, time)); 
+		//return the sum
+		return (transferTime + congestionDelay);
+	}
+	
+	/**
+	 * Ziyan - added 
+	 * @overload getWlanUploadDelay
+	 * @param isClose
+	 * @return 
+	 */
+	
+	private double getWlanUploadDelay(boolean isClose, Location loc, double dataSize /*Kbit*/, double time) {
+		
+		double bandwidth = loc.getBW(); /* Kb */
+		
+		// check if two nodes are close
+		if (isClose) {
+			
+			// the bandwidth should be 100M
+			bandwidth = 819200; 
+
+			System.out.println(loc + "bandwidth updated: " + bandwidth);
+		}
+		// calculate data transfer time at network node
+		//double transferTime = dataSize * 8 / loc.getBW(); 
+		double transferTime = dataSize * 8 / bandwidth; 
+		// calculate congestion delay at network node
+		//double congestionDelay = calculateESB(0, loc.getBW(), WlanPoissonMean, (avgTaskInputSize+avgTaskOutputSize), getDeviceCount(loc, time)); 
+		double congestionDelay = calculateESB(0, bandwidth, WlanPoissonMean, (avgTaskInputSize+avgTaskOutputSize), getDeviceCount(loc, time)); 
 		//return the sum
 		return (transferTime + congestionDelay);
 	}
@@ -437,7 +466,7 @@ public class ESBModel extends NetworkModel {
 	 * @param one
 	 * @param two
 	 * @return delaty between two EdgeNodes
-	 */
+	
 	public double getDelay(EdgeHost one, EdgeHost two) {
 		double delay = 0;
 		Location source;
@@ -467,7 +496,7 @@ public class ESBModel extends NetworkModel {
 			delay += (proDelay + conDelay + SimSettings.ROUTER_PROCESSING_DELAY);
 	    }
 		return delay;
-	}
+	}*/
 	
 	
 	/**
@@ -476,8 +505,12 @@ public class ESBModel extends NetworkModel {
 	 * @param one - first location
 	 * @param two - second location
 	 * @return delay between two locations
-	 */
+	 
 	public double getDleay(Location one, Location two) {
+		
+		// Ziyan added - to calculate the distance between two nodes
+		double LATENCY_MULTIPLIER = 0.01/1000;
+				
 		double delay = 0;
 		NodeSim src;
 		NodeSim dest;
@@ -494,11 +527,98 @@ public class ESBModel extends NetworkModel {
 			if (nextHop == null) {
 				break;
 			}
+			
 			if (current.traverse(nextHop) < 0) {
 				SimLogger.printLine("not adjacent");
 			}
 			double proDelay = current.traverse(nextHop);
+			
 			double conDelay = getWlanUploadDelay(nextHop.getLocation(), (avgTaskInputSize+avgTaskOutputSize), CloudSim.clock() + delay);
+			delay += (proDelay + conDelay + SimSettings.ROUTER_PROCESSING_DELAY);
+	    }
+		return delay;
+	}
+	*/
+	
+	/**
+	 * @author Ziyan 
+	 * Ziyan modified - to use different bandwidths for calculating propagation delay
+	 * Qian added for get delay(Congestion + Propagation) between two nodes using two locations
+	 * @param one - first location
+	 * @param two - second location
+	 * @return delay between two locations
+	*/
+	
+	public double getDelay(EdgeHost one, EdgeHost two) {
+		
+		// Ziyan added - to calculate the distance between two nodes
+		final double LATENCY_MULTIPLIER = 0.01/1000;	// defined in Link.java
+				
+		double delay = 0;
+		Location source;
+		Location destination;
+		NodeSim src;
+		NodeSim dest;
+		NodeSim current;
+		NodeSim nextHop;
+		LinkedList<NodeSim> path = null;
+		source = new Location(one.getLocation().getXPos(), one.getLocation().getYPos(), one.getLocation().getAltitude());
+		destination = new Location(two.getLocation().getXPos(), two.getLocation().getYPos(),two.getLocation().getAltitude());
+		src = networkTopology.findNode(source, false);
+		dest = networkTopology.findNode(destination, false);
+	    path = router.findPath(networkTopology, src, dest);
+	    delay += getWlanUploadDelay(src.getLocation(), (avgTaskInputSize+avgTaskOutputSize), CloudSim.clock()) + SimSettings.ROUTER_PROCESSING_DELAY;
+	    while (!path.isEmpty()) {
+			current = path.poll();
+			nextHop = path.peek();
+			if (nextHop == null) {
+				break;
+			}
+			if (current.traverse(nextHop) < 0) {
+				SimLogger.printLine("not adjacent");
+			}
+			double proDelay = current.traverse(nextHop);
+			
+			// Ziyan added
+			double distance = proDelay / LATENCY_MULTIPLIER; // in Link.java, proDelay = dist * LATENCY_MULTIPLIER
+			// if distance < 20 => isClose == true
+			double conDelay = getWlanUploadDelay(distance < 20.0, nextHop.getLocation(), (avgTaskInputSize+avgTaskOutputSize), CloudSim.clock() + delay);
+			delay += (proDelay + conDelay + SimSettings.ROUTER_PROCESSING_DELAY);
+	    }
+		return delay;
+	}
+	
+	public double getDelay(Location one, Location two) {
+		
+		// Ziyan added - to calculate the distance between two nodes
+		final double LATENCY_MULTIPLIER = 0.01/1000;	// defined in Link.java
+				
+		double delay = 0;
+		NodeSim src;
+		NodeSim dest;
+		NodeSim current;
+		NodeSim nextHop;
+		LinkedList<NodeSim> path = null;
+		src = networkTopology.findNode(one, false);
+		dest = networkTopology.findNode(two, false);
+	    path = router.findPath(networkTopology, src, dest);
+	    delay += getWlanUploadDelay(src.getLocation(), (avgTaskInputSize+avgTaskOutputSize), CloudSim.clock()) + SimSettings.ROUTER_PROCESSING_DELAY;
+	    while (!path.isEmpty()) {
+			current = path.poll();
+			nextHop = path.peek();
+			if (nextHop == null) {
+				break;
+			}
+			
+			if (current.traverse(nextHop) < 0) {
+				SimLogger.printLine("not adjacent");
+			}
+			double proDelay = current.traverse(nextHop);
+			
+			// Ziyan added
+			double distance = proDelay / LATENCY_MULTIPLIER; // in Link.java, proDelay = dist * LATENCY_MULTIPLIER
+			// if distance < 20 => isClose == true
+			double conDelay = getWlanUploadDelay(distance < 20.0, nextHop.getLocation(), (avgTaskInputSize+avgTaskOutputSize), CloudSim.clock() + delay);
 			delay += (proDelay + conDelay + SimSettings.ROUTER_PROCESSING_DELAY);
 	    }
 		return delay;
